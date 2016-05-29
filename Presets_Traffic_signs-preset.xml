@@ -282,7 +282,7 @@ baselanguage="es">
 			<key key="highway" value="service" />
 			<key key="lanes" value="1" />
 			<check key="oneway" text="Oneway" ca.text="Sentit únic" es.text="Sentido único" default="on" />
-			<check key="surface" text="Unpaved" ca.text="No pavimentat" es.text="No pavimentado" value_on="unpaved" value_off="" default="off" />
+			<check key="surface" text="Unpaved" ca.text="No pavimentat" es.text="No pavimentado" value_on="unpaved" default="off" />
 			<text key="width" text="Width.Default is 4 per lane.There is tertiary roads thinner" es.text="Anchura.Por defecto 4 por carril.Hay locales más estrechas" ca.text="Amplada.Per defecte 4 per carril.Hi ha locals més estretes"/>
 			<combo key="access" text="Private" ca.text="Privat" es.text="Privado" value_on="private" value_off="yes" default="" />
 			</item>
@@ -1150,13 +1150,14 @@ baselanguage="es">
 					<item name="Straight ahead" ca.name="Sentit obligatori (recte)" es.name="Sentido obligatorio (recto)" icon="traffic_signs/BE/BE_D1_UP.png" type="node,way,relation">
 					<key key="restriction" value="only_straight_on" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_on="BE:D1" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:D1" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:D1" /></item> 
+
 					<item name="Turn right ahead" ca.name="Sentit obligatori (recte dreta)" es.name="Sentido obligatorio (recto derecha)" icon="traffic_signs/BE/BE_D1_CURVEDRIGHT.png" type="node,way,relation">
 					<key key="restriction" value="only_right_turn" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_on="BE:D1" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:D1" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /> 
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:D1" /></item>
 					<item name="Turn left ahead" ca.name="Sentit obligatori (recte esquerra)" es.name="Sentido obligatorio (recto izquierda)" icon="traffic_signs/BE/BE_D1_CURVEDLEFT.png" type="node,way,relation">
 					<key key="restriction" value="only_left_turn" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_on="BE:D1" />
@@ -1310,21 +1311,7 @@ baselanguage="es">
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:F99b" />
 					<key key="maxspeed" value="30" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>
-					
-					<item name="Road reserved for horses,pedestrians and bicycles (segregated)" ca.name="Vianants, cavalls, bicicletes i trànsit local (segregats)" es.name="Peatones, caballos, bicicletas y tráfico local (segregados)" icon="traffic_signs/BE/BE_F99b_FOOT_BICYCLE_HORSE.png" type="node,way,relation">
-					<key key="access" value="destination" />
-					<key key="segregated" value="yes" />
-					<key key="emergency" value="yes" />
-					<key key="moped" value="no" />
-					<key key="foot" value="yes" />
-					<key key="bicycle" value="yes" />
-					<key key="mofa" value="no" />
-					<key key="horse" value="yes" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_on="BE:F99b" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_on="BE:F99b" />
-					<key key="maxspeed" value="30" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>
-					
+								
 					<item name="Road reserved for horses,pedestrians,agricultural and bicycles" ca.name="Vianants, agrícoles, cavalls, bicicletes i trànsit local" es.name="Peatones, agrícolas, caballos, bicicletas y tráfico local" icon="traffic_signs/BE/BE_F99c.png" type="node,way,relation">
 					<key key="access" value="destination" />
 					<key key="segregated" value="no" />
