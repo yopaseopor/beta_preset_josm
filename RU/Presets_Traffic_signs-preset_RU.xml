@@ -9,7 +9,7 @@ baselanguage="es">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
-<group name="Traffic_signs_RU" es.name="Traffic_signs" icon="traffic_signs_presets/ES_road_beacon_big.png">
+<group name="Traffic_signs_RU" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
 		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
 
