@@ -767,7 +767,7 @@ baselanguage="es">
 
 	<group name="B.Traffic signs (by countries)" ca.name="B.Senyals (per països)" es.name="B.Señales (por países)" icon="traffic_signs_presets/ES_traffic_sign_dir.png">
 	
-	<group name="Czech Republic" ca.name="República Txeca" es.name="República Checa" icon="traffic_signs_presets/ES_tp18.png">
+	<group name="Czech Republic" ca.name="República Txeca" es.name="República Checa" icon="traffic_signs/CZ/CZ_.png">
 	
 <item name="CZ:A10" icon="traffic_signs/CZ/CZ_A10.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:A10" />
