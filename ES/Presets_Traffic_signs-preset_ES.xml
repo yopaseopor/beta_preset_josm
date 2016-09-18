@@ -579,7 +579,7 @@ baselanguage="es">
 			<combo key="traffic_sign" text="Código señal">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="ES:S520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back" text="Colour of background" />
 			<text key="colour:text" text="Colour of text" />
@@ -629,10 +629,10 @@ baselanguage="es">
 			<text key="sign:1" text="Sign 1" />
 			<text key="sign" text="Sign 2 or unique" />
 			<text key="sign:3" text="Sign 3" />
-			<combo key="traffic_sign:b" text="Código señal:b">
+			<combo key="traffic_sign:2" text="Código señal:b">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway:b" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="ES:S520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back:b" text="Colour of background:b" />
 			<text key="colour:text:b" text="Colour of text:b" />
@@ -681,7 +681,7 @@ baselanguage="es">
 			<text key="name" text="name" default="" />
 			<text key="ref" text="ref" default="" />
 			<key key="highway" value="motorway_junction" match="keyvalue!" />
-			<key key="traffic_sign" value="ES:s26a" />
+			<key key="traffic_sign" value="ES:S26a" />
 			<combo key="direction" text="Sentido" values="forward,backward,both" default="forward"  />
 			<combo key="side" text="Lado de la vía" values="right,left,up,down,both" default="right"  />
 			</item> 
@@ -1305,6 +1305,7 @@ baselanguage="es">
 				<combo text="Easy?" ca.text="Avançament fàcil?" es.text="¿Adelantamientos fáciles?" key="easy_overtaking" values="both,forward,backward" ca.display_values="Ambdós,Sentit via, Sentit contrari" es.display_values="Ambos,Sentido vía, Sentido contrario" default="no" />
 				<check key="overtaking:hgv" text="No goods vehicles overtaking" ca.text="Prohibit avançar pels camions" es.text="Prohibido adelantar para camiones" value_on="no" default="off" value_off="" />
 				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="overtaking" />
+				<key key="traffic_sign" value="overtaking" />
 				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="overtaking" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="both" /></item> 
 
@@ -2286,7 +2287,7 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S235" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s235.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:or21a" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or21a.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
@@ -2483,7 +2484,7 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
-				<combo key="traffic_sign:b:forward" text="+signal type" es.text="+Tipo de señal" ca.text="+Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="+signal type" es.text="+Tipo de señal" ca.text="+Tipus de senyal">
 				<list_entry value="ES:S235" display_value="Vertical orientation" ca.display_value="Orientació vertical" es.display_value="Orientación vertical" icon="traffic_signs/ES/ES_s235.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR21b" display_value="Vertical orientation (Catalan)" ca.display_value="Orientació vertical (Catalana)" es.display_value="Orientación vertical (Catalana)" icon="traffic_signs/ES/CAT_or21b.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR21c" display_value="Vertical orientation lane (Catalan)" ca.display_value="Orientació vertical carril(Catalana)" es.display_value="Orientación vertical carril(Catalana)" icon="traffic_signs/ES/CAT_or21c.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -2635,7 +2636,7 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
-				<check key="traffic_sign:b:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S373" />
+				<check key="traffic_sign:2:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S373" />
 				<text key="colour:back:b" text="+Colour of the main panel" ca.text="+Color del panell principal" es.text="+Color del panel principal" />
 				<text key="colour:text:b" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
 				<text key="colour:arrow:b" text="+Colour of the arrow" ca.text="+Color de la fletxa" es.text="+Color de la flecha"/>
@@ -2851,13 +2852,13 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S220" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s220.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S222" display_value="Side orientation to motorway" ca.display_value="Orientació lateral cap autovia/autopista" es.display_value="Orientación lateral hacia autovía/autopista" icon="traffic_signs/ES/ES_s222.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR10" display_value="Side preorientation (Catalan)" ca.display_value="Preorientació lateral (Catalana)" es.display_value="Preorientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or10.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:b:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S220" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s220.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S222" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s222.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -2915,13 +2916,13 @@ baselanguage="es">
 				<space />
 				<label text="THIRD PANEL OR UPPER PANEL" ca.text="TERCER PANELL O PANELL SUPERIOR" es.text="TERCER PANEL O PANEL SUPERIOR"/>
 				<space />
-				<combo key="traffic_sign:c:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:3:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S220" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s220.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S222" display_value="Side orientation to motorway" ca.display_value="Orientació lateral cap autovia/autopista" es.display_value="Orientación lateral hacia autovía/autopista" icon="traffic_signs/ES/ES_s222.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR10" display_value="Side preorientation (Catalan)" ca.display_value="Preorientació lateral (Catalana)" es.display_value="Preorientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or10.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:c:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:3:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S220" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s220.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S222" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s222.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3044,13 +3045,13 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S230" display_value="Vertical orientation" ca.display_value="Orientació vertical" es.display_value="Orientación vertical" icon="traffic_signs/ES/ES_s230.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S242" display_value="Vertical orientation to motorway" ca.display_value="Orientació vertical cap a autopista/autovia" es.display_value="Orientación vertical hacia autopista/autovía" icon="traffic_signs/ES/ES_s242.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR24b" display_value="Vertical orientation (Catalan)" ca.display_value="Orientació vertical (Catalana)" es.display_value="Orientación vertical (Catalana)" icon="traffic_signs/ES/CAT_or24b.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR24c" display_value="Vertical orientation lane (Catalan)" ca.display_value="Orientació vertical carril(Catalana)" es.display_value="Orientación vertical carril(Catalana)" icon="traffic_signs/ES/CAT_or24c.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:b:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S230" display_value="Vertical orientation" ca.display_value="Orientació vertical" es.display_value="Orientación vertical" icon="traffic_signs/ES/ES_s230.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S242" display_value="Vertical orientation to motorway" ca.display_value="Orientació vertical cap a autopista/autovia" es.display_value="Orientación vertical hacia autopista/autovía" icon="traffic_signs/ES/ES_s242.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR24b" display_value="Vertical orientation (Catalan)" ca.display_value="Orientació vertical (Catalana)" es.display_value="Orientación vertical (Catalana)" icon="traffic_signs/ES/CAT_or24b.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3155,7 +3156,7 @@ baselanguage="es">
 				<space />
 				<label text="SECOND PANEL" ca.text="SEGON PANELL" es.text="SEGUNDO PANEL"/>
 				<space />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S300" display_value="Itinerary road" ca.display_value="Itinerari per carretera" es.display_value="Itinerario por carretera" icon="traffic_signs/ES/ES_s300.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S301" display_value="Itinerary motorway" ca.display_value="Itinerari per autopista/autovia" es.display_value="Itinerario por autopista/autovía" icon="traffic_signs/ES/ES_s301.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S310" display_value="Some refs" ca.display_value="Vàries referències" es.display_value="Varias referencias" icon="traffic_signs/ES/ES_s310.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3163,7 +3164,7 @@ baselanguage="es">
 				<list_entry value="ES:S321" display_value="With symbols to motorway" ca.display_value="Amb símbols cap a l'autopista/autovia" es.display_value="Con símbolos hacia la autopista/autovía" icon="traffic_signs/ES/ES_s321.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR51" display_value="Itinerari (Catalan)" ca.display_value="Itinerari (Catalana)" es.display_value="Itinerario (Catalana)" icon="traffic_signs/ES/CAT_or51.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:b:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S300" display_value="Itinerary road" ca.display_value="Itinerari per carretera" es.display_value="Itinerario por carretera" icon="traffic_signs/ES/ES_s300.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S301" display_value="Itinerary motorway" ca.display_value="Itinerari per autopista/autovia" es.display_value="Itinerario por autopista/autovía" icon="traffic_signs/ES/ES_s301.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S310" display_value="Some refs" ca.display_value="Vàries referències" es.display_value="Varias referencias" icon="traffic_signs/ES/ES_s310.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3214,7 +3215,7 @@ baselanguage="es">
 				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
 				<label text="THIRD PANEL OR LEFT EXIT PANEL" ca.text="TERCER PANELL O PANELL DE SORTIDA DE L'ESQUERRA" es.text="TERCER PANEL O PANEL DE SALIDA DE LA IZQUIERDA"/>
 				<space />
-				<combo key="traffic_sign:c:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:3:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S300" display_value="Itinerary road" ca.display_value="Itinerari per carretera" es.display_value="Itinerario por carretera" icon="traffic_signs/ES/ES_s300.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S301" display_value="Itinerary motorway" ca.display_value="Itinerari per autopista/autovia" es.display_value="Itinerario por autopista/autovía" icon="traffic_signs/ES/ES_s301.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S310" display_value="Some refs" ca.display_value="Vàries referències" es.display_value="Varias referencias" icon="traffic_signs/ES/ES_s310.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3222,7 +3223,7 @@ baselanguage="es">
 				<list_entry value="ES:S321" display_value="With symbols to motorway" ca.display_value="Amb símbols cap a l'autopista/autovia" es.display_value="Con símbolos hacia la autopista/autovía" icon="traffic_signs/ES/ES_s321.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR51" display_value="Itinerari (Catalan)" ca.display_value="Itinerari (Catalana)" es.display_value="Itinerario (Catalana)" icon="traffic_signs/ES/CAT_or51.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:c:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:3:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S300" display_value="Itinerary road" ca.display_value="Itinerari per carretera" es.display_value="Itinerario por carretera" icon="traffic_signs/ES/ES_s300.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S301" display_value="Itinerary motorway" ca.display_value="Itinerari per autopista/autovia" es.display_value="Itinerario por autopista/autovía" icon="traffic_signs/ES/ES_s301.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S310" display_value="Some refs" ca.display_value="Vàries referències" es.display_value="Varias referencias" icon="traffic_signs/ES/ES_s310.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3323,14 +3324,14 @@ baselanguage="es">
 				<text key="distance:1" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
 				<text key="distance" text="Distance (km) unique or 2" ca.text="Distància única o mitjana" es.text="Distancia única o media" />
 				<text key="distance:3" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S600" display_value="Confirmation" ca.display_value="Confirmació" es.display_value="Confirmación" icon="traffic_signs/ES/ES_s600.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S602" display_value="Confirmation motorway" ca.display_value="Confirmació autovia/autopista" es.display_value="Confirmación autovía/autopista" icon="traffic_signs/ES/ES_s602.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR61" display_value="Confirmation (catalan)" ca.display_value="Confirmació (catalana)" es.display_value="Confirmación (catalana)" icon="traffic_signs/ES/CAT_or61.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR62" display_value="Confirmation motorway (catalan)" ca.display_value="Confirmació autopista/autovia (catalana)" es.display_value="Confirmación autopista/autovía (catalana)" icon="traffic_signs/ES/CAT_or62.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR63" display_value="Confirmation extended (catalan)" ca.display_value="Confirmació extesa (catalana)" es.display_value="Confirmación extendida (catalana)" icon="traffic_signs/ES/CAT_or63.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:b:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S600" display_value="Confirmation" ca.display_value="Confirmació" es.display_value="Confirmación" icon="traffic_signs/ES/ES_s600.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S602" display_value="Confirmation motorway" ca.display_value="Confirmació autovia/autopista" es.display_value="Confirmación autovía/autopista" icon="traffic_signs/ES/ES_s602.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR61" display_value="Confirmation (catalan)" ca.display_value="Confirmació (catalana)" es.display_value="Confirmación (catalana)" icon="traffic_signs/ES/CAT_or61.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3786,8 +3787,8 @@ baselanguage="es">
 				<space />
 				<label text="4" ca.text="4" es.text="4"/>
 				<space />
-				<check key="traffic_sign:b:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
-				<check key="traffic_sign:b:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
+				<check key="traffic_sign:2:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
+				<check key="traffic_sign:2:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
 				<combo key="turn:destination:4" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
@@ -3875,8 +3876,8 @@ baselanguage="es">
 				<space />
 				<label text="7" ca.text="7" es.text="7"/>
 				<space />
-				<check key="traffic_sign:c:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
-				<check key="traffic_sign:c:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
+				<check key="traffic_sign:3:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
+				<check key="traffic_sign:3:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
 				<combo key="turn:destination:7" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
@@ -4074,7 +4075,7 @@ baselanguage="es">
 
 <item name="Complimentary" ca.name="Complementàries" es.name="Complementarias" icon="traffic_signs/ES/ES_s870.png" type="relation,way,node,closedway" preset_name_label="true">
 				<space />
-				<combo key="traffic_sign:b:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_s800.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_s810.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_s820.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -4082,7 +4083,7 @@ baselanguage="es">
 				<list_entry value="ES:S860" display_value="Others" ca.display_value="Altres" es.display_value="Otros" icon="traffic_signs/ES/ES_s860.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S870" display_value="Destination" ca.display_value="Destinació" es.display_value="Destinación" icon="traffic_signs/ES/ES_s870.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:b:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_s800.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_s810.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_s820.png" short_description="" ca.short_description="" es.short_description=""/>
