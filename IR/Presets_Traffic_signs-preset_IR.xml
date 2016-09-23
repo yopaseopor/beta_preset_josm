@@ -743,7 +743,7 @@ baselanguage="es">
 			<key key="noname" value="yes" />
 			</item>
 			
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 			<label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 			<space />
@@ -944,195 +944,192 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:001" icon="traffic_signs/IR/IR_rus_001.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:001" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:001" />
+<item name="IR:RUS:001" icon="traffic_signs/IR/IR_rus_001.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:001" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:001" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:002" icon="traffic_signs/IR/IR_rus_002.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:002" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:002" />
+<item name="IR:RUS:002" icon="traffic_signs/IR/IR_rus_002.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:002" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:002" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:003" icon="traffic_signs/IR/IR_rus_003.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:003" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:003" />
+<item name="IR:RUS:003" icon="traffic_signs/IR/IR_rus_003.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:003" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:003" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:004" icon="traffic_signs/IR/IR_rus_004.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:004" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:004" />
+<item name="IR:RUS:004" icon="traffic_signs/IR/IR_rus_004.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:004" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:004" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:005" icon="traffic_signs/IR/IR_rus_005.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:005" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:005" />
+<item name="IR:RUS:005" icon="traffic_signs/IR/IR_rus_005.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:005" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:005" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:006" icon="traffic_signs/IR/IR_rus_006.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:006" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:006" />
+<item name="IR:RUS:006" icon="traffic_signs/IR/IR_rus_006.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:006" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:006" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:007" icon="traffic_signs/IR/IR_rus_007.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:007" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:007" />
+<item name="IR:RUS:007" icon="traffic_signs/IR/IR_rus_007.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:007" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:007" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:008" icon="traffic_signs/IR/IR_rus_008.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:008" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:008" />
+<item name="IR:RUS:008" icon="traffic_signs/IR/IR_rus_008.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:008" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:008" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:009" icon="traffic_signs/IR/IR_rus_009.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:009" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:009" />
+<item name="IR:RUS:009" icon="traffic_signs/IR/IR_rus_009.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:009" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:009" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:010" icon="traffic_signs/IR/IR_rus_010.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:010" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:010" />
+<item name="IR:RUS:010" icon="traffic_signs/IR/IR_rus_010.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:010" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:010" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:011" icon="traffic_signs/IR/IR_rus_011.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:011" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:011" />
+<item name="IR:RUS:011" icon="traffic_signs/IR/IR_rus_011.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:011" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:011" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:012" icon="traffic_signs/IR/IR_rus_012.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:012" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:012" />
+<item name="IR:RUS:012" icon="traffic_signs/IR/IR_rus_012.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:012" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:012" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:013" icon="traffic_signs/IR/IR_rus_013.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:013" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:013" />
+<item name="IR:RUS:013" icon="traffic_signs/IR/IR_rus_013.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:013" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:013" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:014-1" icon="traffic_signs/IR/IR_rus_014-1.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:014-1" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:014-1" />
+<item name="No overtaking" ca.name="Prohibit fer avançaments" es.name="Prohibido adelantar" icon="traffic_signs/IR/IR_rus_014.png">
+				<combo text="Overtaking allowed?" ca.text="Avançaments permesos?" es.text="¿Adelantamientos permitidos?" key="overtaking" values="yes,no,both,forward,backward" ca.display_values="Sí,No,Ambdós,Sentit via, Sentit contrari" es.display_values="Sí,No,Ambos,Sentido vía, Sentido contrario" default="no" />
+				<combo text="Easy?" ca.text="Avançament fàcil?" es.text="¿Adelantamientos fáciles?" key="easy_overtaking" values="both,forward,backward" ca.display_values="Ambdós,Sentit via, Sentit contrari" es.display_values="Ambos,Sentido vía, Sentido contrario" default="no" />
+				<key key="traffic_sign" value="overtaking" />
+				<check key="overtaking:hgv" text="No goods vehiclex overtaking" ca.text="Prohibit avançar pels camions" es.text="Prohibido adelantar para camiones" value_on="no" default="off" value_off="" />
+				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:014" />
+				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:014" />
+				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="both" /></item>
+
+<item name="IR:RUS:014_(hvs)" icon="traffic_signs/IR/IR_rus_014_(hvs).png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:014_(hvs)" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:014_(hvs)" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:014" icon="traffic_signs/IR/IR_rus_014.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:014" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:014" />
+<item name="IR:RUS:016" icon="traffic_signs/IR/IR_rus_016.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:016" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:016" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:014_(hvs)" icon="traffic_signs/IR/IR_rus_014_(hvs).png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:014_(hvs)" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:014_(hvs)" />
+<item name="IR:RUS:017" icon="traffic_signs/IR/IR_rus_017.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:017" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:017" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:016" icon="traffic_signs/IR/IR_rus_016.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:016" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:016" />
+<item name="IR:RUS:018" icon="traffic_signs/IR/IR_rus_018.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:018" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:018" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:017" icon="traffic_signs/IR/IR_rus_017.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:017" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:017" />
+<item name="IR:RUS:020lr" icon="traffic_signs/IR/IR_rus_020lr.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:020lr" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:020lr" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:018" icon="traffic_signs/IR/IR_rus_018.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:018" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:018" />
+<item name="IR:RUS:021" icon="traffic_signs/IR/IR_rus_021.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:021" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:021" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:020lr" icon="traffic_signs/IR/IR_rus_020lr.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:020lr" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:020lr" />
+<item name="IR:RUS:026" icon="traffic_signs/IR/IR_rus_026.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:026" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:026" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:021" icon="traffic_signs/IR/IR_rus_021.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:021" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:021" />
+<item name="IR:RUS:026a" icon="traffic_signs/IR/IR_rus_026a.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:026a" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:026a" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:026" icon="traffic_signs/IR/IR_rus_026.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:026" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:026" />
+<item name="IR:RUS:027" icon="traffic_signs/IR/IR_rus_027.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:027" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:027" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:026a" icon="traffic_signs/IR/IR_rus_026a.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:026a" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:026a" />
+<item name="IR:RUS:032" icon="traffic_signs/IR/IR_rus_032.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:032" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:032" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:027" icon="traffic_signs/IR/IR_rus_027.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:027" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:027" />
+<item name="IR:RUS:038" icon="traffic_signs/IR/IR_rus_038.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:038" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:038" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:032" icon="traffic_signs/IR/IR_rus_032.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:032" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:032" />
+<item name="IR:RUS:039" icon="traffic_signs/IR/IR_rus_039.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:039" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:039" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:038" icon="traffic_signs/IR/IR_rus_038.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:038" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:038" />
+<item name="IR:RUS:040" icon="traffic_signs/IR/IR_rus_040.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:040" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:040" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:039" icon="traffic_signs/IR/IR_rus_039.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:039" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:039" />
+<item name="IR:RUS:041" icon="traffic_signs/IR/IR_rus_041.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:041" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:041" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:040" icon="traffic_signs/IR/IR_rus_040.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:040" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:040" />
+<item name="IR:RUS:042" icon="traffic_signs/IR/IR_rus_042.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:042" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:042" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:041" icon="traffic_signs/IR/IR_rus_041.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:041" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:041" />
+<item name="IR:RUS:043" icon="traffic_signs/IR/IR_rus_043.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:043" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:043" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:042" icon="traffic_signs/IR/IR_rus_042.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:042" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:042" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
-</item>
-
-<item name="IR:rUS:043" icon="traffic_signs/IR/IR_rus_043.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:043" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:043" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
-</item>
-
-<item name="IR:rUS:044" icon="traffic_signs/IR/IR_rus_044.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:044" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:044" />
+<item name="IR:RUS:044" icon="traffic_signs/IR/IR_rus_044.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:044" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:044" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
@@ -1142,81 +1139,81 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:046" icon="traffic_signs/IR/IR_rus_046.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:046" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:046" />
+<item name="IR:RUS:046" icon="traffic_signs/IR/IR_rus_046.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:046" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:046" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:049-1" icon="traffic_signs/IR/IR_rus_049-1.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:049-1" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:049-1" />
+<item name="IR:RUS:049-1" icon="traffic_signs/IR/IR_rus_049-1.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:049-1" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:049-1" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:049" icon="traffic_signs/IR/IR_rus_049.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:049" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:049" />
+<item name="IR:RUS:049" icon="traffic_signs/IR/IR_rus_049.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:049" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:049" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:050" icon="traffic_signs/IR/IR_rus_050.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:050" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:050" />
+<item name="IR:RUS:050" icon="traffic_signs/IR/IR_rus_050.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:050" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:050" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:052" icon="traffic_signs/IR/IR_rus_052.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:052" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:052" />
+<item name="IR:RUS:052" icon="traffic_signs/IR/IR_rus_052.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:052" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:052" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:053" icon="traffic_signs/IR/IR_rus_053.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:053" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:053" />
+<item name="IR:RUS:053" icon="traffic_signs/IR/IR_rus_053.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:053" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:053" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:054" icon="traffic_signs/IR/IR_rus_054.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:054" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:054" />
+<item name="IR:RUS:054" icon="traffic_signs/IR/IR_rus_054.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:054" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:054" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:055" icon="traffic_signs/IR/IR_rus_055.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:055" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:055" />
+<item name="IR:RUS:055" icon="traffic_signs/IR/IR_rus_055.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:055" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:055" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:056" icon="traffic_signs/IR/IR_rus_056.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:056" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:056" />
+<item name="IR:RUS:056" icon="traffic_signs/IR/IR_rus_056.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:056" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:056" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:057" icon="traffic_signs/IR/IR_rus_057.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:057" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:057" />
+<item name="IR:RUS:057" icon="traffic_signs/IR/IR_rus_057.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:057" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:057" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:058" icon="traffic_signs/IR/IR_rus_058.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:058" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:058" />
+<item name="IR:RUS:058" icon="traffic_signs/IR/IR_rus_058.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:058" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:058" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:062" icon="traffic_signs/IR/IR_rus_062.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:062" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:062" />
+<item name="IR:RUS:062" icon="traffic_signs/IR/IR_rus_062.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:062" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:062" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
-<item name="IR:rUS:063" icon="traffic_signs/IR/IR_rus_063.png" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:rUS:063" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:rUS:063" />
+<item name="IR:RUS:063" icon="traffic_signs/IR/IR_rus_063.png" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IR:RUS:063" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IR:RUS:063" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 

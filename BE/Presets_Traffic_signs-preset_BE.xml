@@ -743,7 +743,7 @@ baselanguage="es">
 			<key key="noname" value="yes" />
 			</item>
 			
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 			<label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 			<space />
@@ -1989,7 +1989,7 @@ baselanguage="es">
 		
 			<group name="Others" ca.name="Altres" es.name="Otros" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />

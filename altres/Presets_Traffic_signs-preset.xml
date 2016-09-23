@@ -743,7 +743,7 @@ baselanguage="es">
 			<key key="noname" value="yes" />
 			</item>
 			
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 			<label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 			<space />
@@ -1989,7 +1989,7 @@ baselanguage="es">
 		
 			<group name="Czech Republic" ca.name="República Txeca" es.name="República Checa" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -3597,7 +3597,7 @@ baselanguage="es">
 	
 				<group name="France" ca.name="França" es.name="Francia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -3619,7 +3619,7 @@ baselanguage="es">
 	
 					<group name="Germany" ca.name="Alemanya" es.name="Alemania" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -3642,7 +3642,7 @@ baselanguage="es">
 	
 						<group name="Italy" ca.name="Itàlia" es.name="Italia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -4818,7 +4818,7 @@ baselanguage="es">
 	
 							<group name="Poland" ca.name="Polònia" es.name="Polonia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -4840,7 +4840,7 @@ baselanguage="es">
 	
 						<group name="Russia" ca.name="Rússia" es.name="Rusia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -4862,7 +4862,7 @@ baselanguage="es">
 
 						<group name="Slovakia" ca.name="Eslovàquia" es.name="Eslovaquia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8278,7 +8278,7 @@ baselanguage="es">
 	
 							<group name="Sweden" ca.name="Suècia" es.name="Suecia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8300,7 +8300,7 @@ baselanguage="es">
 	
 						<group name="Estonia" ca.name="Estònia" es.name="Estonia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8322,7 +8322,7 @@ baselanguage="es">
 	
 							<group name="Ukraine" ca.name="Ucraïna" es.name="Ucrania" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8344,7 +8344,7 @@ baselanguage="es">
 	
 							<group name="United Kingdom" ca.name="Regne Unit" es.name="Reino Unido" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8366,7 +8366,7 @@ baselanguage="es">
 	
 							<group name="United States of America" ca.name="Estats Units d'Amèrica" es.name="Estados Unidos" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8388,7 +8388,7 @@ baselanguage="es">
 	
 							<group name="Turkey" ca.name="Turquia" es.name="Turquía" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8410,7 +8410,7 @@ baselanguage="es">
 	
 							<group name="Belarus" ca.name="Bielorússia" es.name="Bielorrusia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8432,7 +8432,7 @@ baselanguage="es">
 	
 							<group name="Denmark" ca.name="Dinamarca" es.name="Dinamarca" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8454,7 +8454,7 @@ baselanguage="es">
 	
 							<group name="Norway" ca.name="Noruega" es.name="Noruega" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8476,7 +8476,7 @@ baselanguage="es">
 	
 							<group name="Switzerland" ca.name="Suïssa" es.name="Suiza" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8498,7 +8498,7 @@ baselanguage="es">
 	
 							<group name="Greece" ca.name="Grècia" es.name="Grecia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8520,7 +8520,7 @@ baselanguage="es">
 	
 							<group name="Hungary" ca.name="Hongria" es.name="Hungría" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8542,7 +8542,7 @@ baselanguage="es">
 	
 							<group name="Island" ca.name="Islàndia" es.name="Islandia" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8564,7 +8564,7 @@ baselanguage="es">
 	
 							<group name="Austria" ca.name="Àustria" es.name="Austria" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
@@ -8586,7 +8586,7 @@ baselanguage="es">
 	
 							<group name="Ireland" ca.name="Irlanda" es.name="Irlanda" icon="traffic_signs_presets/ES_tp18.png">
 
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/ES/ES_r2.png" type="node,way,relation">
+			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
 <label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 <space />
