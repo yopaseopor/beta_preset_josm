@@ -221,8 +221,8 @@ baselanguage="es">
 			<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/parking:lane" />
 			<space />		   
 			<label text="Cicle lanes" ca.text="Carrils bici" es.text="Carriles bici" />
-			<combo text="cicleway right" ca.text="Carril bici a la banda dreta" es.text="Carril bici en el lado derecho" key="cicleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrario segregat" es.display_values="carril,s. contrario,compartido,carril bus,segregado,s. contrario segregado" />
-			<combo text="cicleway left" ca.text="Carril bici a la banda esquerra" es.text="Carril bici en el lado izquierdo" key="cicleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrario segregat" es.display_values="carril,s. contrario,compartido,carril bus,segregado,s. contrario segregado" />
+			<combo text="cicleway right" ca.text="Carril bici a la banda dreta" es.text="Carril bici en el lado derecho" key="cicleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,carril s. contrari,carril compartit,carril bus,via compartida,via segregada,s. contrari via segregada" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
+			<combo text="cicleway left" ca.text="Carril bici a la banda esquerra" es.text="Carril bici en el lado izquierdo" key="cicleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,carril s. contrari,carril compartit,carril bus,via compartida,via segregada,s. contrari via segregada" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<space />
 			</optional>
 			</item>
@@ -381,8 +381,8 @@ baselanguage="es">
 			<text key="maxspeed" text="Max. speed (km/h)" ca.text="Velocitat màx. (km/h)" es.text="Velocidad máx. (km/h)" default="30" />
 			<optional>
 			<label text="Cicleway in a street" ca.text="Carril bici en carrers" es.text="Carrils bici en calle" />
-			<combo text="Cicleway right" ca.text="Carril bici al costat dret" es.text="Carril bici en el lado derecho" key="cicleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,s. contrario,compartido,carril bus,segregado,s. contrario segregado" />
-			<combo text="Cicleway left" ca.text="Carril bici al costat esquerre" es.text="Carril bici en el lado izquierdo" key="cicleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,s. contrario,compartido,carril bus,segregado,s. contrario segregado" />
+			<combo text="Cicleway right" ca.text="Carril bici al costat dret" es.text="Carril bici en el lado derecho" key="cicleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
+			<combo text="Cicleway left" ca.text="Carril bici al costat esquerre" es.text="Carril bici en el lado izquierdo" key="cicleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<space />
 			<combo key="layer" text="Layer" ca.text="Nivel" es.text="Nivel" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" />
 			<combo key="lanes" text="Lanes" ca.text="Carrils" es.text="Carriles" values="1,2,3,4,5" />
@@ -775,8 +775,8 @@ baselanguage="es">
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 			</item>
 
-			<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/ES/ES_p50.png">
-				<group name="Cross" ca.name="Encreuament" es.name="Cruce" fr.name="Croisement" icon="traffic_signs/ES/ES_p1.png">
+			<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/BE/BE_A33.png">
+				<group name="Cross" ca.name="Encreuament" es.name="Cruce" fr.name="Croisement" icon="traffic_signs/BE/BE_B15.png">
 					<group name="Priority" ca.name="Prioritat" es.name="Prioridad" icon="traffic_signs/BE/BE_B9.png">
 
 						<item name="Main road" ca.name="Carretera principal" es.name="Carretera principal" icon="traffic_signs/BE/BE_B9.png" type="node,way,relation">
@@ -1204,7 +1204,7 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>
 
 			</group>
-			<group name="Stop" ca.name="Detenció" es.name="Detención" icon="traffic_signs/ES/ES_r200.png">
+			<group name="Stop" ca.name="Detenció" es.name="Detención" icon="traffic_signs/BE/BE_C47.png">
 
 				<item name="Border control" ca.name="Duana" es.name="Aduana" icon="traffic_signs/BE/BE_C47d.png" type="node,way,relation">
 				<key key="destination:symbol" value="border_control" match="keyvalue!" />
@@ -1783,7 +1783,7 @@ baselanguage="es">
 																
 									<group name="No through road" ca.name="Carrer tallat" es.name="Calle cortada" icon="traffic_signs/BE/BE_F45.png">
 
-					<item name="No through road" ca.name="Carrer tallat" es.name="Calle cortada" icon="traffic_signs/ES/ES_s15a.png" type="node,way,relation">
+					<item name="No through road" ca.name="Carrer tallat" es.name="Calle cortada" icon="traffic_signs/BE/BE_F45.png" type="node,way,relation">
 					<key key="destination:symbol" value="noexit" match="keyvalue!" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:F45" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:F45" />
