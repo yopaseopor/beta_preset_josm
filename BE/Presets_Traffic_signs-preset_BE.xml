@@ -13,7 +13,7 @@ baselanguage="es">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
 		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
 
-			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs_presets/ES_motorway.png" type="node,relation,way,closedway">
+			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs/BE/BE_F23b.png" type="node,relation,way,closedway">
 			<label text="Common propierties" ca.text="Propietats comuns" es.text="Propiedades comunes" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" default="motorway"> 
 			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="http://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
@@ -38,7 +38,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
 			</item>
 
-			<item name="Trunk" ca.name="Carretera nacional o Carretera autonòmica de primer nivell en bon estat" fr.name="Voie rapide" es.name="Carretera nacional o Carretera autonómica de primer nivel en buen estado" icon="traffic_signs_presets/ES_trunk.png" type="node,relation,way,closedway">
+			<item name="Trunk" ca.name="Carretera nacional o Carretera autonòmica de primer nivell en bon estat" fr.name="Voie rapide" es.name="Carretera nacional o Carretera autonómica de primer nivel en buen estado" icon="traffic_signs/BE/BE_F23d.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="trunk,trunk_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace" />
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -63,7 +63,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Primary" ca.name="Carretera nacional o Carretera autonòmica de primer nivel en mal estat" es.name="Carretera nacional o Carretera autonómica de primer nivel en mal estado" icon="traffic_signs_presets/ES_primary.png" type="node,relation,way,closedway">
+			<item name="Primary" ca.name="Carretera nacional o Carretera autonòmica de primer nivel en mal estat" es.name="Carretera nacional o Carretera autonómica de primer nivel en mal estado" icon="traffic_signs/BE/BE_F23a.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="primary,primary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -89,7 +89,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Secondary" ca.name="Carretera secundària o autonòmica de segon nivell" es.name="Carretera secundaria o autonómica de segundo nivel" icon="traffic_signs_presets/ES_secondary.png" type="node,relation,way,closedway">
+			<item name="Secondary" ca.name="Carretera secundària o autonòmica de segon nivell" es.name="Carretera secundaria o autonómica de segundo nivel" icon="traffic_signs/BE/BE_F23a.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="secondary,secondary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -223,8 +223,49 @@ baselanguage="es">
 			<label text="Cicle lanes" ca.text="Carrils bici" es.text="Carriles bici" />
 			<combo text="cicleway right" ca.text="Carril bici a la banda dreta" es.text="Carril bici en el lado derecho" key="cicleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,carril s. contrari,carril compartit,carril bus,via compartida,via segregada,s. contrari via segregada" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<combo text="cicleway left" ca.text="Carril bici a la banda esquerra" es.text="Carril bici en el lado izquierdo" key="cicleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,carril s. contrari,carril compartit,carril bus,via compartida,via segregada,s. contrari via segregada" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
+			<space />		   
+			<label text="PSV lanes" ca.text="Carril bus taxi" es.text="Carril bus taxi" />
+			<combo key="psv:lanes:forward" text="Position for the PSV lane forwards." ca.text="Posició del carril bus-taxi en el sentit de la via."  es.text="Posición del carril bus-taxi en el sentido de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<combo key="psv:lanes:backward" text="Position for the PSV lane backwards." ca.text="Posició del carril bus-taxi en el sentit contrari de la via."  es.text="Posición del carril bus-taxi en el sentido contrario de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
 			<space />
 			</optional>
+			</item>
+			
+						<item name="Lanes for other vehicles" ca.name="Carrils per altres vehicles" es.name="Carriles para otros vehículos" icon="traffic_signs_presets/busvao.png" type="node,relation,way,closedway" preset_name_label="true">
+			<label text="Busway scheme (please don't use all the schemes together)" ca.text="Esquema busway (no utilitzar varis esquemes a la vegada)" es.text="Esquema Busway (no usar varios esquema a la vez)" />
+			<combo text="Busway right" ca.text="Carril bus al costat dret" es.text="Carril bus en el lado derecho" key="busway:right" values="lane,opposite_lane" ca.display_values="carril,s. contrari" es.display_values="carril,carril s. contrario," />
+			<combo text="Busway left" ca.text="Carril bus al costat esquerre" es.text="Carril bus en el lado izquierdo" key="busway:left" values="lane,opposite_lane" ca.display_values="carril,s. contrari" es.display_values="carril,carril s. contrario," />
+			<space />
+			<label text="Lanes scheme (please don't use all the schemes together)" ca.text="Esquema carrils (no utilitzar varis esquemes a la vegada)" es.text="Esquema Carriles (no usar varios esquema a la vez)" />
+			<space />
+			<label text="BUS" ca.text="BUS" es.text="BUS" />
+			<space />
+			<combo key="lanes:bus:forward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="bus:lanes:forward" text="Position for the BUS lane forwards." ca.text="Posició del carril bus en el sentit de la via."  es.text="Posición del carril bus en el sentido de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<combo key="lanes:bus:backward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="bus:lanes:backward" text="Position for the BUS lane backwards." ca.text="Posició del carril bus en el sentit contrari de la via."  es.text="Posición del carril bus en el sentido contrario de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<space />
+			<label text="PSV" ca.text="BUS-TAXI-VSP" es.text="BUS-TAXI-VSP" />
+			<space />
+			<combo key="lanes:psv:forward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="psv:lanes:forward" text="Position for the PSV lane forwards." ca.text="Posició del carril bus-taxi en el sentit de la via."  es.text="Posición del carril bus-taxi en el sentido de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<combo key="lanes:psv:backward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="psv:lanes:backward" text="Position for the PSV lane backwards." ca.text="Posició del carril bus-taxi en el sentit contrari de la via."  es.text="Posición del carril bus-taxi en el sentido contrario de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<space />
+			<label text="HOV" ca.text="Vehicles alta ocupació VAO" es.text="Vehículos alta ocupación VAO" />
+			<space />
+			<combo key="lanes:hov:forward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="hov:lanes:forward" text="Position for the HOV lane forwards." ca.text="Posició del carril VAO en el sentit de la via."  es.text="Posición del carril VAO en el sentido de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
+			<combo key="lanes:hov:backward" ca.text="Nº carrils" es.text="Nº carriles" text="Number of lanes" values="1,2,3,4,5,6" />
+			<combo key="hov:lanes:backward" text="Position for the HOV lane backwards." ca.text="Posició del carril vao en el sentit contrari de la via."  es.text="Posición del carril vao en el sentido contrario de la vía." values="yes|yes|designated,no,none,yes|designated" default="" />
+			<label text="Each lane are separated with |.e.g.: yes|designated" ca.text="Cada carril va separat de |.Exemple: yes|designated" es.text="Cada carril va separado de |.Ejemplo: yes|designated"/>
 			</item>
 
 			<item name="Sidewalks" ca.name="Voreres" es.name="Aceras" icon="traffic_signs_presets/residential.png" type="node,relation,way,closedway">
