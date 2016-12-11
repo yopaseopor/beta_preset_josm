@@ -13,7 +13,7 @@ baselanguage="es">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
 		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
 
-			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs_presets/ES_motorway.png" type="node,relation,way,closedway">
+			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs/PL/A1-PL.png" type="node,relation,way,closedway">
 			<label text="Common propierties" ca.text="Propietats comuns" es.text="Propiedades comunes" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" default="motorway"> 
 			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="http://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
@@ -38,7 +38,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
 			</item>
 
-			<item name="Trunk" ca.name="Carretera nacional o Carretera autonòmica de primer nivell en bon estat" fr.name="Voie rapide" es.name="Carretera nacional o Carretera autonómica de primer nivel en buen estado" icon="traffic_signs_presets/ES_trunk.png" type="node,relation,way,closedway">
+			<item name="Trunk" ca.name="Carretera nacional o Carretera autonòmica de primer nivell en bon estat" fr.name="Voie rapide" es.name="Carretera nacional o Carretera autonómica de primer nivel en buen estado" icon="traffic_signs/PL/S7-PL.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="trunk,trunk_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace" />
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -63,7 +63,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Primary" ca.name="Carretera nacional o Carretera autonòmica de primer nivel en mal estat" es.name="Carretera nacional o Carretera autonómica de primer nivel en mal estado" icon="traffic_signs_presets/ES_primary.png" type="node,relation,way,closedway">
+			<item name="Primary" ca.name="Carretera nacional o Carretera autonòmica de primer nivel en mal estat" es.name="Carretera nacional o Carretera autonómica de primer nivel en mal estado" icon="traffic_signs/PL/DK49-PL.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="primary,primary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -89,7 +89,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Secondary" ca.name="Carretera secundària o autonòmica de segon nivell" es.name="Carretera secundaria o autonómica de segundo nivel" icon="traffic_signs_presets/ES_secondary.png" type="node,relation,way,closedway">
+			<item name="Secondary" ca.name="Carretera secundària o autonòmica de segon nivell" es.name="Carretera secundaria o autonómica de segundo nivel" icon="traffic_signs/PL/DW721-PL.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="secondary,secondary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
