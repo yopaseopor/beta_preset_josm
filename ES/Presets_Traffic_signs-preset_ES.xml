@@ -638,7 +638,7 @@ baselanguage="es">
 			<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 			</combo>
 			<text key="length" text="Distancia que queda para el cruce" />
-			<combo key="turn:destination:1" icon="traffic_signs_presets/black.png" text="Flecha 1">
+			<combo key="turn:destination:upper" icon="traffic_signs_presets/black.png" text="Flecha 1">
 			<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 			<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 			<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -653,60 +653,60 @@ baselanguage="es">
 			<list_entry value="left" display_value="left" es.short_description="" ca.short_description=""  />
 			<list_entry value="through" display_value="through" es.short_description="" ca.short_description="" />
 			</combo>
-			<combo key="turn:destination:3" text="Flecha 3">
+			<combo key="turn:destination:lower" text="Flecha 3">
 			<list_entry value="right" display_value="right" es.short_description="" ca.short_description="" />
 			<list_entry value="left" display_value="left" es.short_description="" ca.short_description=""  />
 			<list_entry value="through" display_value="through" es.short_description="" ca.short_description="" />
 			</combo>
-			<text key="destination:1" text="Destination 1"  />
+			<text key="destination:upper" text="Destination 1"  />
 			<text key="destination" text="Destination unique or 2"  />
-			<text key="destination:3" text="Destination 3" />
-			<text key="distance:1" text="Distance (km)" />
+			<text key="destination:lower" text="Destination 3" />
+			<text key="distance:upper" text="Distance (km)" />
 			<text key="distance" text="Distance (km)unique or 2" />
-			<text key="distance:3" text="Distance (km)" />
-			<text key="time:1" text="Time (hh:mm, for trekking)" />
+			<text key="distance:lower" text="Distance (km)" />
+			<text key="time:upper" text="Time (hh:mm, for trekking)" />
 			<text key="time" text="Time 2 or unique (hh:mm, for trekking)" />
-			<text key="time:3" text="Time (hh:mm, for trekking)" />
-			<text key="sign:1" text="Sign 1" />
+			<text key="time:lower" text="Time (hh:mm, for trekking)" />
+			<text key="sign:upper" text="Sign 1" />
 			<text key="sign" text="Sign 2 or unique" />
-			<text key="sign:3" text="Sign 3" />
-			<combo key="traffic_sign:2" text="Código señal:b">
+			<text key="sign:lower" text="Sign 3" />
+			<combo key="traffic_sign:2" text="Código señal:lower_panel">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
-			<list_entry value="highway:b" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
+			<list_entry value="highway:lower_panel" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
 			<list_entry value="ES:S520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
-			<text key="colour:back:b" text="Colour of background:b" />
-			<text key="colour:text:b" text="Colour of text:b" />
-			<text key="colour:arrow:b" text="Colour of border/arrow:b" />
-			<text key="colour:ref:b" text="color referencia:b" />
-			<text key="length:b" text="Distancia que queda para el cruce:b" />
-			<combo key="turn:destination:b:1" text="Flecha:b:1">
+			<text key="colour:back:lower_panel" text="Colour of background:lower_panel" />
+			<text key="colour:text:lower_panel" text="Colour of text:lower_panel" />
+			<text key="colour:arrow:lower_panel" text="Colour of border/arrow:lower_panel" />
+			<text key="colour:ref:lower_panel" text="color referencia:lower_panel" />
+			<text key="length:lower_panel" text="Distancia que queda para el cruce:lower_panel" />
+			<combo key="turn:destination:lower_panel:upper" text="Flecha:lower_panel:upper">
 			<list_entry value="right" display_value="right" es.short_description="" ca.short_description="" />
 			<list_entry value="left" display_value="left" es.short_description="" ca.short_description=""  />
 			<list_entry value="through" display_value="through" es.short_description="" ca.short_description="" />
 			</combo>
-			<combo key="turn:destination:b" text="Flecha:b unique or 2">
+			<combo key="turn:destination:lower_panel" text="Flecha:b unique or 2">
 			<list_entry value="right" display_value="right" es.short_description="" ca.short_description="" />
 			<list_entry value="left" display_value="left" es.short_description="" ca.short_description=""  />
 			<list_entry value="through" display_value="through" es.short_description="" ca.short_description="" />
 			</combo>
-			<combo key="turn:destination:b:3" text="Flecha:b:3">
+			<combo key="turn:destination:lower_panel:lower" text="Flecha:lower_panel:lower">
 			<list_entry value="right" display_value="right" es.short_description="" ca.short_description="" />
 			<list_entry value="left" display_value="left" es.short_description="" ca.short_description=""  />
 			<list_entry value="through" display_value="through" es.short_description="" ca.short_description="" />
 			</combo>
-			<text key="destination:b:1" text="Destination 1:b"  />
-			<text key="destination:b" text="Destination:b unique or 2"  />
-			<text key="destination:b:3" text="Destination:b 3" />
-			<text key="distance:b:1" text="Distance:b (km)" />
-			<text key="distance:b" text="Distance:b (km)unique or 2" />
-			<text key="distance:b:3" text="Distance:b (km)" />
-			<text key="time:b:1" text="Time:b (hh:mm, for trekking)" />
-			<text key="time:b" text="Time 2:b or unique (hh:mm, for trekking)" />
-			<text key="time:b:3" text="Time:b (hh:mm, for trekking)" />
-			<text key="sign:b:1" text="Sign:b 1" />
-			<text key="sign:b" text="Sign:b 2 or unique" />
-			<text key="sign:b:3" text="Sign:b 3" />
+			<text key="destination:lower_panel:upper" text="Destination 1:lower_panel"  />
+			<text key="destination:lower_panel" text="Destination:b unique or 2"  />
+			<text key="destination:lower_panel:lower" text="Destination:b 3" />
+			<text key="distance:lower_panel:upper" text="Distance:b (km)" />
+			<text key="distance:lower_panel" text="Distance:b (km)unique or 2" />
+			<text key="distance:lower_panel:lower" text="Distance:b (km)" />
+			<text key="time:lower_panel:upper" text="Time:b (hh:mm, for trekking)" />
+			<text key="time:lower_panel" text="Time 2:b or unique (hh:mm, for trekking)" />
+			<text key="time:lower_panel:lower" text="Time:b (hh:mm, for trekking)" />
+			<text key="sign:lower_panel:upper" text="Sign:b 1" />
+			<text key="sign:lower_panel" text="Sign:b 2 or unique" />
+			<text key="sign:lower_panel:lower" text="Sign:b 3" />
 			<roles>
 			<role key="from" text="last way before junction" requisite="optional" type="node,way,relation" />
 			<role key="intersection" text="node of the intersection" requisite="optional" count="1" type="node" />
@@ -2261,9 +2261,9 @@ baselanguage="es">
 				</combo>
 				<text key="destination" text="Destination" ca.text="Destinació" es.text="Destino"  />
 				<text key="opening_hours" text="Opening hours" ca.text="Horari" es.text="Horario" />
-				<text key="destination:symbol:1" text="Symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
+				<text key="destination:symbol:upper" text="Symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
 				<text key="destination:symbol" text="Symbol 2 or unique" ca.text="Símbol 2 o únic" es.text="Símbolo 2 o único" />
-				<text key="destination:symbol:3" text="Symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
+				<text key="destination:symbol:lower" text="Symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
 				<text key="destination:symbol:4" text="Symbol 4" ca.text="Símbol 4" es.text="Símbolo 4" />
 				</item>
 				
@@ -2316,15 +2316,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="distance:1" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="distance:upper" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
 				<text key="distance" text="Distance (km) unique or 2" ca.text="Distància única o mitjana" es.text="Distancia única o media" />
-				<text key="distance:3" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="distance:lower" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
@@ -2332,8 +2332,8 @@ baselanguage="es">
 				<list_entry value="ES:S235" display_value="Side orientation" ca.display_value="Orientació lateral" es.display_value="Orientación lateral" icon="traffic_signs/ES/ES_s235.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:or21a" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or21a.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2345,8 +2345,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2358,15 +2358,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="distance:b:1" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
-				<text key="distance:b" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
-				<text key="distance:b:3" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="distance:lower_panel:upper" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
+				<text key="distance:lower_panel" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
+				<text key="distance:lower_panel:lower" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
 				</item>
 				
 				<item name="Side preorientation Catalan" ca.name="Preorientació lateral (Catalana)" es.name="Preorientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or10a.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -2414,17 +2414,17 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" icon="traffic_signs/ES/CAT_or10a.png" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" icon="traffic_signs/ES/CAT_or10a.png" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL" icon="traffic_signs/ES/CAT_or10b.png"/>
 				<space />
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2436,8 +2436,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2449,12 +2449,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
 				</item>
 				
 				
@@ -2515,12 +2515,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<text key="lanes" text="Number of lanes" ca.text="Número de carrils" es.text="Número de carriles" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
@@ -2531,8 +2531,8 @@ baselanguage="es">
 				<list_entry value="ES:CAT:OR21c" display_value="Vertical orientation lane (Catalan)" ca.display_value="Orientació vertical carril(Catalana)" es.display_value="Orientación vertical carril(Catalana)" icon="traffic_signs/ES/CAT_or21c.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S242" display_value="Vertical orientation 2 exits together" ca.display_value="Orientació vertical sortides consecutives" es.display_value="Orientación vertical salidas consecutivas" icon="traffic_signs/ES/ES_s242.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2544,8 +2544,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2557,13 +2557,13 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
-				<text key="lanes:b" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="lanes:lower_panel" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
 				</item>
 				
 				<item name="Vertical orientation exit immediately" ca.name="Orientació vertical sortida immediata" es.name="Orientación vertical salida inmediata" icon="traffic_signs/ES/ES_s351.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -2612,12 +2612,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<key key="lanes" value="1" />
 				</item>
 				
@@ -2667,21 +2667,21 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<text key="lanes" text="Number of lanes" ca.text="Número de carrils" es.text="Número de carriles" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
 				<check key="traffic_sign:2:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S373" />
-				<text key="colour:back:b" text="+Colour of the main panel" ca.text="+Color del panell principal" es.text="+Color del panel principal" />
-				<text key="colour:text:b" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
-				<text key="colour:arrow:b" text="+Colour of the arrow" ca.text="+Color de la fletxa" es.text="+Color de la flecha"/>
-				<combo key="turn:destination:b" icon="traffic_signs_presets/black_through.png" text="+Arrow" ca.text="+Fletxa" es.text="+Flecha">
+				<text key="colour:back:lower_panel" text="+Colour of the main panel" ca.text="+Color del panell principal" es.text="+Color del panel principal" />
+				<text key="colour:text:lower_panel" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
+				<text key="colour:arrow:lower_panel" text="+Colour of the arrow" ca.text="+Color de la fletxa" es.text="+Color de la flecha"/>
+				<combo key="turn:destination:lower_panel" icon="traffic_signs_presets/black_through.png" text="+Arrow" ca.text="+Fletxa" es.text="+Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -2717,8 +2717,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2730,8 +2730,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2743,24 +2743,24 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
-				<text key="lanes:b" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="lanes:lower_panel" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
 				
 				<space />
 				<label text="THIRD PANEL OR LEFT EXIT PANEL" ca.text="TERCER PANELL O PANELL DE SORTIDA DE L'ESQUERRA" es.text="TERCER PANEL O PANEL DE SALIDA DE LA IZQUIERDA"/>
 				<space />
-				<check key="traffic_sign:forward:c" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S373" />
-				<text key="colour:back:c" text="-Colour of the panel" ca.text="-Color del panell" es.text="-Color del panel" />
-				<text key="colour:text:c" text="-Colour of the text" ca.text="-Color del text" es.text="-Color del texto" />
-				<text key="colour:arrow:c" text="-Colour of the arrow" ca.text="-Color de la fletxa" es.text="-Color de la flecha"/>
-				<text key="ref:c" text="-Reference" ca.text="-Número de sortida" es.text="-Número de salida" />
-				<text key="distance:c" text="-Distance to the exit" ca.text="-Distància que queda per a la sortida" es.text="-Distancia que queda para la salida" />
-				<combo key="turn:destination:c" icon="traffic_signs_presets/black_through.png" text="-Arrow" ca.text="-Fletxa" es.text="-Flecha">
+				<check key="traffic_sign:forward:end_panel" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S373" />
+				<text key="colour:back:end_panel" text="-Colour of the panel" ca.text="-Color del panell" es.text="-Color del panel" />
+				<text key="colour:text:end_panel" text="-Colour of the text" ca.text="-Color del text" es.text="-Color del texto" />
+				<text key="colour:arrow:end_panel" text="-Colour of the arrow" ca.text="-Color de la fletxa" es.text="-Color de la flecha"/>
+				<text key="ref:end_panel" text="-Reference" ca.text="-Número de sortida" es.text="-Número de salida" />
+				<text key="distance:end_panel" text="-Distance to the exit" ca.text="-Distància que queda per a la sortida" es.text="-Distancia que queda para la salida" />
+				<combo key="turn:destination:end_panel" icon="traffic_signs_presets/black_through.png" text="-Arrow" ca.text="-Fletxa" es.text="-Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -2770,8 +2770,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:c" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
-				<combo key="colour:ref:c" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
+				<text key="destination:ref:end_panel" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
+				<combo key="colour:ref:end_panel" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2783,8 +2783,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:c" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:c" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:end_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:end_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2796,13 +2796,13 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1:c" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
-				<text key="destination:c" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
-				<text key="destination:3:c" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
-				<text key="destination:symbol:1:c" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
-				<text key="destination:symbol:c" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
-				<text key="destination:symbol:3:c" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
-				<text key="lanes:c" text="-Number of lanes" ca.text="-Número de carrils" es.text="-Número de carriles" />
+				<text key="destination:end_panel:upper" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
+				<text key="destination:end_panel" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
+				<text key="destination:end_panel:lower" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
+				<text key="destination:symbol:end_panel:upper" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
+				<text key="destination:symbol:end_panel" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
+				<text key="destination:symbol:end_panel:lower" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
+				<text key="lanes:end_panel" text="-Number of lanes" ca.text="-Número de carrils" es.text="-Número de carriles" />
 				<space />
 				</item>
 				
@@ -2819,9 +2819,9 @@ baselanguage="es">
 				<text key="ref" text="Reference" ca.text="Número de sortida" es.text="Número de salida" />
 				<text key="colour:back" text="Colour of the panel" ca.text="Color del panell" es.text="Color del panel" />
 				<text key="colour:text" text="Colour of the text" ca.text="Color del text" es.text="Color del texto" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				</item>
 				
 				<item name="Side orientation road" ca.name="Orientació lateral carretera" es.name="Orientación lateral carretera" icon="traffic_signs/ES/ES_s220.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -2881,15 +2881,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="distance:1" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="distance:upper" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
 				<text key="distance" text="Distance (km) unique or 2" ca.text="Distància única o mitjana" es.text="Distancia única o media" />
-				<text key="distance:3" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="distance:lower" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
 				<space />
@@ -2905,11 +2905,11 @@ baselanguage="es">
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR10" display_value="Side preorientation (Catalan)" ca.display_value="Preorientació lateral (Catalana)" es.display_value="Preorientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or10.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="colour:back:b" text="+Colour of the panel" ca.text="+Color del panell" es.text="+Color del panel" />
-				<text key="colour:text:b" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
-				<text key="colour:arrow:b" text="+Colour of the arrow" ca.text="+Color de la fletxa" es.text="+Color de la flecha"/>
-				<text key="distance:b" text="+Distance to the exit" ca.text="+Distància que queda per a la sortida" es.text="+Distancia que queda para la salida" />
-				<combo key="turn:destination:b" icon="traffic_signs_presets/black_through.png" text="+Arrow" ca.text="+Fletxa" es.text="+Flecha">
+				<text key="colour:back:lower_panel" text="+Colour of the panel" ca.text="+Color del panell" es.text="+Color del panel" />
+				<text key="colour:text:lower_panel" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
+				<text key="colour:arrow:lower_panel" text="+Colour of the arrow" ca.text="+Color de la fletxa" es.text="+Color de la flecha"/>
+				<text key="distance:lower_panel" text="+Distance to the exit" ca.text="+Distància que queda per a la sortida" es.text="+Distancia que queda para la salida" />
+				<combo key="turn:destination:lower_panel" icon="traffic_signs_presets/black_through.png" text="+Arrow" ca.text="+Fletxa" es.text="+Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -2919,8 +2919,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2932,8 +2932,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2945,15 +2945,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="distance:b:1" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
-				<text key="distance:b" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
-				<text key="distance:b:3" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="distance:lower_panel:upper" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
+				<text key="distance:lower_panel" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
+				<text key="distance:lower_panel:lower" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
 				<space />
 				<label text="THIRD PANEL OR UPPER PANEL" ca.text="TERCER PANELL O PANELL SUPERIOR" es.text="TERCER PANEL O PANEL SUPERIOR"/>
 				<space />
@@ -2969,12 +2969,12 @@ baselanguage="es">
 				<list_entry value="ES:CAT:OR32" display_value="Side orientation (Catalan)" ca.display_value="Orientació lateral (Catalana)" es.display_value="Orientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or32.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR10" display_value="Side preorientation (Catalan)" ca.display_value="Preorientació lateral (Catalana)" es.display_value="Preorientación lateral (Catalana)" icon="traffic_signs/ES/CAT_or10.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="colour:back:c" text="-Colour of the panel" ca.text="-Color del panell" es.text="-Color del panel" />
-				<text key="colour:text:c" text="-Colour of the text" ca.text="-Color del text" es.text="-Color del texto" />
-				<text key="colour:arrow:c" text="-Colour of the arrow" ca.text="-Color de la fletxa" es.text="-Color de la flecha"/>
-				<text key="ref:c" text="-Reference" ca.text="-Número de sortida" es.text="-Número de salida" />
-				<text key="distance:c" text="-Distance to the exit" ca.text="-Distància que queda per a la sortida" es.text="-Distancia que queda para la salida" />
-				<combo key="turn:destination:c" icon="traffic_signs_presets/black_through.png" text="-Arrow" ca.text="-Fletxa" es.text="-Flecha">
+				<text key="colour:back:end_panel" text="-Colour of the panel" ca.text="-Color del panell" es.text="-Color del panel" />
+				<text key="colour:text:end_panel" text="-Colour of the text" ca.text="-Color del text" es.text="-Color del texto" />
+				<text key="colour:arrow:end_panel" text="-Colour of the arrow" ca.text="-Color de la fletxa" es.text="-Color de la flecha"/>
+				<text key="ref:end_panel" text="-Reference" ca.text="-Número de sortida" es.text="-Número de salida" />
+				<text key="distance:end_panel" text="-Distance to the exit" ca.text="-Distància que queda per a la sortida" es.text="-Distancia que queda para la salida" />
+				<combo key="turn:destination:end_panel" icon="traffic_signs_presets/black_through.png" text="-Arrow" ca.text="-Fletxa" es.text="-Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -2984,8 +2984,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:c" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
-				<combo key="colour:ref:c" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
+				<text key="destination:ref:end_panel" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
+				<combo key="colour:ref:end_panel" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -2997,8 +2997,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:c" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:c" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:end_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:end_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3010,12 +3010,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1:c" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
-				<text key="destination:c" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
-				<text key="destination:3:c" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
-				<text key="destination:symbol:1:c" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
-				<text key="destination:symbol:c" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
-				<text key="destination:symbol:3:c" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
+				<text key="destination:end_panel:upper" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
+				<text key="destination:end_panel" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
+				<text key="destination:end_panel:lower" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
+				<text key="destination:symbol:end_panel:upper" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
+				<text key="destination:symbol:end_panel" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
+				<text key="destination:symbol:end_panel:upper" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
 				<space />
 				</item>
 				
@@ -3076,12 +3076,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<text key="lanes" text="Number of lanes" ca.text="Número de carrils" es.text="Número de carriles" />
 				<space />
 				<label text="SECOND PANEL OR ACTUAL DESTINATION" ca.text="SEGON PANELL O DESTÍ ACTUAL" es.text="SEGUNDO PANEL O DESTINO ACTUAL"/>
@@ -3098,8 +3098,8 @@ baselanguage="es">
 				<list_entry value="ES:CAT:OR24b" display_value="Vertical orientation (Catalan)" ca.display_value="Orientació vertical (Catalana)" es.display_value="Orientación vertical (Catalana)" icon="traffic_signs/ES/CAT_or24b.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR24c" display_value="Vertical orientation lane (Catalan)" ca.display_value="Orientació vertical carril(Catalana)" es.display_value="Orientación vertical carril(Catalana)" icon="traffic_signs/ES/CAT_or24c.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3111,8 +3111,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3124,13 +3124,13 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
-				<text key="lanes:b" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="lanes:lower_panel" text="+Number of lanes" ca.text="+Número de carrils" es.text="Número de carriles" />
 				</item>
 				
 				<item name="Itinerary" ca.name="Itinerari" es.name="Itinerario" icon="traffic_signs/ES/ES_s300.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -3185,15 +3185,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="distance:1" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="distance:upper" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
 				<text key="distance" text="Distance (km) unique or 2" ca.text="Distància única o mitjana" es.text="Distancia única o media" />
-				<text key="distance:3" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
+				<text key="distance:lower" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol superior" es.text="Símbolo superior" />
 				<text key="destination:symbol" text="Destination symbol unique or 2" ca.text="Símbol únic o mitjà" es.text="Símbolo único o medio" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol inferior" es.text="Símbolo inferior" />
 				<space />
 				<label text="SECOND PANEL" ca.text="SEGON PANELL" es.text="SEGUNDO PANEL"/>
 				<space />
@@ -3213,14 +3213,14 @@ baselanguage="es">
 				<list_entry value="ES:S321" display_value="With symbols to motorway" ca.display_value="Amb símbols cap a l'autopista/autovia" es.display_value="Con símbolos hacia la autopista/autovía" icon="traffic_signs/ES/ES_s321.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR51" display_value="Itinerari (Catalan)" ca.display_value="Itinerari (Catalana)" es.display_value="Itinerario (Catalana)" icon="traffic_signs/ES/CAT_or51.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<text key="colour:back:b" text="+Colour of the panel" ca.text="+Color del panell" es.text="+Color del panel" />
-				<text key="colour:text:b" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
-				<combo key="turn:destination:b" icon="traffic_signs_presets/direction_left.png" text="+Direction" ca.text="+Direcció" es.text="+Dirección">
+				<text key="colour:back:lower_panel" text="+Colour of the panel" ca.text="+Color del panell" es.text="+Color del panel" />
+				<text key="colour:text:lower_panel" text="+Colour of the text" ca.text="+Color del text" es.text="+Color del texto" />
+				<combo key="turn:destination:lower_panel" icon="traffic_signs_presets/direction_left.png" text="+Direction" ca.text="+Direcció" es.text="+Dirección">
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/direction_right.png" es.short_description="Derecha" ca.short_description="Dreta" />       
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/direction_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				</combo>
-				<text key="destination:ref:b" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
-				<combo key="colour:ref:b" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
+				<text key="destination:ref:lower_panel" text="+Destination ref" ca.text="+Referència de la destinació" es.text="+Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="+Colour ref" ca.text="+Color de referència" es.text="+Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3232,8 +3232,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3245,15 +3245,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="distance:b:1" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
-				<text key="distance:b" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
-				<text key="distance:b:3" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
-				<text key="destination:symbol:b:1" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
-				<text key="destination:symbol:b" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
-				<text key="destination:symbol:b:3" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
+				<text key="destination:lower_panel:upper" text="+Destination 1" ca.text="+Destí superior" es.text="+Destino superior" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="distance:lower_panel:upper" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
+				<text key="distance:lower_panel" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
+				<text key="distance:lower_panel:lower" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
+				<text key="destination:symbol:lower_panel:upper" text="+Destination symbol 1" ca.text="+Símbol superior" es.text="+Símbolo superior" />
+				<text key="destination:symbol:lower_panel" text="+Destination symbol unique or 2" ca.text="+Símbol únic o mitjà" es.text="+Símbolo único o medio" />
+				<text key="destination:symbol:lower_panel:lower" text="+Destination symbol 3" ca.text="+Símbol inferior" es.text="+Símbolo inferior" />
 				<label text="THIRD PANEL OR LEFT EXIT PANEL" ca.text="TERCER PANELL O PANELL DE SORTIDA DE L'ESQUERRA" es.text="TERCER PANEL O PANEL DE SALIDA DE LA IZQUIERDA"/>
 				<space />
 				<combo key="traffic_sign:3:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
@@ -3272,12 +3272,12 @@ baselanguage="es">
 				<list_entry value="ES:S321" display_value="With symbols to motorway" ca.display_value="Amb símbols cap a l'autopista/autovia" es.display_value="Con símbolos hacia la autopista/autovía" icon="traffic_signs/ES/ES_s321.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:CAT:OR51" display_value="Itinerari (Catalan)" ca.display_value="Itinerari (Catalana)" es.display_value="Itinerario (Catalana)" icon="traffic_signs/ES/CAT_or51.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="turn:destination:c" icon="traffic_signs_presets/direction_left.png" text="-Direction" ca.text="-Direcció" es.text="-Dirección">
+				<combo key="turn:destination:end_panel" icon="traffic_signs_presets/direction_left.png" text="-Direction" ca.text="-Direcció" es.text="-Dirección">
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/direction_right.png" es.short_description="Derecha" ca.short_description="Dreta" />       
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/direction_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				</combo>
-				<text key="destination:ref:c" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
-				<combo key="colour:ref:c" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
+				<text key="destination:ref:end_panel" text="-Destination ref" ca.text="-Referència de la destinació" es.text="-Referencia de la destinación" />
+				<combo key="colour:ref:end_panel" text="-Colour ref" ca.text="-Color de referència" es.text="-Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3289,8 +3289,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:c" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:c" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:end_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:end_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3302,15 +3302,15 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1:c" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
-				<text key="destination:c" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
-				<text key="destination:3:c" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
-				<text key="distance:c:1" text="+Distance 1 (km)" ca.text="-Distància 1 (km)" es.text="-Distancia 1 (km)" />
-				<text key="distance:c" text="+Distance (km) unique or 2" ca.text="-Distància única o mitjana" es.text="-Distancia única o media" />
-				<text key="distance:c:3" text="+Distance 3 (km)" ca.text="-Distància 3 (km)" es.text="-Distancia 3 (km)" />
-				<text key="destination:symbol:1:c" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
-				<text key="destination:symbol:c" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
-				<text key="destination:symbol:3:c" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
+				<text key="destination:end_panel:upper" text="-Destination 1" ca.text="-Destí superior" es.text="-Destino superior" />
+				<text key="destination:end_panel" text="-Destination unique or 2" ca.text="-Destinació única o mitjana" es.text="-Destino único o medio" />
+				<text key="destination:end_panel:lower" text="-Destination 3" ca.text="-Destinació inferior" es.text="-Destino inferior" />
+				<text key="distance:end_panel:upper" text="+Distance 1 (km)" ca.text="-Distància 1 (km)" es.text="-Distancia 1 (km)" />
+				<text key="distance:end_panel" text="+Distance (km) unique or 2" ca.text="-Distància única o mitjana" es.text="-Distancia única o media" />
+				<text key="distance:end_panel:lower" text="+Distance 3 (km)" ca.text="-Distància 3 (km)" es.text="-Distancia 3 (km)" />
+				<text key="destination:symbol:end_panel:upper" text="-Destination symbol 1" ca.text="-Símbol superior" es.text="-Símbolo superior" />
+				<text key="destination:symbol:end_panel" text="-Destination symbol unique or 2" ca.text="-Símbol únic o mitjà" es.text="-Símbolo único o medio" />
+				<text key="destination:symbol:end_panel:lower" text="-Destination symbol 3" ca.text="-Símbol inferior" es.text="-Símbolo inferior" />
 				</item>
 				
 				<item name="Confirmation" ca.name="Confirmació" es.name="Confirmación" icon="traffic_signs/ES/ES_s600.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -3359,12 +3359,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí superior" es.text="Destino superior" />
 				<text key="destination" text="Destination unique or 2" ca.text="Destinació única o mitjana" es.text="Destino único o medio" />
-				<text key="destination:3" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
-				<text key="distance:1" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destinació inferior" es.text="Destino inferior" />
+				<text key="distance:upper" text="Distance 1 (km)" ca.text="Distància 1 (km)" es.text="Distancia 1 (km)" />
 				<text key="distance" text="Distance (km) unique or 2" ca.text="Distància única o mitjana" es.text="Distancia única o media" />
-				<text key="distance:3" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
+				<text key="distance:lower" text="Distance 3 (km)" ca.text="Distància 3 (km)" es.text="Distancia 3 (km)" />
 				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 				<list_entry value="ES:S600" display_value="Confirmation" ca.display_value="Confirmació" es.display_value="Confirmación" icon="traffic_signs/ES/ES_s600.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S602" display_value="Confirmation motorway" ca.display_value="Confirmació autovia/autopista" es.display_value="Confirmación autovía/autopista" icon="traffic_signs/ES/ES_s602.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -3380,10 +3380,10 @@ baselanguage="es">
 				<list_entry value="ES:CAT:OR63" display_value="Confirmation extended (catalan)" ca.display_value="Confirmació extesa (catalana)" es.display_value="Confirmación extendida (catalana)" icon="traffic_signs/ES/CAT_or63.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
 				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
-				<text key="colour:back:b" text="Colour of the panel" ca.text="Color del panell" es.text="Color del panel" />
-				<text key="colour:text:b" text="Colour of the text" ca.text="Color del text" es.text="Color del texto" />
-				<text key="destination:ref:b" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:b" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="colour:back:lower_panel" text="Colour of the panel" ca.text="Color del panell" es.text="Color del panel" />
+				<text key="colour:text:lower_panel" text="Colour of the text" ca.text="Color del text" es.text="Color del texto" />
+				<text key="destination:ref:lower_panel" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:lower_panel" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3395,8 +3395,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:ref_int:b" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
-				<combo key="colour:ref_int:b" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
+				<text key="destination:ref_int:lower_panel" text="Destination ref_int" ca.text="Ruta international" es.text="Ruta internacional" />
+				<combo key="colour:ref_int:lower_panel" text="Colour ref_int" ca.text="Color de ruta internacional" es.text="Color de ruta internacional">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3408,12 +3408,12 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:b:1" text="+Info extra" ca.text="+Info extra" es.text="+Info extra" />
-				<text key="destination:b" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
-				<text key="destination:b:3" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
-				<text key="distance:b:1" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
-				<text key="distance:b" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
-				<text key="distance:b:3" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
+				<text key="destination:lower_panel:upper" text="+Info extra" ca.text="+Info extra" es.text="+Info extra" />
+				<text key="destination:lower_panel" text="+Destination unique or 2" ca.text="+Destinació única o mitjana" es.text="+Destino único o medio" />
+				<text key="destination:lower_panel:lower" text="+Destination 3" ca.text="+Destinació inferior" es.text="+Destino inferior" />
+				<text key="distance:lower_panel:upper" text="+Distance 1 (km)" ca.text="+Distància 1 (km)" es.text="+Distancia 1 (km)" />
+				<text key="distance:lower_panel" text="+Distance (km) unique or 2" ca.text="+Distància única o mitjana" es.text="+Distancia única o media" />
+				<text key="distance:lower_panel:lower" text="+Distance 3 (km)" ca.text="+Distància 3 (km)" es.text="+Distancia 3 (km)" />
 				</item>
 				
 				<item name="Natural/Cultural item" ca.name="Element natural/cultural" es.name="Elemento natural/cultural" icon="traffic_signs/ES/ES_s520.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -3421,6 +3421,7 @@ baselanguage="es">
 				<key key="type" value="destination_sign" />
 				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S520" />
 				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S520" />
+				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 				<key key="colour:back" value="brown" />
 				<key key="colour:text" value="white" />
 				<text key="name" text="Text" ca.text="Text" es.text="Texto" />
@@ -3433,12 +3434,13 @@ baselanguage="es">
 				<key key="type" value="destination_sign" />
 				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S560" />
 				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S560" />
+				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 				<key key="colour:back" value="green" />
 				<key key="colour:text" value="white" />
 				<text key="name" text="Text" ca.text="Text" es.text="Texto" />
 				<text key="destination:symbol" text="Pictogram" ca.text="Pictograma" es.text="Pictograma" />
-				<text key="name:b" text="Text B" ca.text="Text B" es.text="Texto B" />
-				<text key="destination:symbol:b" text="Pictogram B" ca.text="Pictograma B" es.text="Pictograma B" />
+				<text key="name:lower_panel" text="Text B" ca.text="Text B" es.text="Texto B" />
+				<text key="destination:symbol:lower_panel" text="Pictogram B" ca.text="Pictograma B" es.text="Pictograma B" />
 				<space />
 				</item>
 				
@@ -3451,22 +3453,20 @@ baselanguage="es">
 				<key key="colour:back" value="white" />
 				<key key="colour:text" value="black" />
 				<key key="colour:arrow" value="black" />
+				<check key="through" text="Through:Can you go in this direction?" ca.text="Recte:Pots anar en aquesta direcció?" es.text="Recto:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="slight_right" text="Slight right:Can you go in this direction?" ca.text="Diagonal superior dreta:Pots anar en aquesta direcció?" es.text="Diagonal superior derecha:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="right" text="Right:Can you go in this direction?" ca.text="Dreta:Pots anar en aquesta direcció?" es.text="Derecha:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="sharp_right" text="Sharp right:Can you go in this direction?" ca.text="Diagonal inferior dreta:Pots anar en aquesta direcció?" es.text="Diagonal inferior derecha:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="u-turn" text="U-turn:Can you go in this direction?" ca.text="Sentit contrari:Pots anar en aquesta direcció?" es.text="Sentido contrario:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="sharp_left" text="Sharp left:Can you go in this direction?" ca.text="Diagonal inferior esquerra:Pots anar en aquesta direcció?" es.text="Diagonal inferior izquierda:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="left" text="Left:Can you go in this direction?" ca.text="Esquerra:Pots anar en aquesta direcció?" es.text="Izquierda:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
+				<check key="slight_left" text="Slight left:Can you go in this direction?" ca.text="Diagonal superior esquerra:Pots anar en aquesta direcció?" es.text="Diagonal superior izquierda:Puedes ir en esta dirección?" value_on="yes" default="off" value_off="" />
 				<text key="distance" text="Distance to the exit" ca.text="Distància que queda per a la sortida" es.text="Distancia que queda para la salida" />
 				<space />
-				<label text="1" ca.text="1" es.text="1"/>
+				<label text="Through" ca.text="Recte" es.text="Recto"/>
 				<space />
-				<combo key="turn:destination:1" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:1" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:1" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:through:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:through:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3478,23 +3478,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí 1" es.text="Destino 1" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
+				<text key="destination:through:upper" text="Destination through:upper" ca.text="Destí recte superior" es.text="Destino recto superior" />
+				<text key="destination:symbol:through:upper" text="Destination through:symbol" ca.text="Símbol Destí recte superior" es.text="Destino recto superior" />
 				<space />
-				<label text="2" ca.text="2" es.text="2"/>
-				<space />
-				<combo key="turn:destination" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:through" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:through" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3506,23 +3494,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination" text="Destination 2" ca.text="Destí 2" es.text="Destino 2" />
-				<text key="destination:symbol" text="Destination symbol 2" ca.text="Símbol 2" es.text="Símbolo 2" />
+				<text key="destination:through" text="Destination through" ca.text="Destí recte" es.text="Destino recto" />
+				<text key="destination:symbol:through" text="Destination through:symbol" ca.text="Símbol Destí recte" es.text="Destino recto" />
 				<space />
-				<label text="3" ca.text="3" es.text="3"/>
-				<space />
-				<combo key="turn:destination:3" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:3" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:3" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:through:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:through:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3534,23 +3510,13 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:3" text="Destination 3" ca.text="Destí 3" es.text="Destino 3" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
+				<text key="destination:through:lower" text="Destination through:lower" ca.text="Destí recte inferior" es.text="Destino recto inferior" />
+				<text key="destination:symbol:through:lower" text="Destination through:symbol" ca.text="Símbol Destí recte inferior" es.text="Destino recto inferior" />
 				<space />
-				<label text="4" ca.text="4" es.text="4"/>
+				<label text="Slight_right" ca.text="Diagonal superior dreta" es.text="Diagonal superior derecha"/>
 				<space />
-				<combo key="turn:destination:4" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:4" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:4" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:slight_right:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3562,23 +3528,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:4" text="Destination 4" ca.text="Destí 4" es.text="Destino 4" />
-				<text key="destination:symbol:4" text="Destination symbol 4" ca.text="Símbol 4" es.text="Símbolo 4" />
+				<text key="destination:slight_right:upper" text="Destination slight_right:upper" ca.text="Destí superior dret superior" es.text="Destino superior derecha superior" />
+				<text key="destination:symbol:slight_right:upper" text="Destination slight_right:symbol" ca.text="Símbol Destí superior dret superior" es.text="Destino superior derecha superior" />
 				<space />
-				<label text="5" ca.text="5" es.text="5"/>
-				<space />
-				<combo key="turn:destination:5" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:5" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:5" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:slight_right" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3590,23 +3544,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:5" text="Destination 5" ca.text="Destí 5" es.text="Destino 5" />
-				<text key="destination:symbol:5" text="Destination symbol 5" ca.text="Símbol 5" es.text="Símbolo 5" />
+				<text key="destination:slight_right" text="Destination slight_right" ca.text="Destí superior dret" es.text="Destino superior derecho" />
+				<text key="destination:symbol:slight_right" text="Destination slight_right:symbol" ca.text="Símbol Destí superior dret" es.text="Destino superior derecha superior" />
 				<space />
-				<label text="6" ca.text="6" es.text="6"/>
-				<space />
-				<combo key="turn:destination:6" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:6" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:6" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:slight_right:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3618,23 +3560,13 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:6" text="Destination 6" ca.text="Destí 6" es.text="Destino 6" />
-				<text key="destination:symbol:6" text="Destination symbol 6" ca.text="Símbol 6" es.text="Símbolo 6" />
+				<text key="destination:slight_right:lower" text="Destination slight_right:lower" ca.text="Destí superior dret inferior" es.text="Destino superior derecha inferior" />
+				<text key="destination:symbol:slight_right:lower" text="Destination slight_right:symbol" ca.text="Símbol Destí superior dret inferior" es.text="Destino superior derecha inferior" />
 				<space />
-				<label text="7" ca.text="7" es.text="7"/>
+				<label text="Right" ca.text="Dret" es.text="Derecho"/>
 				<space />
-				<combo key="turn:destination:7" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:7" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:7" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:right:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:right:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3646,23 +3578,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:7" text="Destination 7" ca.text="Destí 7" es.text="Destino 7" />
-				<text key="destination:symbol:7" text="Destination symbol 7" ca.text="Símbol 7" es.text="Símbolo 7" />
+				<text key="destination:right:upper" text="Destination right:upper" ca.text="Destí dret superior" es.text="Destino derecho superior" />
+				<text key="destination:symbol:right:upper" text="Destination right:symbol" ca.text="Símbol Destí dret superior" es.text="Destino derecho superior" />
 				<space />
-				<label text="8" ca.text="8" es.text="8"/>
-				<space />
-				<combo key="turn:destination:8" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:8" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:8" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:right" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:right" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3674,23 +3594,11 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:8" text="Destination 8" ca.text="Destí 8" es.text="Destino 8" />
-				<text key="destination:symbol:8" text="Destination symbol 8" ca.text="Símbol 8" es.text="Símbolo 8" />
+				<text key="destination:right" text="Destination right" ca.text="Destí dret" es.text="Destino derecho" />
+				<text key="destination:symbol:right" text="Destination right:symbol" ca.text="Símbol Destí dret" es.text="Destino derecho" />
 				<space />
-				<label text="9" ca.text="9" es.text="9"/>
-				<space />
-				<combo key="turn:destination:9" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
-				<list_entry value="through" display_value="through" icon="traffic_signs_presets/roundabout_through.png" es.short_description="Recto" ca.short_description="Recte" />
-				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/roundabout_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
-				<list_entry value="right" display_value="right" icon="traffic_signs_presets/roundabout_right.png" es.short_description="Derecha" ca.short_description="Dreta" />
-				<list_entry value="sharp_right" display_value="sharp_right" icon="traffic_signs_presets/roundabout_sharp_right.png" es.short_description="Derecha inferior" ca.short_description="Dreta inferior" />
-				<list_entry value="u-turn" display_value="U-turn" icon="traffic_signs_presets/roundabout_under.png" es.short_description="Media vuelta" ca.short_description="Mitja volta" />
-				<list_entry value="sharp_left" display_value="sharp_left" icon="traffic_signs_presets/roundabout_sharp_left.png" es.short_description="Izquierda inferior" ca.short_description="Esquerra inferior" />             
-				<list_entry value="left" display_value="left" icon="traffic_signs_presets/roundabout_left.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
-				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/roundabout_slight_left.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
-				</combo>
-				<text key="destination:ref:9" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:9" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:right:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:right:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
@@ -3702,8 +3610,257 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:9" text="Destination 9" ca.text="Destí 9" es.text="Destino 9" />
-				<text key="destination:symbol:9" text="Destination symbol 9" ca.text="Símbol 9" es.text="Símbolo 9" />
+				<text key="destination:right:lower" text="Destination right:lower" ca.text="Destí dret inferior" es.text="Destino derecho inferior" />
+				<text key="destination:symbol:right:lower" text="Destination right:lower:symbol" ca.text="Símbol Destí dret inferior" es.text="Destino derecho inferior" />
+				<space />
+				<label text="Sharp_right" ca.text="Diagonal inferior dreta" es.text="Diagonal inferior derecha"/>
+				<space />
+				<text key="destination:ref:sharp_right:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_right:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_right:upper" text="Destination sharp_right:upper" ca.text="Destí inferior dret superior" es.text="Destino superior derecho superior" />
+				<text key="destination:symbol:sharp_right:upper" text="Destination sharp_right:symbol" ca.text="Símbol Destí inferior dret superior" es.text="Destino superior derecho superior" />
+				<space />
+				<text key="destination:ref:sharp_right" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_right" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_right" text="Destination sharp_right" ca.text="Destí inferior dret" es.text="Destino superior derecho" />
+				<text key="destination:symbol:sharp_right" text="Destination sharp_right:symbol" ca.text="Símbol Destí inferior dret" es.text="Destino superior derecho" />
+				<space />
+				<text key="destination:ref:sharp_right:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_right:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_right:lower" text="Destination sharp_right:lower" ca.text="Destí inferior dret inferior" es.text="Destino superior derecho inferior" />
+				<text key="destination:symbol:sharp_right:lower" text="Destination sharp_right:symbol" ca.text="Símbol Destí inferior dret inferior" es.text="Destino superior derecho inferior" />
+				<space />
+				<label text="U-turn" ca.text="Sentit contrari" es.text="Sentido contrario"/>
+				<space />
+				<text key="destination:ref:u_turn:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:u_turn:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:u_turn:upper" text="Destination u_turn:upper" ca.text="Destí sentit contrari superior" es.text="Destino sentido contrario superior" />
+				<text key="destination:symbol:u_turn:upper" text="Destination u_turn:symbol" ca.text="Símbol Destí sentit contrari superior" es.text="Destino sentido contrario superior" />
+				<space />
+				<text key="destination:ref:u_turn" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:u_turn" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:u_turn" text="Destination u_turn" ca.text="Destí sentit contrari" es.text="Destino sentido contrario " />
+				<text key="destination:symbol:u_turn" text="Destination u_turn:symbol" ca.text="Símbol Destí sentit contrari" es.text="Destino sentido contrario" />
+				<space />
+				<text key="destination:ref:u_turn:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:u_turn:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:u_turn:lower" text="Destination u_turn:lower" ca.text="Destí sentit contrari inferior" es.text="Destino sentido contrario inferior" />
+				<text key="destination:symbol:u_turn:lower" text="Destination u_turn:symbol:lower" ca.text="Símbol Destí sentit contrari inferior" es.text="Destino sentido contrario inferior" />
+				<space />
+				<label text="Sharp_left" ca.text="Diagonal inferior esquerre" es.text="Diagonal inferior izquierdo"/>
+				<space />
+				<text key="destination:ref:sharp_left:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_left:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_left:upper" text="Destination sharp_left:upper" ca.text="Destí inferior esquerre superior" es.text="Destino inferior izquierdo superior" />
+				<text key="destination:symbol:sharp_left:upper" text="Destination sharp_left:symbol" ca.text="Símbol Destí inferior esquerre superior" es.text="Destino inferior izquierdo superior" />
+				<space />
+				<text key="destination:ref:sharp_left" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_left" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_left" text="Destination sharp_left" ca.text="Destí inferior esquerre" es.text="Destino inferior izquierdo" />
+				<text key="destination:symbol:sharp_left" text="Destination sharp_left:symbol" ca.text="Símbol Destí inferior esquerre" es.text="Destino inferior izquierdo" />
+				<space />
+				<text key="destination:ref:sharp_left:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:sharp_left:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:sharp_left:lower" text="Destination sharp_left:lower" ca.text="Destí inferior esquerre inferior" es.text="Destino inferior izquierdo inferior" />
+				<text key="destination:symbol:sharp_left:lower" text="Destination sharp_left:lower:symbol" ca.text="Símbol Destí inferior esquerre inferior" es.text="Destino inferior izquierdo inferior" />
+				<space />
+				<label text="Left" ca.text="Esquerre" es.text="Izquierdo"/>
+				<space />
+				<text key="destination:ref:left:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:left:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:left:upper" text="Destination left:upper" ca.text="Destí esquerre superior" es.text="Destino izquierdo superior" />
+				<text key="destination:symbol:left:upper" text="Destination left:upper:symbol" ca.text="Símbol Destí esquerre superior" es.text="Destino izquierdo superior" />
+				<space />
+				<text key="destination:ref:left" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:left" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:left" text="Destination left" ca.text="Destí esquerre" es.text="Destino izquierdo" />
+				<text key="destination:symbol:left" text="Destination left:symbol" ca.text="Símbol Destí esquerre" es.text="Destino izquierdo" />
+				<space />
+				<text key="destination:ref:left:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:left:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:left:lower" text="Destination left:lower" ca.text="Destí esquerre inferior" es.text="Destino izquierdo inferior" />
+				<text key="destination:symbol:left:lower" text="Destination left:symbol" ca.text="Símbol Destí esquerre inferior" es.text="Destino izquierdo inferior" />
+				<label text="Slight_left" ca.text="Diagonal superior esquerre" es.text="Diagonal superior izquierdo"/>
+				<space />
+				<text key="destination:ref:slight_right:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:slight_right:upper" text="Destination slight_right:upper" ca.text="Destí superior esquerre superior" es.text="Destino superior izquierdo superior" />
+				<text key="destination:symbol:slight_right:upper" text="Destination slight_right:symbol" ca.text="Símbol Destí superior esquerre superior" es.text="Destino superior izquierdo superior" />
+				<space />
+				<text key="destination:ref:slight_right" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:slight_right" text="Destination slight_right" ca.text="Destí superior esquerre" es.text="Destino superior izquierdo" />
+				<text key="destination:symbol:slight_right" text="Destination slight_right:symbol" ca.text="Símbol Destí superior esquerre" es.text="Destino superior izquierdo" />
+				<space />
+				<text key="destination:ref:slight_right:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:slight_right:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:slight_right:lower" text="Destination slight_right:lower" ca.text="Destí superior esquerre inferior" es.text="Destino superior izquierdo inferior" />
+				<text key="destination:symbol:slight_right:lower" text="Destination slight_right:lower:symbol" ca.text="Símbol Destí superior esquerre inferior" es.text="Destino superior izquierdo inferior" />
 				</item>
 				
 				<item name="City limit entrance" ca.name="Entrada a ciutat" es.name="Entrada a ciudad" icon="traffic_signs/ES/ES_s500.png" type="relation,way,node,closedway" preset_name_label="true">
@@ -3741,7 +3898,7 @@ baselanguage="es">
 				<space />
 				<label text="1" ca.text="1" es.text="1"/>
 				<space />
-				<combo key="turn:destination:1" icon="traffic_signs/ES/ES_s700.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
+				<combo key="turn:destination:upper" icon="traffic_signs/ES/ES_s700.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -3751,8 +3908,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:1" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:1" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
@@ -3765,8 +3922,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:1" text="Destination 1" ca.text="Destí 1" es.text="Destino 1" />
-				<text key="destination:symbol:1" text="Destination symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
+				<text key="destination:upper" text="Destination 1" ca.text="Destí 1" es.text="Destino 1" />
+				<text key="destination:symbol:upper" text="Destination symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
 				<space />
 				<label text="2" ca.text="2" es.text="2"/>
 				<space />
@@ -3799,7 +3956,7 @@ baselanguage="es">
 				<space />
 				<label text="3" ca.text="3" es.text="3"/>
 				<space />
-				<combo key="turn:destination:3" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
+				<combo key="turn:destination:lower" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -3809,8 +3966,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:3" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:3" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:ref:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
@@ -3823,8 +3980,8 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:3" text="Destination 3" ca.text="Destí 3" es.text="Destino 3" />
-				<text key="destination:symbol:3" text="Destination symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
+				<text key="destination:lower" text="Destination 3" ca.text="Destí 3" es.text="Destino 3" />
+				<text key="destination:symbol:lower" text="Destination symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
 				<space />
 				<label text="4" ca.text="4" es.text="4"/>
 				<space />
@@ -4044,30 +4201,30 @@ baselanguage="es">
 	<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 	<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 																									</combo>
-							<text key="destination:1" text="Destination 1"  />
+							<text key="destination:upper" text="Destination 1"  />
 													<text key="destination" text="Destination unique or 2"  />
-													<text key="destination:3" text="Destination 3" />
-							<text key="distance:1" text="Distance (km)" />
+													<text key="destination:lower" text="Destination 3" />
+							<text key="distance:upper" text="Distance (km)" />
 													<text key="distance" text="Distance (km)unique or 2" />
-													<text key="distance:3" text="Distance (km)" />
-							<text key="time:1" text="Time (hh:mm, for trekking)" />
+													<text key="distance:lower" text="Distance (km)" />
+							<text key="time:upper" text="Time (hh:mm, for trekking)" />
 													<text key="time" text="Time 2 or unique (hh:mm, for trekking)" />
-													<text key="time:3" text="Time (hh:mm, for trekking)" />
-													<text key="sign:1" text="Sign 1" />
+													<text key="time:lower" text="Time (hh:mm, for trekking)" />
+													<text key="sign:upper" text="Sign 1" />
 													<text key="sign" text="Sign 2 or unique" />
-													<text key="sign:3" text="Sign 3" />
+													<text key="sign:lower" text="Sign 3" />
 
-					 <combo key="traffic_sign:forward:b" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">                         
+					 <combo key="traffic_sign:forward:lower_panel" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">                         
 									<list_entry value="ES:S235" display_value="Salida_referencia" short_description="Salida con referencia" />
 									<list_entry value="ES:S235a" display_value="Pórtico" short_description="Pórticos verticales" />
 	</combo>
-						 <text key="colour:back:b" text="Colour of background:b" />
-							<text key="colour:text:b" text="Colour of text:b" />
-							<text key="colour:arrow:b" text="Colour of border/arrow:b" />
-	<text key="ref:b" text="Reference:b" />
-													<text key="colour:ref:b" text="color referencia:b" />
-													<text key="length:b" text="Distancia que queda para el cruce:b" />
-											   <combo key="turn:destination:b" icon="black.png" text="Flecha 1">
+						 <text key="colour:back:lower_panel" text="Colour of background:lower_panel" />
+							<text key="colour:text:lower_panel" text="Colour of text:lower_panel" />
+							<text key="colour:arrow:lower_panel" text="Colour of border/arrow:lower_panel" />
+	<text key="ref:lower_panel" text="Reference:lower_panel" />
+													<text key="colour:ref:lower_panel" text="color referencia:lower_panel" />
+													<text key="length:lower_panel" text="Distancia que queda para el cruce:lower_panel" />
+											   <combo key="turn:destination:lower_panel" icon="black.png" text="Flecha 1">
 	<list_entry value="through" display_value="through" icon="black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 	<list_entry value="slight_right" display_value="slight_right" icon="black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 	<list_entry value="right" display_value="right" icon="black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -4077,18 +4234,18 @@ baselanguage="es">
 	<list_entry value="left" display_value="left" icon="black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 	<list_entry value="slight_left" display_value="slight_left"  icon="black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 																									</combo>
-							<text key="destination:b:1" text="Destination 1:b"  />
-													<text key="destination:b" text="Destination:b unique or 2"  />
-													<text key="destination:b:3" text="Destination:b 3" />
-							<text key="distance:b:1" text="Distance:b (km)" />
-													<text key="distance:b" text="Distance:b (km)unique or 2" />
-													<text key="distance:b:3" text="Distance:b (km)" />
-							<text key="time:b:1" text="Time:b (hh:mm, for trekking)" />
-													<text key="time:b" text="Time 2:b or unique (hh:mm, for trekking)" />
-													<text key="time:b:3" text="Time:b (hh:mm, for trekking)" />
-													<text key="sign:b:1" text="Sign:b 1" />
-													<text key="sign:b" text="Sign:b 2 or unique" />
-													<text key="sign:b:3" text="Sign:b 3" />
+							<text key="destination:lower_panel:upper" text="Destination 1:lower_panel"  />
+													<text key="destination:lower_panel" text="Destination:b unique or 2"  />
+													<text key="destination:lower_panel:lower" text="Destination:b 3" />
+							<text key="distance:lower_panel:upper" text="Distance:b (km)" />
+													<text key="distance:lower_panel" text="Distance:b (km)unique or 2" />
+													<text key="distance:lower_panel:lower" text="Distance:b (km)" />
+							<text key="time:lower_panel:upper" text="Time:b (hh:mm, for trekking)" />
+													<text key="time:lower_panel" text="Time 2:b or unique (hh:mm, for trekking)" />
+													<text key="time:lower_panel:lower" text="Time:b (hh:mm, for trekking)" />
+													<text key="sign:lower_panel:upper" text="Sign:b 1" />
+													<text key="sign:lower_panel" text="Sign:b 2 or unique" />
+													<text key="sign:lower_panel:lower" text="Sign:b 3" />
 													
 
 	 </item>
@@ -4097,7 +4254,7 @@ baselanguage="es">
 			<group name="Others" ca.name="Altres" es.name="Otros" icon="traffic_signs/ES/CAT_radar.png">
 
 				<item name="Milestone" ca.name="Punt quilomètric" es.name="Punto kilométrico" icon="traffic_signs/ES/ES_s573.png" type="node,way,relation">
-				<text key="distance" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+				<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
 				<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
 				<text key="ref:colour" text="Colour of highways`s plate" ca.text="Color de la placa de la via" es.text="Color de la placa de la vía" default="" />
 				<text key="ref_int" text="European route (if any)" ca.text="Ruta europea (si n`hi pertany)" es.text="Referencia ruta europea si la hay" default="" />
@@ -4175,8 +4332,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>  
 
 					<item name="Beacon right tertiary" ca.name="Balisa corba dreta local" es.name="Baliza curva derecha local" icon="traffic_signs/ES/ES_panel_dir_right_3.png" type="node">
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:Panel:dir:right:3" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:Panel:dir:right:3" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:Panel:dir:right:lower" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:Panel:dir:right:lower" />
 					<text key="panels" text="Number of beacons" ca.text="Nombre de balises" es.text="Número de balizas" default="" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
@@ -4196,8 +4353,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
 					<item name="Beacon right tertiary" ca.name="Balisa corba dreta local" es.name="Baliza curva derecha local" icon="traffic_signs/ES/ES_panel_dir_left_3.png" type="node">
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:Panel:dir:left:3" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:Panel:dir:left:3" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:Panel:dir:left:lower" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:Panel:dir:left:lower" />
 					<text key="panels" text="Number of beacons" ca.text="Nombre de balises" es.text="Número de balizas" default="" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
