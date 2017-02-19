@@ -818,6 +818,10 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+
+			
+			<group name="Warning" ca.name="Perill" es.name="Peligro"  ua.name="Попереджувальні знаки" icon="traffic_signs/UA/UA_1.1.gif">
+
 <item name="UA:1.1" icon="traffic_signs/UA/UA_1.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:1.1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:1.1" />
@@ -1135,18 +1139,22 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:1.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
-
-<item name="UA:2.1" icon="traffic_signs/UA/UA_2.1.gif" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:2.1" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:2.1" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
-</item>
-
-<item name="UA:2.2" icon="traffic_signs/UA/UA_2.2.gif" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:2.2" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:2.2" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
-</item>
+			
+			</group>
+			
+<group name="Priority" ca.name="Prioritat" es.name="Prioridad" ua.name="Знаки пріоритету" icon="traffic_signs/UA/UA_2.2.gif">
+			
+<item name="Give way/Yield" ca.name="Cedeix el pas" de.name="Vorfahrt beachten" ua.name="Вихід" icon="traffic_signs/UA/UA_2.1.gif" type="node,way,relation">
+			<key key="highway" value="give_way" match="keyvalue!" />
+			<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:2.1" />
+			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:2.1" />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>
+			
+			<item name="Stop" ca.name="Stop" es.name="Stop" ua.name="зупинити" icon="traffic_signs/UA/UA_2.2.gif" type="node,way,relation">
+			<key key="highway" value="stop" match="keyvalue!" />
+			<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:2.2" />
+			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:2.2" />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
 <item name="UA:2.3" icon="traffic_signs/UA/UA_2.3.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:2.3" />
@@ -1171,6 +1179,10 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:2.6" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftszeichen" es.name="Reglamentación" ua.name="Заборонні знаки" icon="traffic_signs/UA/UA_3.1.gif">
 
 <item name="UA:3.1" icon="traffic_signs/UA/UA_3.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:3.1" />
@@ -1433,6 +1445,10 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+</group>
+
+<group name="Compulsory" ca.name="Obligació" es.name="Obligación" ua.name="Наказові знаки" icon="traffic_signs/UA/UA_4.1.gif">
+
 <item name="UA:4.1" icon="traffic_signs/UA/UA_4.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:4.1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:4.1" />
@@ -1552,6 +1568,10 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:4.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+
+<group name="Information (1)" ca.name="Informació (1)" de.name="Hinweiszeichen (1)" es.name="Información (1)" ua.name="Інформаційно-вказівні знаки" icon="traffic_signs/UA/UA_5.1.gif">
 
 <item name="UA:5.1" icon="traffic_signs/UA/UA_5.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:5.1" />
@@ -2147,6 +2167,10 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+</group>
+
+<group name="Information (2)" ca.name="Informació (2)" de.name="Hinweiszeichen (2)" es.name="Información (2)" ua.name="Знаки сервісу" icon="traffic_signs/UA/UA_6.1.gif">
+
 <item name="UA:6.1" icon="traffic_signs/UA/UA_6.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:6.1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:6.1" />
@@ -2302,6 +2326,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:6.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+<group name="Others" ca.name="Altres" de.name="Zusatztafeln" es.name="Otros" ua.name="Додаткові знаки" icon="traffic_signs/UA/UA_7.1.1.gif">
 
 <item name="UA:7.1.1" icon="traffic_signs/UA/UA_7.1.1.gif" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="UA:7.1.1" />
@@ -2614,6 +2641,7 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="UA:7.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
 	</group>
 	
 	

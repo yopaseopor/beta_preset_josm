@@ -1158,14 +1158,12 @@ baselanguage="es">
 			<key key="highway" value="stop" match="keyvalue!" />
 			<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R2" />
 			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R2" />
-			
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
-			<item name="Give way/Yield" ca.name="Cedeix el pas" es.name="Ceda el paso" icon="traffic_signs/ES/ES_r1.png" type="node,way,relation">
+			<item name="Give way/Yield" ca.name="Cedeix el pas" de.name="Vorfahrt beachten" es.name="Ceda el paso" icon="traffic_signs/ES/ES_r1.png" type="node,way,relation">
 			<key key="highway" value="give_way" match="keyvalue!" />
 			<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R1" />
 			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R1" />
-			
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
 			<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/ES/ES_r100.png">
@@ -2247,8 +2245,8 @@ baselanguage="es">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				</combo>
-				<text key="ref" text="Reference" ca.text="Referència" es.text="Referencia" />
-				<text key="distance" text="Distance to the exit" ca.text="Distància que queda per a la sortida" es.text="Distancia que queda para la salida" />
+				<text key="junction:ref" text="Reference" ca.text="Referència" es.text="Referencia" />
+				<text key="junction:distance" text="Distance to the exit" ca.text="Distància que queda per a la sortida" es.text="Distancia que queda para la salida" />
 				<combo key="turn:destination" icon="traffic_signs_presets/black_through.png" text="Arrow" ca.text="Fletxa" es.text="Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
@@ -2261,10 +2259,11 @@ baselanguage="es">
 				</combo>
 				<text key="destination" text="Destination" ca.text="Destinació" es.text="Destino"  />
 				<text key="opening_hours" text="Opening hours" ca.text="Horari" es.text="Horario" />
-				<text key="destination:symbol:upper" text="Symbol 1" ca.text="Símbol 1" es.text="Símbolo 1" />
-				<text key="destination:symbol" text="Symbol 2 or unique" ca.text="Símbol 2 o únic" es.text="Símbolo 2 o único" />
-				<text key="destination:symbol:lower" text="Symbol 3" ca.text="Símbol 3" es.text="Símbolo 3" />
-				<text key="destination:symbol:4" text="Symbol 4" ca.text="Símbol 4" es.text="Símbolo 4" />
+				<check key="destination:symbol:upper" text="Fuel?" ca.text="Benzinera?" es.text="¿Gasolinera?" value_on="fuel" default="off" value_off="" />
+				<check key="destination:symbol" text="Car repair?" ca.text="Taller?" es.text="¿Taller?" value_on="car_repair" default="off" value_off="" />
+				<check key="destination:symbol:lower" text="Hotel?" ca.text="Hotel?" es.text="¿Hotel?" value_on="hotel" default="off" value_off="" />
+				<check key="destination:symbol:lowest" text="Restaurant?" ca.text="Restaurant?" es.text="¿Restaurante?" value_on="restaurant" default="off" value_off="" />
+				<text key="destination:symbol" text="Other or unique" ca.text="Altres o únic" es.text="Otros o único" />
 				</item>
 				
 				<item name="Side orientation" ca.name="Orientació lateral" es.name="Orientación lateral" icon="traffic_signs/ES/ES_s235.png" type="relation,way,node,closedway" preset_name_label="true">
