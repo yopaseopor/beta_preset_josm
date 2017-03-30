@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_EE"
 ca.shortdescription="Senyals trànsit_EE"
 fr.shortdescription="Signalisation routière_EE"
 description="Tag easily ways and nodes for highways and traffic signs from Estonia. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/EE/traffic_signs/EE/EE_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -289,7 +291,7 @@ baselanguage="es">
 			</item>
 
 			<item name="Square/Park" ca.name="Plaça/Parc urbà" es.name="Plaza/Parque urbano" icon="traffic_signs_presets/service.png" type="node,relation,way,closedway">
-			<key key="area" value="yes" />
+			<key key="place" value="square" />
 			<key key="layer" value="1" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="highway" text="Highway's type" ca.text="Tipus de via" es.text="Tipo de vía" values="tertiary,residential,living_street,pedestrian" ca.display_values="terciària,carrer,zona residencial,vianants" es.display_values="terciaria,calle,zona residencial,peatonal" />
@@ -818,6 +820,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+<group name="Warning" ca.name="Perill" de.name="Gefahrenzeichen" ee.name="Hoiatusmärgid" es.name="Peligro" icon="traffic_signs/EE/EE_111.png">
+
 <item name="EE:111" icon="traffic_signs/EE/EE_111.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:111" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:111" />
@@ -1171,6 +1175,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:186a" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Priority" ca.name="Prioritat" ee.name="Eesõigusmärgid" es.name="Prioridad" icon="traffic_signs/EE/EE_211.png">
 
 <item name="EE:211" icon="traffic_signs/EE/EE_211.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:211" />
@@ -1219,6 +1225,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:232" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftszeichen" ee.name="Keelu- ja mõjualamärgid" es.name="Reglamentación" icon="traffic_signs/EE/EE_311a.png">
 
 <item name="EE:311a" icon="traffic_signs/EE/EE_311a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:311a" />
@@ -1594,6 +1602,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:398" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Compulsory" ca.name="Obligació" ee.name="Kohustusmärgid" es.name="Obligación" icon="traffic_signs/EE/EE_411.png">
 
 <item name="EE:411" icon="traffic_signs/EE/EE_411.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:411" />
@@ -1780,12 +1790,16 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:461a" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Information" ca.name="Informació" de.name="Hinweiszeichen" ee.name="Osutusmärgid" es.name="Información" icon="traffic_signs/EE/EE_5.11.png">
 
 <item name="EE:5.10" icon="traffic_signs/EE/EE_5.10.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:5.10" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:5.10" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+
 
 <item name="EE:5.11" icon="traffic_signs/EE/EE_5.11.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:5.11" />
@@ -2254,6 +2268,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:591" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Orientation/Confirmation" ca.name="Orientació/Confirmació" ee.name="Juhatusmärgid" es.name="Orientación/Confirmación" icon="traffic_signs/EE/EE_611.png">
 
 <item name="EE:611" icon="traffic_signs/EE/EE_611.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:611" />
@@ -2435,6 +2451,9 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+</group>
+<group name="Information (2)" ca.name="Informació (2)" de.name="Hinweiszeichen (2)" ee.name="Teeninduskohamärgid" es.name="Información (2)" icon="traffic_signs/EE/EE_711.png">
+
 <item name="EE:711" icon="traffic_signs/EE/EE_711.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:711" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:711" />
@@ -2596,6 +2615,10 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="EE:754" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+
+<group name="Complementary" ca.name="Complementàries" de.name="Zusatzzeichen" ee.name=" Lisateatetahvlid" es.name="Complementarias" icon="traffic_signs/EE/EE_811.png">	
 
 <item name="EE:811" icon="traffic_signs/EE/EE_811.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="EE:811" />
@@ -2861,7 +2884,7 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 		</group>
-	
+	</group>
 	
 	
 	

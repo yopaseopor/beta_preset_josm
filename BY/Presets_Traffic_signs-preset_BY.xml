@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_BY"
 ca.shortdescription="Senyals trànsit_BY"
 fr.shortdescription="Signalisation routière_BY"
 description="Tag easily ways and nodes for highways and traffic signals from Belarus. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BY/traffic_signs/BY/BY_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -812,6 +814,8 @@ baselanguage="es">
 	
 	<group name="Belarus" ca.name="Bielorrússia" es.name="Bielorrusia" icon="traffic_signs/BY/BY_.png">
 	
+<group name="Warning" by.name="Папераджальныя знакі" ca.name="Perill" de.name="Gefahrenzeichen" es.name="Peligro" icon="traffic_signs/BY/BY_1.1.png">	
+	
 
 <item name="BY:1.1" icon="traffic_signs/BY/BY_1.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:1.1" />
@@ -1166,6 +1170,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:1.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Priority" by.name="Знакі прыярытэту" ca.name="Prioritat" es.name="Prioridad" icon="traffic_signs/BY/BY_2.1.png">
 
 <item name="BY:2.1" icon="traffic_signs/BY/BY_2.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:2.1" />
@@ -1226,6 +1232,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:2.7" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Regulatory" by.name="Забараняльныя знакі" ca.name="Reglamentació" de.name="Vorschriftszeichen" es.name="Reglamentación" icon="traffic_signs/BY/BY_3.1.png">
+
 
 <item name="BY:3.1" icon="traffic_signs/BY/BY_3.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:3.1" />
@@ -1487,6 +1496,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:3.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Compulsory" by.name="Прадпісальныя знакі" ca.name="Obligació" es.name="Obligación" icon="traffic_signs/BY/BY_4.1.1.png">
 
 <item name="BY:4.1.1" icon="traffic_signs/BY/BY_4.1.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:4.1.1" />
@@ -1619,6 +1630,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:4.9.3" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Information" by.name="Інфармацыйна-ўказальныя знакі" ca.name="Informació" de.name="Hinweiszeichen" es.name="Información" icon="traffic_signs/BY/BY_5.1.png">
 
 <item name="BY:5.1" icon="traffic_signs/BY/BY_5.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:5.1" />
@@ -2165,6 +2178,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:5.9.2" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Services" by.name="Знакі сэрвісу" ca.name="Serveis" es.name="Servicio" icon="traffic_signs/BY/BY_6.1.png">
 
 <item name="BY:6.1" icon="traffic_signs/BY/BY_6.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:6.1" />
@@ -2273,6 +2288,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BY:6.9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Complementary" by.name="Знакі дадатковай інфармацыі" ca.name="Complementàries" de.name="Zusatzzeichen" es.name="Complementarias" icon="traffic_signs/BY/BY_7.1.1.png">	
+
 
 <item name="BY:7.1.1" icon="traffic_signs/BY/BY_7.1.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BY:7.1.1" />
@@ -2592,7 +2610,7 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 	</group>
-	
+</group>	
 	
 	
 	

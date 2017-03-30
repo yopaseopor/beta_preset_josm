@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_TR"
 ca.shortdescription="Senyals trànsit_TR"
 fr.shortdescription="Signalisation routière_TR"
 description="Tag easily ways and nodes for highways and traffic signs from Turkey. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/TR/traffic_signs/TR/TR_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -289,7 +291,7 @@ baselanguage="es">
 			</item>
 
 			<item name="Square/Park" ca.name="Plaça/Parc urbà" es.name="Plaza/Parque urbano" icon="traffic_signs_presets/service.png" type="node,relation,way,closedway">
-			<key key="area" value="yes" />
+<key key="place" value="square" />
 			<key key="layer" value="1" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="highway" text="Highway's type" ca.text="Tipus de via" es.text="Tipo de vía" values="tertiary,residential,living_street,pedestrian" ca.display_values="terciària,carrer,zona residencial,vianants" es.display_values="terciaria,calle,zona residencial,peatonal" />
@@ -298,7 +300,6 @@ baselanguage="es">
 			</item>
 
 			<item name="Traffic_island" ca.name="Illeta" es.name="Isleta" icon="traffic_signs_presets/service.png" type="way,closedway,relation,node">
-			<key key="area" value="yes" />
 			<key key="landuse" value="traffic_island" />
 			<check key="kerb" text="Kerb" ca.text="Vorada" es.text="Bordillo"/>
 			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
@@ -819,6 +820,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+<group name="Information" ca.name="Informació" de.name="Hinweiszeichen" es.name="Información" tr.name="Bilgi" icon="traffic_signs/TR/TR_B-10a.png">
+
 <item name="TR:B-10a" icon="traffic_signs/TR/TR_B-10a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="TR:B-10a" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:B-10a" />
@@ -1203,6 +1206,9 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+</group>
+
+<group name="Parking" ca.name="Aparcament" es.name="Aparcamiento" tr.name="Park" icon="traffic_signs/TR/TR_P-1.png">	
 <item name="TR:P-1" icon="traffic_signs/TR/TR_P-1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="TR:P-1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:P-1" />
@@ -1232,6 +1238,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:P-3c" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+<group name="Others" ca.name="Altres" de.name="Zusatztafeln" es.name="Otros" tr.name="Diğerleri" icon="traffic_signs/TR/TR_PL-1.png">
 
 <item name="TR:PL-1" icon="traffic_signs/TR/TR_PL-1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="TR:PL-1" />
@@ -1322,6 +1331,11 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:PL-9.1" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+
+<group name="Warning" ca.name="Perill" de.name="Gefahrenzeichen" es.name="Peligro" tr.name="Tembih" icon="traffic_signs/TR/TR_T-10.png">
+
 
 <item name="TR:T-10" icon="traffic_signs/TR/TR_T-10.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="TR:T-10" />
@@ -1646,6 +1660,10 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:T-9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftszeichen" es.name="Reglamentación" tr.name="Düzenleyici" icon="traffic_signs/TR/TR_TT-10a.png">
 
 <item name="Give way/Yield" ca.name="Cedeix el pas" de.name="Vorfahrt beachten" es.name="Ceda el paso" tr.name="Verim" icon="traffic_signs/TR/TR_TT-1.png" type="node,way,relation">
 			<key key="highway" value="give_way" match="keyvalue!" />
@@ -2053,6 +2071,7 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="TR:TT-9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
 	</group>
 	
 	

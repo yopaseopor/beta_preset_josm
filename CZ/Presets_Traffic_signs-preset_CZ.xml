@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_CZ"
 ca.shortdescription="Senyals trànsit_CZ"
 fr.shortdescription="Signalisation routière_CZ"
 description="Tag easily ways and nodes for highways and traffic signs from Czech Republic. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/CZ/traffic_signs/CZ/CZ_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -289,7 +291,7 @@ baselanguage="es">
 			</item>
 
 			<item name="Square/Park" ca.name="Plaça/Parc urbà" es.name="Plaza/Parque urbano" icon="traffic_signs_presets/service.png" type="node,relation,way,closedway">
-			<key key="area" value="yes" />
+			<key key="place" value="square" />
 			<key key="layer" value="1" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="highway" text="Highway's type" ca.text="Tipus de via" es.text="Tipo de vía" values="tertiary,residential,living_street,pedestrian" ca.display_values="terciària,carrer,zona residencial,vianants" es.display_values="terciaria,calle,zona residencial,peatonal" />
@@ -298,7 +300,6 @@ baselanguage="es">
 			</item>
 
 			<item name="Traffic_island" ca.name="Illeta" es.name="Isleta" icon="traffic_signs_presets/service.png" type="way,closedway,relation,node">
-			<key key="area" value="yes" />
 			<key key="landuse" value="traffic_island" />
 			<check key="kerb" text="Kerb" ca.text="Vorada" es.text="Bordillo"/>
 			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
@@ -812,6 +813,8 @@ baselanguage="es">
 	
 	<group name="Czech Republic" ca.name="República Txeca" es.name="República Checa" icon="traffic_signs/CZ/CZ_.png">
 	
+<group name="Warning" ca.name="Perill" cz.name="Výstražné dopravní značky" de.name="Gefahrenzeichen" es.name="Peligro" icon="traffic_signs/CZ/CZ_A10.png">	
+	
 <item name="CZ:A10" icon="traffic_signs/CZ/CZ_A10.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:A10" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:A10" />
@@ -1087,6 +1090,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:A9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
+<group name="Regulatory" ca.name="Reglamentació" cz.name="Zákazové dopravní značky" de.name="Vorschriftszeichen" es.name="Reglamentación" icon="traffic_signs/CZ/CZ_B1.png">
 
 <item name="CZ:b" icon="traffic_signs/CZ/CZ_b.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:b" />
@@ -1372,6 +1378,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:B9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Compulsory" ca.name="Obligació" cz.name="Příkazové dopravní značky" es.name="Obligación" icon="traffic_signs/CZ/CZ_C1.png">
 
 <item name="CZ:C1" icon="traffic_signs/CZ/CZ_C1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:C1" />
@@ -1576,6 +1584,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:C9b" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Services" ca.name="Serveis" cz.name="Jiné" es.name="Servicio" icon="traffic_signs/CZ/CZ_IJ1.png">
 
 <item name="CZ:IJ1" icon="traffic_signs/CZ/CZ_IJ1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:IJ1" />
@@ -1708,6 +1718,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:IJ9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Information" ca.name="Informació" cz.name="Informativní dopravní značky" de.name="Hinweiszeichen" es.name="Información" icon="traffic_signs/CZ/CZ_IP10a.png">
 
 <item name="CZ:IP10a" icon="traffic_signs/CZ/CZ_IP10a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:IP10a" />
@@ -2008,6 +2020,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:IP9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Destination" ca.name="Direcció" cz.name="Směrové" es.name="Direcció" pt.name="Direcção" icon="traffic_signs/CZ/CZ_IS10a.png">
 
 <item name="CZ:IS10a" icon="traffic_signs/CZ/CZ_IS10a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:IS10a" />
@@ -2326,6 +2340,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:IS9e" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+
+<group name="Others" ca.name="Altres" cz.name="Ostatní" de.name="Zusatztafeln" es.name="Otros" icon="traffic_signs/CZ/CZ_IZ1a.png">
 
 <item name="CZ:IZ1a" icon="traffic_signs/CZ/CZ_IZ1a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:IZ1a" />
@@ -2350,6 +2367,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CZ:IZ2b" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Priority" ca.name="Prioritat" cz.name="Značky upravující přednost" es.name="Prioridad" icon="traffic_signs/CZ/CZ_P1.png">
 
 <item name="CZ:P02" icon="traffic_signs/CZ/CZ_P02.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CZ:P02" />
@@ -2417,7 +2436,7 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 	</group>
-	
+	</group>
 	
 	
 	

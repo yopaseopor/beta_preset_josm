@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_CH"
 ca.shortdescription="Senyals trànsit_CH"
 fr.shortdescription="Signalisation routière_CH"
 description="Tag easily ways and nodes for highways and traffic signs from Switzerland. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/CH/traffic_signs/CH/CH_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -812,6 +814,7 @@ baselanguage="es">
 	
 	<group name="Switzerland" ca.name="Suïssa" es.name="Suiza" icon="traffic_signs/CH/CH_.png">
 
+<group name="Warning" ca.name="Perill" de.name="Gefahrensignale" es.name="Peligro" icon="traffic_signs/CH/CH_1.01.png">
 
 <item name="CH:1.01" icon="traffic_signs/CH/CH_1.01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CH:1.01" />
@@ -968,6 +971,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CH:1.32" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftssignale" es.name="Reglamentación" icon="traffic_signs/CH/CH_2.01.png">
 
 <item name="CH:2.01" icon="traffic_signs/CH/CH_2.01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CH:2.01" />
@@ -1343,6 +1348,9 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CH:2.63" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+
+<group name="Priority" ca.name="Prioritat" de.name="Vortrittssignale" es.name="Prioridad" icon="traffic_signs/CH/CH_3.01.png">
 
 <item name="CH:3.01" icon="traffic_signs/CH/CH_3.01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CH:3.01" />
@@ -1409,6 +1417,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CH:3.22" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Information" ca.name="Informació" de.name="Hinweissignale" es.name="Información" icon="traffic_signs/CH/CH_4.01.png">
 
 <item name="CH:4.01" icon="traffic_signs/CH/CH_4.01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CH:4.01" />
@@ -1775,12 +1785,15 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CH:4.95" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Others" ca.name="Altres" de.name="Ergänzende Angaben zu Signalen" es.name="Otros" icon="traffic_signs/CH/CH_5.01.png">
 
 <item name="CH:5.01" icon="traffic_signs/CH/CH_5.01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CH:5.01" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CH:5.01" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
 		</group>
 	
 	

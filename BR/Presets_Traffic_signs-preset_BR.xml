@@ -4,8 +4,10 @@ es.shortdescription="Señales tráfico_BR"
 ca.shortdescription="Senyals trànsit_BR"
 fr.shortdescription="Signalisation routière_BR"
 description="Tag easily ways and nodes for highways and traffic signs from Brasil. Begin to be localizated."
-version="2.2016-09-03"
-baselanguage="es">
+version="2.2017-03-19"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BR/traffic_signs/BR/BR_.png"
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -812,6 +814,8 @@ baselanguage="es">
 	
 	<group name="Brazil" ca.name="Brasil" es.name="Brasil" icon="traffic_signs_presets/ES_tp18.png">
 	
+<group name="Warning" ca.name="Perill" de.name="Gefahrenzeichen" es.name="Peligro" pt.name="Advertência" icon="traffic_signs/BR/BR_A-10a.png">	
+	
 <item name="BR:A-10a" icon="traffic_signs/BR/BR_A-10a.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BR:A-10a" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BR:A-10a" />
@@ -1219,6 +1223,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BR:A-9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftszeichen" es.name="Reglamentación" pt.name="Regulamentação" icon="traffic_signs/BR/BR_R-1.png">
 
 <item name="BR:R-1" icon="traffic_signs/BR/BR_R-1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BR:R-1" />
@@ -1528,6 +1534,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BR:R-9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Services" ca.name="Serveis" es.name="Servicio" pt.name="Serviços Auxiliares" icon="traffic_signs/BR/BR_S-1.png">
 
 <item name="BR:S-1" icon="traffic_signs/BR/BR_S-1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BR:S-1" />
@@ -1624,6 +1632,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BR:S-9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Others" ca.name="Altres" de.name="Zusatztafeln" es.name="Otros" pt.name="Outras" icon="traffic_signs/BR/BR_STR-01.png">
 
 <item name="BR:STR-01" icon="traffic_signs/BR/BR_STR-01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BR:STR-01" />
@@ -2081,7 +2091,7 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 </group>
-							<group name="Others" ca.name="Altres" es.name="Otros" icon="traffic_signs_presets/ES_tp18.png">
+							<group name="Manual" ca.name="Manual" es.name="Manual" icon="traffic_signs_presets/ES_tp18.png">
 
 			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
@@ -2102,7 +2112,7 @@ baselanguage="es">
 		<space />
 		</item>
 		</group>
-	
+</group>	
 	
 	
 	
