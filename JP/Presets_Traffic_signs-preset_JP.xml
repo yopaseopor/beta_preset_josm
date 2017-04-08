@@ -4,7 +4,7 @@ es.shortdescription="Señales tráfico_JP"
 ca.shortdescription="Senyals trànsit_JP"
 fr.shortdescription="Signalisation routière_JP"
 description="Tag easily ways and nodes for highways and traffic signs from Japan. Begin to be localizated."
-version="1.2017-04-04"
+version="2.2017-04-08"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="traffic_signs/JP/JP_.png"
 baselanguage="ca">
@@ -821,6 +821,8 @@ baselanguage="ca">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
 
+<group name="Information" ca.name="Informació" de.name="Hinweiszeichen" es.name="Información" jp.name="情報" icon="traffic_signs/JP/JP_101.png">
+
 <item name="JP:101" icon="traffic_signs/JP/JP_101.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="JP:101" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:101" />
@@ -1420,6 +1422,8 @@ baselanguage="ca">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:126-C" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Warning" ca.name="Perill" de.name="Gefahrenzeichen" es.name="Peligro" jp.name="警告サイン" icon="traffic_signs/JP/JP_201-2.png">
 
 <item name="JP:201-2" icon="traffic_signs/JP/JP_201-2.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="JP:201-2" />
@@ -1618,6 +1622,8 @@ baselanguage="ca">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:215" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftszeichen" es.name="Reglamentación" jp.name="規制上の" icon="traffic_signs/JP/JP_301.png">
 
 <item name="JP:301" icon="traffic_signs/JP/JP_301.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="JP:301" />
@@ -2080,6 +2086,9 @@ baselanguage="ca">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:332" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+</group>
+<group name="Others" ca.name="Altres" de.name="Zusatztafeln" es.name="Otros" jp.name="その他" icon="traffic_signs/JP/JP_401.png">
+
 
 <item name="JP:401" icon="traffic_signs/JP/JP_401.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="JP:401" />
@@ -2164,6 +2173,8 @@ baselanguage="ca">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:409-B" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+
 
 <item name="JP:501_A" icon="traffic_signs/JP/JP_501_A.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="JP:501_A" />
@@ -2398,6 +2409,8 @@ baselanguage="ca">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="JP:514" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 </item>
+
+</group>
 
 							<group name="Manual" ca.name="Manual" es.name="Manual" icon="traffic_signs_presets/ES_tp18.png">
 
