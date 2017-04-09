@@ -6,7 +6,7 @@ fr.shortdescription="Signalisation routière_PT"
 description="Tag easily ways and nodes for highways and traffic signs from Portugal. Begin to be localizated."
 version="2.2017-03-19"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/PT/traffic_signs/PT/PT_.png"
+icon="traffic_signs/PT/PT_.png"
 baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
