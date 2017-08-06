@@ -117,7 +117,7 @@ baselanguage="es">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Tertiary" ca.name="Carretera local" es.name="Carretera local" icon="traffic_signs_presets/ES_tertiary.png" type="node,relation,way,closedway">
+			<item name="Tertiary" ca.name="Carretera local" es.name="Carretera local" icon="traffic_signs_presets/ES_S450.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="tertiary,tertiary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -717,7 +717,7 @@ baselanguage="es">
 			</item>
 			<separator/>
 
-			<item name="MOTORWAY JUNCTION" es.name="Salida" icon="traffic_signs_presets/ES_S26a.png" type="node,way,relation">
+			<item name="MOTORWAY JUNCTION" es.name="Salida" icon="traffic_signs_presets/ES_s26a.png" type="node,way,relation">
 			<combo key="distance" text="Distancia de la salida" values="300,200,100" default="" />
 			<text key="exitto" text="exit_to" default="" />
 			<text key="name" text="name" default="" />
@@ -777,11 +777,11 @@ baselanguage="es">
 			<key key="layer" value="-1" />
 			</item>
 
-<item name="Oneway" ca.name="1 sentit" es.name="1 Sentido" icon="traffic_signs_presets/ES_R101.png" type="way">
+<item name="Oneway" ca.name="1 sentit" es.name="1 Sentido" icon="traffic_signs_presets/ES_r101.png" type="way">
 			<key key="oneway" value="yes" />
 			</item>
 			
-			<item name="Noname" ca.name="Sense nom" es.name="Sin nombre" icon="traffic_signs_presets/ES_R101.png" type="way">
+			<item name="Noname" ca.name="Sense nom" es.name="Sin nombre" icon="traffic_signs_presets/ES_r101.png" type="way">
 			<key key="noname" value="yes" />
 			</item>
 			
@@ -1311,7 +1311,7 @@ baselanguage="es">
 
 				</group>
 
-					<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/ES/ES_R301-50.png" >
+					<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/ES/ES_R301_50.png" >
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="maxspeed" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="maxspeed" />
 					<text key="maxspeed:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
@@ -1379,7 +1379,7 @@ baselanguage="es">
 			</group>
 			<group name="Speed" ca.name="Velocitat" es.name="Velocidad" icon="traffic_signs/ES/ES_S7.png">
 
-				<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/ES/ES_R301-50.png" >
+				<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/ES/ES_R301_50.png" >
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="maxspeed" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="maxspeed" />
 					<text key="maxspeed:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
@@ -1557,10 +1557,10 @@ baselanguage="es">
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R416" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
-					<item name="Pedal cycles" ca.name="Carril bici" es.name="Carril bici" icon="traffic_signs/ES/ES_R407.png" type="node,way,relation">
+					<item name="Pedal cycles" ca.name="Carril bici" es.name="Carril bici" icon="traffic_signs/ES/ES_R407a.png" type="node,way,relation">
 					<key key="bicycle" value="designated" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R407" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R407" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R407a" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R407a" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
 					<item name="End bike lane" ca.name="Fi carril bici" es.name="Fin carril bici" icon="traffic_signs/ES/ES_R505.png" type="node,way,relation">
