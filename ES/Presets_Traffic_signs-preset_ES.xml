@@ -4458,9 +4458,6 @@ baselanguage="es">
 				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
 				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
 				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
-				<key key="colour:back" value="white" />
-				<key key="colour:text" value="black" />
-				<key key="colour:arrow" value="black" />
 				<text key="distance" text="Distance to the exit" ca.text="Distància que queda per a la sortida" es.text="Distancia que queda para la salida" />
 				<space />
 				<label text="1" ca.text="1" es.text="1"/>
@@ -4476,6 +4473,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:back:upper" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text:upper" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:upper" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
@@ -4505,6 +4543,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:back" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
@@ -4534,6 +4613,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:back:lower" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text:lower" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:lower" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
@@ -4554,7 +4674,7 @@ baselanguage="es">
 				<space />
 				<check key="traffic_sign:2:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S700" />
 				<check key="traffic_sign:2:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S700" />
-				<combo key="turn:destination:4" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
+				<combo key="turn:destination:lower_panel:upper" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -4564,8 +4684,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:4" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:4" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:lower_panel:upper" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:back:lower_panel:upper" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
@@ -4578,12 +4698,53 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:4" text="Destination 4" ca.text="Destí 4" es.text="Destino 4" />
-				<text key="destination:symbol:4" text="Destination symbol 4" ca.text="Símbol 4" es.text="Símbolo 4" />
+				
+				<combo key="colour:text:lower_panel:upper" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:lower_panel:upper" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<combo key="colour:ref:lower_panel:upper" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:lower_panel:upper" text="Destination 4" ca.text="Destí 4" es.text="Destino 4" />
+				<text key="destination:symbol:lower_panel:upper" text="Destination symbol 4" ca.text="Símbol 4" es.text="Símbolo 4" />
 				<space />
 				<label text="5" ca.text="5" es.text="5"/>
 				<space />
-				<combo key="turn:destination:5" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
+				<combo key="turn:destination:lower_panel" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -4593,8 +4754,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:5" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:5" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:lower_panel" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+								<combo key="colour:back:lower_panel" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
@@ -4607,12 +4768,53 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:5" text="Destination 5" ca.text="Destí 5" es.text="Destino 5" />
-				<text key="destination:symbol:5" text="Destination symbol 5" ca.text="Símbol 5" es.text="Símbolo 5" />
+				
+				<combo key="colour:text:lower_panel" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:lower_panel" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<combo key="colour:ref:lower_panel" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:lower_panel" text="Destination 5" ca.text="Destí 5" es.text="Destino 5" />
+				<text key="destination:symbol:lower_panel" text="Destination symbol 5" ca.text="Símbol 5" es.text="Símbolo 5" />
 				<space />
 				<label text="6" ca.text="6" es.text="6"/>
 				<space />
-				<combo key="turn:destination:6" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
+				<combo key="turn:destination:lower_panel:lower" icon="traffic_signs_presets/roundabout_complet.png" text="Direction of the destination" ca.text="Direcció de destí" es.text="Dirección de destino">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through_city.png" es.short_description="Recto" ca.short_description="Recte" />
 				<list_entry value="slight_right" display_value="slight_right" icon="traffic_signs_presets/black_slight_right_city.png" es.short_description="Derecha superior" ca.short_description="Dreta superior" />
 				<list_entry value="right" display_value="right" icon="traffic_signs_presets/black_right_city.png" es.short_description="Derecha" ca.short_description="Dreta" />
@@ -4622,8 +4824,8 @@ baselanguage="es">
 				<list_entry value="left" display_value="left" icon="traffic_signs_presets/black_left_city.png" es.short_description="Izquierda" ca.short_description="Esquerra"  />
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
-				<text key="destination:ref:6" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
-				<combo key="colour:ref:6" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<text key="destination:ref:lower_panel:lower" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+				<combo key="colour:back:lower_panel:lower" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
@@ -4636,8 +4838,49 @@ baselanguage="es">
 				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
 				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
 				</combo>
-				<text key="destination:6" text="Destination 6" ca.text="Destí 6" es.text="Destino 6" />
-				<text key="destination:symbol:6" text="Destination symbol 6" ca.text="Símbol 6" es.text="Símbolo 6" />
+				
+				<combo key="colour:text:lower_panel:lower" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:lower_panel:lower" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<combo key="colour:ref:lower_panel:lower" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				<text key="destination:lower_panel:lower" text="Destination 6" ca.text="Destí 6" es.text="Destino 6" />
+				<text key="destination:symbol:lower_panel:lower" text="Destination symbol 6" ca.text="Símbol 6" es.text="Símbolo 6" />
 				<space />
 				<label text="7" ca.text="7" es.text="7"/>
 				<space />
@@ -4654,6 +4897,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref:7" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+								<combo key="colour:back:7" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text:7" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:7" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref:7" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
@@ -4683,6 +4967,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref:8" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+								<combo key="colour:back:8" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text:8" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:8" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref:8" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
@@ -4712,6 +5037,47 @@ baselanguage="es">
 				<list_entry value="slight_left" display_value="slight_left"  icon="traffic_signs_presets/black_slight_left_city.png" es.short_description="Izquierda superior" ca.short_description="Esquerra superior" />
 				</combo>
 				<text key="destination:ref:9" text="Destination ref" ca.text="Referència de la destinació" es.text="Referencia de la destinación" />
+								<combo key="colour:back:9" text="Colour back" ca.text="Color de fons del panell" es.text="Color de fondo del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:text:9" text="Colour text" ca.text="Color del text del panell" es.text="Color del texto del panel">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
+				
+				<combo key="colour:arrow:9" text="Colour arrow" ca.text="Color de la fletxa" es.text="Color de la flecha">
+				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
+				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
+				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
+				<list_entry value="blue" display_value="blue" icon="traffic_signs_presets/blue.png" es.short_description="Azul" ca.short_description="Blau" />
+				<list_entry value="turquese" display_value="turquese" icon="traffic_signs_presets/turquese.png" es.short_description="Turquesa" ca.short_description="Turquesa" />
+				<list_entry value="yellow" display_value="yellow" icon="traffic_signs_presets/yellow.png" es.short_description="Amarillo" ca.short_description="Groc" />
+				<list_entry value="orange" display_value="orange" icon="traffic_signs_presets/orange.png" es.short_description="Naranja" ca.short_description="Orange" />
+				<list_entry value="red" display_value="red" icon="traffic_signs_presets/red.png" es.short_description="Rojo" ca.short_description="Vermell" />             
+				<list_entry value="purple" display_value="purple" icon="traffic_signs_presets/purple.png" es.short_description="Lila" ca.short_description="Lila"  />
+				<list_entry value="brown" display_value="brown"  icon="traffic_signs_presets/brown.png" es.short_description="Marrón" ca.short_description="Marró" />
+				<list_entry value="green" display_value="green"  icon="traffic_signs_presets/green.png" es.short_description="Verde" ca.short_description="Verd" />
+				</combo>
 				<combo key="colour:ref:9" text="Colour ref" ca.text="Color de referència" es.text="Color de referencia">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="grey" display_value="grey" icon="traffic_signs_presets/grey.png" es.short_description="Gris" ca.short_description="Gris" />
