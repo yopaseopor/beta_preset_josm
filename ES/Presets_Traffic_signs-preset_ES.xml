@@ -5906,7 +5906,7 @@ baselanguage="es">
 
 <item name="Complimentary" ca.name="Complementàries" es.name="Complementarias" icon="traffic_signs/ES/ES_S870.png" type="relation,way,node,closedway" preset_name_label="true">
 				<space />
-				<combo key="traffic_sign:2:forward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:2:forward" text="signal type forward" es.text="Tipo de señal sentido vía" ca.text="Tipus de senyal sentit via" match="keyvalue!">
 				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_S800.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_S810.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_S820.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -5914,7 +5914,23 @@ baselanguage="es">
 				<list_entry value="ES:S860" display_value="Others" ca.display_value="Altres" es.display_value="Otros" icon="traffic_signs/ES/ES_S860.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S870" display_value="Destination" ca.display_value="Destinació" es.display_value="Destinación" icon="traffic_signs/ES/ES_S870.png" short_description="" ca.short_description="" es.short_description=""/>
 				</combo>
-				<combo key="traffic_sign:2:backward" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<combo key="traffic_sign:3:forward" text="signal type, third position" es.text="Tipo de señal sentido vía, tercera posición" ca.text="Tipus de senyal sentit via, tercera posició" match="keyvalue!">
+				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_S800.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_S810.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_S820.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S840" display_value="STOP distance" ca.display_value="Distància STOP" es.display_value="Distancia STOP" icon="traffic_signs/ES/ES_S840.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S860" display_value="Others" ca.display_value="Altres" es.display_value="Otros" icon="traffic_signs/ES/ES_S860.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S870" display_value="Destination" ca.display_value="Destinació" es.display_value="Destinación" icon="traffic_signs/ES/ES_S870.png" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+				<combo key="traffic_sign:2:backward" text="signal type backward" es.text="Tipo de señal sentido contrario vía" ca.text="Tipus de senyal sentit contrari via" match="keyvalue!">
+				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_S800.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_S810.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_S820.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S840" display_value="STOP distance" ca.display_value="Distància STOP" es.display_value="Distancia STOP" icon="traffic_signs/ES/ES_S840.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S860" display_value="Others" ca.display_value="Altres" es.display_value="Otros" icon="traffic_signs/ES/ES_S860.png" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:S870" display_value="Destination" ca.display_value="Destinació" es.display_value="Destinación" icon="traffic_signs/ES/ES_S870.png" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+				<combo key="traffic_sign:3:backward" text="signal type backward, third position" es.text="Tipo de señal sentido contrario vía, tercera posición" ca.text="Tipus de senyal sentit contrari via, tercera posició" match="keyvalue!">
 				<list_entry value="ES:S800" display_value="Distance" ca.display_value="Distància" es.display_value="Distancia" icon="traffic_signs/ES/ES_S800.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S810" display_value="Length" ca.display_value="Llargada" es.display_value="Longitud" icon="traffic_signs/ES/ES_S810.png" short_description="" ca.short_description="" es.short_description=""/>
 				<list_entry value="ES:S820" display_value="Lateral length" ca.display_value="Llargada lateral" es.display_value="Longitud lateral" icon="traffic_signs/ES/ES_S820.png" short_description="" ca.short_description="" es.short_description=""/>
@@ -5937,9 +5953,7 @@ baselanguage="es">
 				<text key="distance" text="Distance" ca.text="Distància" es.text="Distancia" />
 				<text key="length" text="Length" ca.text="Llargada" es.text="Longitud" />
 				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:" match="keyvalue!" />
-</item> 
+				</item> 
 
 				<group name="Beacons" ca.name="Balises" es.name="Balizas" icon="traffic_signs/ES/ES_BS.png">
 					
