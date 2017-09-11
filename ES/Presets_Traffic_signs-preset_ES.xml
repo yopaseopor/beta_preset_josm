@@ -4,7 +4,7 @@ es.shortdescription="Señales tráfico_ES"
 ca.shortdescription="Senyals trànsit_ES"
 fr.shortdescription="Signalisation routière_ES"
 description="Tag easily ways and nodes for highways and traffic signs from Spain. Begin to be localizated."
-version="4.2017-08-03"
+version="4.2017-09-11"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_.png"
 baselanguage="es">
@@ -5872,19 +5872,71 @@ baselanguage="es">
 			
 			<group name="Others" ca.name="Altres" es.name="Otros" icon="traffic_signs/ES/ES_CAT_radar.png">
 
-				<item name="Milestone" ca.name="Punt quilomètric" es.name="Punto kilométrico" icon="traffic_signs/ES/ES_S573.png" type="node,way,relation">
-				<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
-				<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
-				<text key="colour:ref" text="Colour of highways`s plate" ca.text="Color de la placa de la via" es.text="Color de la placa de la vía" default="" />
-				<text key="int_ref" text="European route (if any)" ca.text="Ruta europea (si n`hi pertany)" es.text="Referencia ruta europea si la hay" default="" />
-				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S572" />
+				<group name="Milestones" ca.name="Punts quilomètrics" es.name="Puntos kilométricos" icon="traffic_signs/ES/ES_S572.png">
+					
+					<item name="Motorway Milestone" ca.name="Punt quilomètric a autopista/autovia" es.name="Punto kilométrico en autopista/autovía" icon="traffic_signs/ES/ES_S570.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which motorway?" ca.text="A quina autovia/autopista?" es.text="¿En qué autovía/autopista?" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S570" />
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<key key="colour:ref" value="blue" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					<item name="Motorway Milestone on European Route" ca.name="Punt quilomètric a autopista/autovia amb ruta internacional" es.name="Punto kilométrico en autopista/autovía con ruta internacional" icon="traffic_signs/ES/ES_S571.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which motorway?" ca.text="A quina autovia/autopista?" es.text="¿En qué autovía/autopista?" default="" />
+					<text key="int_ref" text="European route" ca.text="Ruta europea" es.text="Referencia ruta europea" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S571" />
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<key key="colour:ref" value="blue" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					<item name="Milestone" ca.name="Punt quilomètric" es.name="Punto kilométrico" icon="traffic_signs/ES/ES_S572.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
+					<text key="colour:ref" text="Colour of highways`s plate" ca.text="Color de la placa de la via" es.text="Color de la placa de la vía" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S572" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S572" />
-				<key key="highway" value="milestone" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
-				
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:" match="keyvalue!" />
-</item>
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					<item name="Milestone with European route" ca.name="Punt quilomètric amb ruta europea" es.name="Punto kilométrico con ruta europea" icon="traffic_signs/ES/ES_S573.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
+					<text key="colour:ref" text="Colour of highways`s plate" ca.text="Color de la placa de la via" es.text="Color de la placa de la vía" default="" />
+					<text key="int_ref" text="European route (if any)" ca.text="Ruta europea (si n`hi pertany)" es.text="Referencia ruta europea si la hay" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S573" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S573" />
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					<item name="Milestone pole" ca.name="Pal quilomètric" es.name="Poste kilométrico" icon="traffic_signs/ES/ES_S574.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
+					<text key="colour:ref" text="Colour of highways`s pole" ca.text="Color del pal de la via" es.text="Color del poste de la vía" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S574" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S574" />
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					<item name="Other Milestone pole" ca.name="Pal quilomètric(altres)" es.name="Poste kilométrico (otros)" icon="traffic_signs/ES/ES_S575.png" type="node,way,relation">
+					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
+					<text key="ref" text="In which road?" ca.text="A quina carretera?" es.text="¿En qué carretera?" default="" />
+					<text key="colour:ref" text="Colour of highways`s pole" ca.text="Color del pal de la via" es.text="Color del poste de la vía" default="" />
+					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S575" />
+					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S575" />
+					<key key="highway" value="milestone" match="keyvalue!" />
+					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
+					</item>
+					
+					
+
+</group>
 
 				<item name="Speed camera" ca.name="Radar" es.name="Radar" icon="traffic_signs/ES/ES_CAT_radar.png" type="node,way,relation">
 				<text key="maxspeed" text="Velocidad" default="" />
