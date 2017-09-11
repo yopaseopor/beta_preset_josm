@@ -5877,7 +5877,7 @@ baselanguage="es">
 					<item name="Motorway Milestone" ca.name="Punt quilomètric a autopista/autovia" es.name="Punto kilométrico en autopista/autovía" icon="traffic_signs/ES/ES_S570.png" type="node,way,relation">
 					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
 					<text key="ref" text="In which motorway?" ca.text="A quina autovia/autopista?" es.text="¿En qué autovía/autopista?" default="" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S570" />
+					<key key="traffic_sign:forward" value="ES:S570" match="keyvalue!" />
 					<key key="highway" value="milestone" match="keyvalue!" />
 					<key key="colour:ref" value="blue" match="keyvalue!" />
 					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
@@ -5887,7 +5887,7 @@ baselanguage="es">
 					<text key="pk" text="Milestone number" ca.text="Punt quilomètric" es.text="Punto kilométrico" default="" />
 					<text key="ref" text="In which motorway?" ca.text="A quina autovia/autopista?" es.text="¿En qué autovía/autopista?" default="" />
 					<text key="int_ref" text="European route" ca.text="Ruta europea" es.text="Referencia ruta europea" default="" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S571" />
+					<key key="traffic_sign:forward" value="ES:S571" match="keyvalue!" />
 					<key key="highway" value="milestone" match="keyvalue!" />
 					<key key="colour:ref" value="blue" match="keyvalue!" />
 					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /> 
