@@ -2888,7 +2888,7 @@ baselanguage="es">
 				<list_entry value="black" display_value="black" icon="traffic_signs_presets/black.png" es.short_description="Negro" ca.short_description="Negre" />
 				<list_entry value="white" display_value="white" icon="traffic_signs_presets/white.png" es.short_description="Blanco" ca.short_description="Blanc" />
 				</combo>
-				<text key="junction:ref" text="Reference" ca.text="Referència" es.text="Referencia" />
+				<text key="ref" text="Reference" ca.text="Referència" es.text="Referencia" />
 				<text key="junction:distance" text="Distance to the exit" ca.text="Distància que queda per a la sortida" es.text="Distancia que queda para la salida" />
 				<combo key="turn:destination" icon="traffic_signs_presets/black_through.png" text="Arrow" ca.text="Fletxa" es.text="Flecha">
 				<list_entry value="through" display_value="through" icon="traffic_signs_presets/black_through.png" es.short_description="Recto" ca.short_description="Recte" />
