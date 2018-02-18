@@ -332,7 +332,7 @@ baselanguage="en">
 			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="direction" text="Direction of the traffic sign" ca.text="Sentit" es.text="Sentido" values="forward,backward,both" ca.display_values="Sentit via,Sentit contrari,Ambdós" es.display_values="Sentido vía,Sentido contrario,Ambos" default="forward"  />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 			</optional>
 			</item>
 
@@ -410,7 +410,7 @@ baselanguage="en">
 			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="direction" text="Direction of the traffic sign" ca.text="Sentit" es.text="Sentido" values="forward,backward,both" ca.display_values="Sentit via,Sentit contrari,Ambdós" es.display_values="Sentido vía,Sentido contrario,Ambos" default="forward"  />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 			</optional>
 			</item>
 
@@ -816,7 +816,7 @@ baselanguage="en">
 
 			<item name="Direction" ca.name="Sentit" es.name="Sentido" icon="traffic_signs_presets/ES_traffic_sign_dir.png" type="node,way,relation">
 			<combo key="direction" text="Direction of the traffic sign" ca.text="Sentit" es.text="Sentido" values="forward,backward,both" ca.display_values="Sentit via,Sentit contrari,Ambdós" es.display_values="Sentido vía,Sentido contrario,Ambos" default="forward"  />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 			</item>
 
 			<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/BE/BE_A33.png">
@@ -826,13 +826,13 @@ baselanguage="en">
 						<item name="Main road" ca.name="Carretera principal" es.name="Carretera principal" icon="traffic_signs/BE/BE_B9.png" type="node,way,relation">
 						<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:B9" />
 						<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:B9" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 						</item>
 
 						<item name="End of main road" ca.name="Final de prioritat" es.name="Final de prioridad" icon="traffic_signs/BE/BE_B11.png" type="node,way,relation">
 						<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:B11" />
 						<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:B11" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 						</item> 
 
 					</group>
@@ -840,20 +840,20 @@ baselanguage="en">
 					<item name="Cross" ca.name="Encreuament amb prioritat" es.name="Cruce con prioridad" fr.name="Croisement" icon="traffic_signs/BE/BE_B15.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:B15" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:B15" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Cross without priority" ca.name="Encreuament sense prioritat establerta" es.name="Cruce sin prioridad establecida" icon="traffic_signs/BE/BE_B17.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:B17" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:B17" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Traffic signals" ca.name="Semàfor" es.name="Semáforo" icon="traffic_signs/BE/BE_A33.png" type="node,way,relation">
 <key key="highway" value="traffic_signals" match="keyvalue!" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A33" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A33" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item> 
 
 					</group>
@@ -864,13 +864,13 @@ baselanguage="en">
 					<key key="destination:symbol" value="drawbridge" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A9" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A9" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 					<item name="Tram" ca.name="Tramvia" es.name="Tranvía" icon="traffic_signs/BE/BE_A49.png" type="node,way,relation">
 					<key key="destination:symbol" value="tram" match="keyvalue!" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A49" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A49" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Level crossing" ca.name="Pas a nivell amb barreres" es.name="Paso a nivel con barreras" icon="traffic_signs/BE/BE_A41.png" type="node,way,relation">
@@ -878,14 +878,14 @@ baselanguage="en">
 					<key key="level_crossing" value="automatic_barrier" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A41" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A41" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 					<item name="Uncontrolled level crossing" ca.name="Pas a nivell sense barreres" es.name="Paso a nivel sin barreras" icon="traffic_signs/BE/BE_A43.png" type="node,way,relation">
 					<key key="destination:symbol" value="level_crossing" match="keyvalue!" />
 					<key key="level_crossing" value="uncontrolled" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A43" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A43" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 					<item name="Uncontrolled level crossing 1 rail" ca.name="Pas a nivell sense barreres 1 via" es.name="Paso a nivel sin barreras 1 vía" icon="traffic_signs/BE/BE_A45.png" type="node,way,relation">
 					<key key="destination:symbol" value="level_crossing" match="keyvalue!" />
@@ -893,7 +893,7 @@ baselanguage="en">
 					<key key="tracks" value="1" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A45" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A45" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 					<item name="Uncontrolled level crossing 2 rail" ca.name="Pas a nivell sense barreres 2 vies" es.name="Paso a nivel sin barreras 2 vías" icon="traffic_signs/BE/BE_A47.png" type="node,way,relation">
 					<key key="destination:symbol" value="level_crossing" match="keyvalue!" />
@@ -901,7 +901,7 @@ baselanguage="en">
 					<key key="tracks" value="2" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A47" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A47" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>		  
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>		  
 
 				</group>
 
@@ -909,14 +909,14 @@ baselanguage="en">
 				<key key="destination:symbol" value="aerodrome" match="keyvalue!" />
 				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A35" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A35" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 				<group name="Lane" ca.name="Calçada" fr.name="Voie" es.name="Calzada" icon="traffic_signs/BE/BE_A7.png">
 
 					<item name="Right curve" ca.name="Corba a dreta" es.name="Curva a derecha" icon="traffic_signs/BE/BE_A1b.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A1b" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:A1b" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  /></item>
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" /></item>
 
 					<item name="Left curve" ca.name="Corba a esquerra" es.name="Curva a izquierda" icon="traffic_signs/BE/BE_A1a.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:A1a" />
