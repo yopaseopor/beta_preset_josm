@@ -240,7 +240,7 @@ baselanguage="en">
 			<key key="lanes" value="1" />
 			<combo key="footway" text="Types" ca.text="Tipus" es.text="Tipos" values="sidewalk,crossing" ca.display_values="vorera,pas de vianants" es.display_values="acera,cruce de peatones" />
 			<optional>
-			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no"/>
+			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" values_context="kerb" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no" />
 			<text key="incline" text="Incline (%)" ca.text="Inclinació (%)" es.text="Inclinación (%)" />
 			<text key="incline:across" text="Incline across (%)" ca.text="Inclinació de l'ample (%)" es.text="Inclinación del ancho(%)" />
 			<combo key="smoothness" text="Kerb's smoothness"  ca.text="Estat de la vorera" es.text="Estado de la acera" values="excellent,good,intermediate,bad,very_bad" ca.display_values="excel·lent,bo,normal,dolent,molt dolent" es.display_values="excelente,bueno,normal,malo,muy malo" />
@@ -438,7 +438,7 @@ baselanguage="en">
 			<item name="Accesibility and other disabilities" ca.name="Accesibilitat i d'altres discapacitats" es.name="Accesibilidad y otras discapacidades" icon="traffic_signs_presets/4handicaps.png" type="node,relation,way,closedway">
 			<label text="Walking impairment/wheelchair drivers/stroller" ca.text="Impediments per caminar/Cadira de rodes/Carret" es.text="Impedimentos para caminar/Silla de ruedas/Carrito"/>
 			<space />
-			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no"/>
+			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" values_context="kerb" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no" />
 			<text key="incline" text="Incline (%)" ca.text="Inclinació (%)" es.text="Inclinación (%)" />
 			<text key="incline:across" text="Incline across (%)" ca.text="Inclinació de l'ample (%)" es.text="Inclinación del ancho(%)" />
 			<combo key="smoothness" text="Kerb's smoothness"  ca.text="Estat de la vorera" es.text="Estado de la acera" values="excellent,good,intermediate,bad,very_bad" ca.display_values="excel·lent,bo,normal,dolent,molt dolent" es.display_values="excelente,bueno,normal,malo,muy malo" />

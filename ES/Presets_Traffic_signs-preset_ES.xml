@@ -4,11 +4,7 @@ es.shortdescription="Señales tráfico_ES"
 ca.shortdescription="Senyals trànsit_ES"
 fr.shortdescription="Signalisation routière_ES"
 description="Tag easily ways and nodes for highways and traffic signs from Spain. Begin to be localizated."
-<<<<<<< HEAD
 version="5.2018-06-08"
-=======
-version="5.2018-06-01"
->>>>>>> ec46e2db20357f9231bdc621d1ce5d3d6523ba08
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_.png"
 baselanguage="es">
@@ -244,7 +240,7 @@ baselanguage="es">
 			<key key="lanes" value="1" />
 			<combo key="footway" text="Types" ca.text="Tipus" es.text="Tipos" values="sidewalk,crossing" ca.display_values="vorera,pas de vianants" es.display_values="acera,cruce de peatones" />
 			<optional>
-			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no"/>
+			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" values_context="kerb" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no" />
 			<text key="incline" text="Incline (%)" ca.text="Inclinació (%)" es.text="Inclinación (%)" />
 			<text key="incline:across" text="Incline across (%)" ca.text="Inclinació de l'ample (%)" es.text="Inclinación del ancho(%)" />
 			<combo key="smoothness" text="Kerb's smoothness"  ca.text="Estat de la vorera" es.text="Estado de la acera" values="excellent,good,intermediate,bad,very_bad" ca.display_values="excel·lent,bo,normal,dolent,molt dolent" es.display_values="excelente,bueno,normal,malo,muy malo" />
@@ -442,7 +438,7 @@ baselanguage="es">
 			<item name="Accesibility and other disabilities" ca.name="Accesibilitat i d'altres discapacitats" es.name="Accesibilidad y otras discapacidades" icon="traffic_signs_presets/4handicaps.png" type="node,relation,way,closedway">
 			<label text="Walking impairment/wheelchair drivers/stroller" ca.text="Impediments per caminar/Cadira de rodes/Carret" es.text="Impedimentos para caminar/Silla de ruedas/Carrito"/>
 			<space />
-			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no"/>
+			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" values_context="kerb" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no" />
 			<text key="incline" text="Incline (%)" ca.text="Inclinació (%)" es.text="Inclinación (%)" />
 			<text key="incline:across" text="Incline across (%)" ca.text="Inclinació de l'ample (%)" es.text="Inclinación del ancho(%)" />
 			<combo key="smoothness" text="Kerb's smoothness"  ca.text="Estat de la vorera" es.text="Estado de la acera" values="excellent,good,intermediate,bad,very_bad" ca.display_values="excel·lent,bo,normal,dolent,molt dolent" es.display_values="excelente,bueno,normal,malo,muy malo" />
@@ -1791,11 +1787,7 @@ baselanguage="es">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R400a" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R400a" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
-<<<<<<< HEAD
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R400a" match="keyvalue!" />
-=======
 <check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R400a:" match="keyvalue!" />
->>>>>>> ec46e2db20357f9231bdc621d1ce5d3d6523ba08
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R400a" match="keyvalue!" />
 </item> 
 
@@ -1915,13 +1907,9 @@ baselanguage="es">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R416" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R416" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
-<<<<<<< HEAD
 <check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R416" match="keyvalue!" />
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R416" match="keyvalue!" />
-=======
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R417" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R417" match="keyvalue!" />
->>>>>>> ec46e2db20357f9231bdc621d1ce5d3d6523ba08
+
 </item> 
 
 					<item name="Pedal cycles" ca.name="Carril bici" es.name="Carril bici" icon="traffic_signs/ES/ES_R407a.png" type="node,way,relation">
@@ -1946,11 +1934,7 @@ baselanguage="es">
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S33" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 <check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:S33" match="keyvalue!" />
-<<<<<<< HEAD
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:S33" match="keyvalue!" />
-=======
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:S3" match="keyvalue!" />
->>>>>>> ec46e2db20357f9231bdc621d1ce5d3d6523ba08
 </item> 
 
 					<item name="Carriage" ca.name="Tracció animal" es.name="Tracción animal" icon="traffic_signs/ES/ES_R408.png" type="node,way,relation">
@@ -2008,13 +1992,8 @@ baselanguage="es">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R413" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R413" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
-<<<<<<< HEAD
 <check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R413" match="keyvalue!" />
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R413" match="keyvalue!" />
-=======
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="ES:R412" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R412" match="keyvalue!" />
->>>>>>> ec46e2db20357f9231bdc621d1ce5d3d6523ba08
 </item> 
 
 					<item name="End lights" ca.name="Fi d'obligació de llum de cruïlla" es.name="Fin de luz de cruce" icon="traffic_signs/ES/ES_S24.png" type="node,way,relation">
