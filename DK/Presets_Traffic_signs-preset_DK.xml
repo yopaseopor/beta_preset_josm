@@ -296,13 +296,13 @@ baselanguage="ca">
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="highway" text="Highway's type" ca.text="Tipus de via" es.text="Tipo de vía" values="tertiary,residential,living_street,pedestrian" ca.display_values="terciària,carrer,zona residencial,vianants" es.display_values="terciaria,calle,zona residencial,peatonal" />
 			<check key="leisure" text="Park" ca.text="Parc" es.text="Parque" value_on="park" />
-			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
+			<check key="landcover" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
 			</item>
 
 			<item name="Traffic_island" ca.name="Illeta" es.name="Isleta" icon="traffic_signs_presets/service.png" type="way,closedway,relation,node">
-						<key key="landuse" value="traffic_island" />
+						<key key="traffic_calming" value="island" />
 			<check key="kerb" text="Kerb" ca.text="Vorada" es.text="Bordillo"/>
-			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
+			<check key="landcover" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
 			<check key="leisure" text="Garden" ca.text="Jardí" es.text="Jardín" value_on="garden" />
 			<check key="tourism" text="artwork (roundabout)" ca.text="monument,escultura de rotonda" es.text="monumento,escultura de rotonda" value_on="artwork" />
 			<text key="artwork" text="architecture,mural,painting,sculpture,statue,stone..." ca.text="arquitectura,mural,pintura,escultura,estatua,monolit..." es.text="arquitectura,mural,pintura,escultura,estatua,monolit..."/>
@@ -625,7 +625,7 @@ baselanguage="ca">
 			<combo key="traffic_sign" text="Código señal">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="XX:s520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back" text="Colour of background" />
 			<text key="colour:text" text="Colour of text" />
@@ -678,7 +678,7 @@ baselanguage="ca">
 			<combo key="traffic_sign:b" text="Código señal:b">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway:b" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="XX:s520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back:b" text="Colour of background:b" />
 			<text key="colour:text:b" text="Colour of text:b" />
@@ -727,7 +727,7 @@ baselanguage="ca">
 			<text key="name" text="name" default="" />
 			<text key="ref" text="ref" default="" />
 			<key key="highway" value="motorway_junction" match="keyvalue!" />
-			<key key="traffic_sign" value="ES:s26a" />
+			<key key="traffic_sign" value="XX:s26a" />
 			<combo key="direction" text="Sentido" values="forward,backward,both" default="forward"  />
 			<combo key="side" text="Lado de la vía" values="right,left,up,down,both" default="right"  />
 			</item> 

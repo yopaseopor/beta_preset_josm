@@ -296,14 +296,14 @@ baselanguage="es">
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="highway" text="Highway's type" ca.text="Tipus de via" es.text="Tipo de vía" values="tertiary,residential,living_street,pedestrian" ca.display_values="terciària,carrer,zona residencial,vianants" es.display_values="terciaria,calle,zona residencial,peatonal" />
 			<check key="leisure" text="Park" ca.text="Parc" es.text="Parque" value_on="park" />
-			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
+			<check key="landcover" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
 			</item>
 
 			<item name="Traffic_island" ca.name="Illeta" es.name="Isleta" icon="traffic_signs_presets/service.png" type="way,closedway,relation,node">
 			<key key="area" value="yes" />
-			<key key="landuse" value="traffic_island" />
+			<key key="traffic_calming" value="island" />
 			<check key="kerb" text="Kerb" ca.text="Vorada" es.text="Bordillo"/>
-			<check key="landuse" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
+			<check key="landcover" text="Grass" ca.text="Herba,descurat" es.text="Hierba,sin cuidado" value_on="grass" />
 			<check key="leisure" text="Garden" ca.text="Jardí" es.text="Jardín" value_on="garden" />
 			<check key="tourism" text="artwork (roundabout)" ca.text="monument,escultura de rotonda" es.text="monumento,escultura de rotonda" value_on="artwork" />
 			<text key="artwork" text="architecture,mural,painting,sculpture,statue,stone..." ca.text="arquitectura,mural,pintura,escultura,estatua,monolit..." es.text="arquitectura,mural,pintura,escultura,estatua,monolit..."/>
@@ -626,7 +626,7 @@ baselanguage="es">
 			<combo key="traffic_sign" text="Código señal">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="XX:s520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back" text="Colour of background" />
 			<text key="colour:text" text="Colour of text" />
@@ -679,7 +679,7 @@ baselanguage="es">
 			<combo key="traffic_sign:b" text="Código señal:b">
 			<list_entry value="" display_value="" es.short_description="" ca.short_description=""  />
 			<list_entry value="highway:b" display_value="Carretera" es.short_description="Carretera normal y corriente" ca.short_description="Carretera normal i corrent" />
-			<list_entry value="ES:s520" display_value="Autopista" short_description="Autopista o autovía" />
+			<list_entry value="XX:s520" display_value="Autopista" short_description="Autopista o autovía" />
 			</combo>
 			<text key="colour:back:b" text="Colour of background:b" />
 			<text key="colour:text:b" text="Colour of text:b" />
@@ -728,7 +728,7 @@ baselanguage="es">
 			<text key="name" text="name" default="" />
 			<text key="ref" text="ref" default="" />
 			<key key="highway" value="motorway_junction" match="keyvalue!" />
-			<key key="traffic_sign" value="ES:s26a" />
+			<key key="traffic_sign" value="XX:s26a" />
 			<combo key="direction" text="Sentido" values="forward,backward,both" default="forward"  />
 			<combo key="side" text="Lado de la vía" values="right,left,up,down,both" default="right"  />
 			</item> 
@@ -815,6 +815,22 @@ baselanguage="es">
 	<group name="B.Traffic signs (by countries)" ca.name="B.Senyals (per països)" es.name="B.Señales (por países)" icon="traffic_signs_presets/ES_traffic_sign_dir.png">
 	
 	<group name="Perú" ca.name="Perú" es.name="Perú" icon="traffic_signs_presets/ES_tp18.png">
+	
+				<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/DE/DE_250.png">
+			
+			<item name="Advisory speed" ca.name="Velocitat recomanada" es.name="Velocidad recomendada" icon="traffic_signs/DE/DE_380-52.png" type="node,way,relation">
+				<key key="traffic_sign" value="regulatory" />
+				<key key="regulatory" value="advisory" />
+				<key key="advisory" value="maxspeed" />
+				<text key="maxspeed:advisory" text="Specify advisory speed" ca.text="Velocitat recomanada" es.text="Velocidad recomendada"/>
+				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:384" />
+			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:384" />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="PE:384" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="PE:384" match="keyvalue!" />
+			</item> 
+							
+				</group>
 	
 	
 <item name="PE:" icon="traffic_signs/PE/PE_.png" type="node,way,relation">
