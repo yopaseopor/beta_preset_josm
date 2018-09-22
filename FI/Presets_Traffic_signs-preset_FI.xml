@@ -4,7 +4,7 @@ es.shortdescription="Señales tráfico_FI"
 ca.shortdescription="Senyals trànsit_FI"
 fr.shortdescription="Signalisation routière_FI"
 description="Tag easily ways and nodes for highways and traffic signs from Finland. Begin to be localizated."
-version="3.2017-03-19"
+version="3.2018-09-22"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/FI/traffic_signs/FI/FI_.png"
 baselanguage="en">
@@ -829,12 +829,16 @@ baselanguage="en">
 						<item name="Main road" ca.name="Carretera principal" es.name="Carretera principal" icon="traffic_signs/FI/FI_211.png" type="node,way,relation">
 						<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:211" />
 						<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:211" />
+						<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:211" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:211" />
 						<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 						</item>
 
 						<item name="End of main road" ca.name="Final de prioritat" es.name="Final de prioridad" icon="traffic_signs/FI/FI_212.png" type="node,way,relation">
 						<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:212" />
 						<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:212" />
+						<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:212" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:212" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 						</item> 
 
@@ -843,30 +847,40 @@ baselanguage="en">
 					<item name="Cross" ca.name="Encreuament amb prioritat" es.name="Cruce con prioridad" fr.name="Croisement" icon="traffic_signs/FI/FI_162.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:162" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:162" />
+					<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:162" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:162" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Right cross" ca.name="Encreuament per la dreta" es.name="Cruce por la derecha" icon="traffic_signs/FI/FI_163r.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:163r" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:163r" />
+					<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:163r" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:163r" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Left cross" ca.name="Encreuament per l'esquerra" es.name="Cruce por la izquierda" icon="traffic_signs/FI/FI_163l.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:163l" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:163l" />
+					<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:1631" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:1631" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Right incorporation" ca.name="Incorporació a la dreta" es.name="Incorporación a la derecha" icon="traffic_signs/FI/FI_164r.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:164r" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:164r" />
+					<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:164r" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:164r" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
 					<item name="Left incorporation" ca.name="Incorporació a l'esquerra" es.name="Incorporación a la izquierda" icon="traffic_signs/FI/FI_164l.png" type="node,way,relation">
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="FI:164l" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="FI:164l" />
+					<check key="traffic_sign:2:forward" text="Forward, 2nd position" ca.text="En el sentit de la marxa, 2a posició" es.text="En el sentido de la marcha, 2a posición" default="off" value_off="" value_on="FI:1641" />
+						<check key="traffic_sign:2:backward" text="Backward, 2nd position" ca.text="En sentit contrari, 2a posició" es.text="En sentido contrario, 2a posición" default="off" value_off="" value_on="FI:1641" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 					</item>
 
