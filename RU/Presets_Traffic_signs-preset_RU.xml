@@ -1,4 +1,4 @@
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_RU"
 es.shortdescription="Señales tráfico_RU"
 ca.shortdescription="Senyals trànsit_RU"
@@ -18,7 +18,7 @@ baselanguage="ca">
 			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs/RU/RU_6.14.1_A.png" type="node,relation,way,closedway">
 			<label text="Common propierties" ca.text="Propietats comuns" es.text="Propiedades comunes" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" default="motorway"> 
-			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="http://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
+			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="https://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
 			<list_entry value="motorway_link" display_value="Link" short_description="Link" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg" ca.display_value="Enllaç" ca.short_description="Enllaç cap a o des de l'autopista" es.display_value="Enlace" es.short_description="Enlace hacia o desde la autopista" />
 			</combo>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="motorway,motorway_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace" />
@@ -220,7 +220,7 @@ baselanguage="ca">
 			<text text="Capacity (each side)" ca.text="Capacitat" es.text="Capacidad" key="parking:condition:left:capacity" />
 			<text text="Residents permit ref" ca.text="Zones verdes/Residents" es.text="Zonas verdes/Residentes" key="parking:condition:left:residents" />
 			<text text="Customers of" ca.text="Clients de" de.text="Kunden von" es.text="Clientes de" key="parking:condition:left:customers" />
-			<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/parking:lane" />
+			<link href="https://wiki.openstreetmap.org/wiki/Proposed_features/parking:lane" />
 			<space />		   
 			<label text="Cicle lanes" ca.text="Carrils bici" es.text="Carriles bici" />
 			<combo text="cycleway right" ca.text="Carril bici a la banda dreta" es.text="Carril bici en el lado derecho" key="cycleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,carril s. contrari,carril compartit,carril bus,via compartida,via segregada,s. contrari via segregada" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
@@ -310,15 +310,15 @@ baselanguage="ca">
 			</item>
 												
 			<item name="Traffic Signal" ca.name="Semàfor" es.name="Semáforo" icon="traffic_signs_presets/traffic_signals.svg" type="node" preset_name_label="true">
-			<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=traffic_signals"
-			ca.href="http://wiki.openstreetmap.org/wiki/CA:Tag:highway=traffic_signals"
-			es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:highway=traffic_signals"
-			de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=traffic_signals"
-			fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway=traffic_signals"
-			ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:highway=traffic_signals"
-			pl.href="http://wiki.openstreetmap.org/wiki/Pl:Tag:highway=traffic_signals"
-			pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=traffic_signals"
-			ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals" />
+			<link href="https://wiki.openstreetmap.org/wiki/Tag:highway=traffic_signals"
+			ca.href="https://wiki.openstreetmap.org/wiki/CA:Tag:highway=traffic_signals"
+			es.href="https://wiki.openstreetmap.org/wiki/ES:Tag:highway=traffic_signals"
+			de.href="https://wiki.openstreetmap.org/wiki/DE:Tag:highway=traffic_signals"
+			fr.href="https://wiki.openstreetmap.org/wiki/FR:Tag:highway=traffic_signals"
+			ja.href="https://wiki.openstreetmap.org/wiki/JA:Tag:highway=traffic_signals"
+			pl.href="https://wiki.openstreetmap.org/wiki/Pl:Tag:highway=traffic_signals"
+			pt_BR.href="https://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=traffic_signals"
+			ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals" />
 			<key key="highway" value="traffic_signals" />
 			<optional>
 			<label text="Crossings:" ca.text="Pas de vianants:" es.text="Paso de peatones:"/>
@@ -387,7 +387,7 @@ baselanguage="ca">
 			<text text="Capacity (each side)" ca.text="Capacitat" es.text="Capacidad" key="parking:condition:left:capacity" />
 			<text text="Residents permit ref" ca.text="Zones verdes/Residents" es.text="Zonas verdes/Residentes" key="parking:condition:left:residents" />
 			<text text="Customers of" ca.text="Clients de" de.text="Kunden von" es.text="Clientes de" key="parking:condition:left:customers" />
-			<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/parking:lane" />
+			<link href="https://wiki.openstreetmap.org/wiki/Proposed_features/parking:lane" />
 			<space />			 
 			</item>
 
@@ -481,14 +481,14 @@ baselanguage="ca">
 
 			<item name="Construction" ca.name="En construcció" es.name="En construcción" icon="traffic_signs_presets/construction.png" type="way,closedway">
 			<label text="Edit Highway Under Construction" ca.text="Editar via en construcció" es.text="Editar vía en construcción"/>
-			<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=construction"
-			ca.href="http://wiki.openstreetmap.org/wiki/CA:Key:construction"
-			de.href="http://wiki.openstreetmap.org/wiki/DE:Key:construction"
-			es.href="http://wiki.openstreetmap.org/wiki/ES:Key:construction"
-			fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:construction"
-			it.href="http://wiki.openstreetmap.org/wiki/IT:Key:construction"
-			pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:construction"
-			ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:construction" />
+			<link href="https://wiki.openstreetmap.org/wiki/Tag:highway=construction"
+			ca.href="https://wiki.openstreetmap.org/wiki/CA:Key:construction"
+			de.href="https://wiki.openstreetmap.org/wiki/DE:Key:construction"
+			es.href="https://wiki.openstreetmap.org/wiki/ES:Key:construction"
+			fr.href="https://wiki.openstreetmap.org/wiki/FR:Key:construction"
+			it.href="https://wiki.openstreetmap.org/wiki/IT:Key:construction"
+			pt_BR.href="https://wiki.openstreetmap.org/wiki/Pt-br:Key:construction"
+			ru.href="https://wiki.openstreetmap.org/wiki/RU:Key:construction" />
 			<space />
 			<key key="highway" value="construction" />
 			<optional>
@@ -533,11 +533,11 @@ baselanguage="ca">
 		<optional>
 		<label text="Track propierties" ca.text="Propietats camí" es.text="Track propierties"/>
 		<combo key="tracktype" text="Tracktype" ca.text="Tipus de camí" es.text="Tipo de camino"> 
-		<list_entry value="grade1" display_value="Grade 1" short_description="Solid. Usually a paved or heavily compacted hardcore surface." icon="http://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Grau 1" ca.short_description="Pavimentat amb formigó, amb grava compacta també podria ser" es.display_value="Grado 1" es.short_description="Pavimentado con hormigón, grava compacta también podría ser" />
-		<list_entry value="grade2" display_value="Grade 2" short_description="Mostly solid. Usually an unpaved track with surface of gravel mixed with a varying amount of sand, silt, and clay. See Wikipedia Gravel road on Wikipedia." icon="http://wiki.openstreetmap.org/w/images/thumb/5/52/Surface_grade2.jpg/80px-Surface_grade2.jpg" ca.display_value="Grau 2" ca.short_description="Sense pavimentar, però acondicionat , amb grava, per exemple.Practicable amb utilitari normal." es.display_value="Grado 2" es.short_description="Sin pavimentar, pero acondicionado , con gravilla por ejemplo.Practicable con utilitario normal." />
-		<list_entry value="grade3" display_value="Grade 3" short_description="Even mixture of hard and soft materials. Almost always an unpaved track." icon="http://wiki.openstreetmap.org/w/images/thumb/6/64/Surface_grade3.jpg/80px-Surface_grade3.jpg" ca.display_value="Grau 3" ca.short_description="Sense pavimentar, mal acondicionat, practicable només amb 4x4" es.display_value="Grado 3" es.short_description="Sin pavimentar, mal acondicionado, practicable sólo en 4x4" />
-		<list_entry value="grade4" display_value="Grade 4" short_description="Mostly soft. Almost always an unpaved track prominently with soil/sand/grass, but with some hard materials, or compressed materials mixed in." icon="http://wiki.openstreetmap.org/w/images/thumb/4/4a/Surface_grade4.jpg/80px-Surface_grade4.jpg" ca.display_value="Grau 4" ca.short_description="Sense pavimentar, en mal estat, no practicable en vehicle." es.display_value="Grado 4" es.short_description="Sin pavimentar, en mal estado, no practicable en vehículo." />
-		<list_entry value="grade5" display_value="Grade 5" short_description="Soft. Almost always an unpaved track lacking hard materials, uncompacted, subtle on the landscape, with surface of soil/sand/grass." icon="http://wiki.openstreetmap.org/w/images/thumb/6/65/Surface_grade5.jpg/80px-Surface_grade5.jpg" ca.display_value="Grau 5" ca.short_description="Sense pavimentar, amb traçat desdibuixat o no practicable." es.display_value="Grado 5" es.short_description="Sin pavimentar, con trazado desdibujado o no practicable." />
+		<list_entry value="grade1" display_value="Grade 1" short_description="Solid. Usually a paved or heavily compacted hardcore surface." icon="https://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Grau 1" ca.short_description="Pavimentat amb formigó, amb grava compacta també podria ser" es.display_value="Grado 1" es.short_description="Pavimentado con hormigón, grava compacta también podría ser" />
+		<list_entry value="grade2" display_value="Grade 2" short_description="Mostly solid. Usually an unpaved track with surface of gravel mixed with a varying amount of sand, silt, and clay. See Wikipedia Gravel road on Wikipedia." icon="https://wiki.openstreetmap.org/w/images/thumb/5/52/Surface_grade2.jpg/80px-Surface_grade2.jpg" ca.display_value="Grau 2" ca.short_description="Sense pavimentar, però acondicionat , amb grava, per exemple.Practicable amb utilitari normal." es.display_value="Grado 2" es.short_description="Sin pavimentar, pero acondicionado , con gravilla por ejemplo.Practicable con utilitario normal." />
+		<list_entry value="grade3" display_value="Grade 3" short_description="Even mixture of hard and soft materials. Almost always an unpaved track." icon="https://wiki.openstreetmap.org/w/images/thumb/6/64/Surface_grade3.jpg/80px-Surface_grade3.jpg" ca.display_value="Grau 3" ca.short_description="Sense pavimentar, mal acondicionat, practicable només amb 4x4" es.display_value="Grado 3" es.short_description="Sin pavimentar, mal acondicionado, practicable sólo en 4x4" />
+		<list_entry value="grade4" display_value="Grade 4" short_description="Mostly soft. Almost always an unpaved track prominently with soil/sand/grass, but with some hard materials, or compressed materials mixed in." icon="https://wiki.openstreetmap.org/w/images/thumb/4/4a/Surface_grade4.jpg/80px-Surface_grade4.jpg" ca.display_value="Grau 4" ca.short_description="Sense pavimentar, en mal estat, no practicable en vehicle." es.display_value="Grado 4" es.short_description="Sin pavimentar, en mal estado, no practicable en vehículo." />
+		<list_entry value="grade5" display_value="Grade 5" short_description="Soft. Almost always an unpaved track lacking hard materials, uncompacted, subtle on the landscape, with surface of soil/sand/grass." icon="https://wiki.openstreetmap.org/w/images/thumb/6/65/Surface_grade5.jpg/80px-Surface_grade5.jpg" ca.display_value="Grau 5" ca.short_description="Sense pavimentar, amb traçat desdibuixat o no practicable." es.display_value="Grado 5" es.short_description="Sin pavimentar, con trazado desdibujado o no practicable." />
 		</combo>
 		<check key="passing_places" text="Passing Places" default="off" value_off="" />
 		<combo key="smoothness" text="Smoothness" ca.text="Estat" es.text="Estado" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" />
@@ -608,13 +608,13 @@ baselanguage="ca">
 			</item>
 
 			<item name="Destination sign" icon="traffic_signs_presets/guidepost.png" type="relation" preset_name_label="true">
-			<link href="http://wiki.openstreetmap.org/wiki/Relation:destination_sign"
-			de.href="http://wiki.openstreetmap.org/wiki/DE:Relation:destination_sign"
-			es.href="http://wiki.openstreetmap.org/wiki/ES:Relation:destination_sign"
-			fr.href="http://wiki.openstreetmap.org/wiki/FR:Relation:destination_sign"
-			ja.href="http://wiki.openstreetmap.org/wiki/JA:Relation:destination_sign"
-			pl.href="http://wiki.openstreetmap.org/wiki/Pl:Relation:destination_sign"
-			ru.href="http://wiki.openstreetmap.org/wiki/RU:Relation:destination_sign" />
+			<link href="https://wiki.openstreetmap.org/wiki/Relation:destination_sign"
+			de.href="https://wiki.openstreetmap.org/wiki/DE:Relation:destination_sign"
+			es.href="https://wiki.openstreetmap.org/wiki/ES:Relation:destination_sign"
+			fr.href="https://wiki.openstreetmap.org/wiki/FR:Relation:destination_sign"
+			ja.href="https://wiki.openstreetmap.org/wiki/JA:Relation:destination_sign"
+			pl.href="https://wiki.openstreetmap.org/wiki/Pl:Relation:destination_sign"
+			ru.href="https://wiki.openstreetmap.org/wiki/RU:Relation:destination_sign" />
 			<space />
 			<key key="type" value="destination_sign" />
 			<combo key="direction" text="Sentido de la vía">
@@ -803,7 +803,7 @@ baselanguage="ca">
 			<label text="Once you have chosen the direction empty the opposite traffic sign code." ca.text="Un cop hagis triat el sentit del senyal elimina el contrari." es.text="Una vez hayas escogido el sentido de la señal elimina el contrario."/>
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 
-			<link href="http://bit.ly/trafficsignscode"/>
+			<link href="https://bit.ly/trafficsignscode"/>
 
 			<space />
 						</item>
