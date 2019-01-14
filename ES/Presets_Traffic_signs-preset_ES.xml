@@ -284,11 +284,18 @@ baselanguage="es">
 			ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals" />
 			<key key="highway" value="traffic_signals" />
 			<optional>
+			<check key="countdown_timer:vehicles" text="Has a countdown timer" ca.text="Té compte enrera" es.text="Indica cuenta atrás"/>
 			<label text="Crossings:" ca.text="Pas de vianants:" es.text="Paso de peatones:"/>
 			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,no marcado,no cruzar"/>
 			<check key="button_operated" text="Button operated" ca.text="Semàfor amb botó" es.text="Semáforo con botón"/>
 			<check key="sloped_curb" text="Adapted kerb" ca.text="Vorada adaptada" es.text="Bordillo adaptado"/>
-			<check key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas"/>
+			<combo key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas" values="yes,no,locate,walk" ca.display_values="sí,no,localitzat,per caminar" es.display_values="sí,no,localizado,para caminar"/>
+			<check key="traffic_signals:vibration" text="Vibration" ca.text="Vibracions" es.text="Vibraciones"/>
+			<check key="traffic_signals:floor_vibration" text="Floor vibration" ca.text="Vibracions al terra" es.text="Vibraciones en el suelo"/>
+			<check key="traffic_signals:floor_light" text="Floor light" ca.text="Llum al terra" es.text="Luces en el suelo"/>
+			<check key="traffic_signals:arrow" text="Tactile arrow" ca.text="Fletxa tàctil" es.text="Flecha táctil"/>
+			<check key="traffic_signals:minimap" text="Tactile map" ca.text="Mapa tàctil" es.text="Mapa táctil"/>
+			<check key="countdown_timer:pedestrians" text="Has a countdown timer for pedestrians" ca.text="Té compte enrera per vianants" es.text=" Tiene cuenta atrás para peatones"/>
 			<combo key="supervised" text="Crossing attendant" ca.text="Pas regulat" es.text="Paso regulado" delimiter="|" values="yes|no|06:00-20:00|Mo-Fr 09:00-18:00,Sa 08:00-14:00|May-Sep 09:30-12:30,14:15-19:30" />
 			<check key="bicycle" text="Cross by bicycle" ca.text="Bicicletes" es.text="Bicicletas"/>
 			<check key="horse" text="Cross on horseback" ca.text="Cavalls" es.text="Caballos"/>
@@ -3243,8 +3250,10 @@ baselanguage="es">
 				<item name="Vertical orientation exit immediately" ca.name="Orientació vertical sortida immediata" es.name="Orientación vertical salida inmediata" icon="traffic_signs/ES/ES_S351.png" type="relation,way,node,closedway" preset_name_label="true">
 				<space />
 				<key key="type" value="destination_sign" />
-				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:S351" match="keyvalue!" />
-				<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:S351" match="keyvalue!" />
+				<check key="traffic_sign:forward" text="Forward with exit ref" ca.text="En el sentit de la marxa amb número de sortida" es.text="En el sentido de la marcha con número de salida" default="off" value_off="" value_on="ES:S351" match="keyvalue!" />
+				<check key="traffic_sign:forward" text="Forward without exit ref" ca.text="En el sentit de la marxa sense número de sortida" es.text="En el sentido de la marcha sin número de salida" default="off" value_off="" value_on="ES:S350" match="keyvalue!" />
+				<check key="traffic_sign:backward" text="Backward with exit ref" ca.text="En sentit contrari amb número de sortida" es.text="En sentido contrario con número de salida" default="off" value_off="" value_on="ES:S351" match="keyvalue!" />
+				<check key="traffic_sign:backward" text="Backward without exit ref" ca.text="En sentit contrari sense número de sortida" es.text="En sentido contrario sin número de salida" default="off" value_off="" value_on="ES:S350" match="keyvalue!" />
 				<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="up" />
 				<key key="colour:back" value="white" />
 				<key key="colour:text" value="black" />

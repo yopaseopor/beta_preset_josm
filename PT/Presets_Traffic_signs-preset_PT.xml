@@ -4,7 +4,7 @@ es.shortdescription="Señales tráfico_PT"
 ca.shortdescription="Senyals trànsit_PT"
 fr.shortdescription="Signalisation routière_PT"
 description="Tag easily ways and nodes for highways and traffic signs from Portugal. Begin to be localizated."
-version="2.2018-02-19"
+version="2.2019-01-14"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="traffic_signs/PT/PT_.png"
 baselanguage="ca">
@@ -321,11 +321,18 @@ baselanguage="ca">
 			ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals" />
 			<key key="highway" value="traffic_signals" />
 			<optional>
+			<check key="countdown_timer:vehicles" text="Has a countdown timer" ca.text="Té compte enrera" es.text="Indica cuenta atrás"/>
 			<label text="Crossings:" ca.text="Pas de vianants:" es.text="Paso de peatones:"/>
 			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,no marcado,no cruzar"/>
 			<check key="button_operated" text="Button operated" ca.text="Semàfor amb botó" es.text="Semáforo con botón"/>
 			<check key="sloped_curb" text="Adapted kerb" ca.text="Vorada adaptada" es.text="Bordillo adaptado"/>
-			<check key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas"/>
+			<combo key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas" values="yes,no,locate,walk" ca.display_values="sí,no,localitzat,per caminar" es.display_values="sí,no,localizado,para caminar"/>
+			<check key="traffic_signals:vibration" text="Vibration" ca.text="Vibracions" es.text="Vibraciones"/>
+			<check key="traffic_signals:floor_vibration" text="Floor vibration" ca.text="Vibracions al terra" es.text="Vibraciones en el suelo"/>
+			<check key="traffic_signals:floor_light" text="Floor light" ca.text="Llum al terra" es.text="Luces en el suelo"/>
+			<check key="traffic_signals:arrow" text="Tactile arrow" ca.text="Fletxa tàctil" es.text="Flecha táctil"/>
+			<check key="traffic_signals:minimap" text="Tactile map" ca.text="Mapa tàctil" es.text="Mapa táctil"/>
+			<check key="countdown_timer:pedestrians" text="Has a countdown timer for pedestrians" ca.text="Té compte enrera per vianants" es.text=" Tiene cuenta atrás para peatones"/>
 			<combo key="supervised" text="Crossing attendant" ca.text="Pas regulat" es.text="Paso regulado" delimiter="|" values="yes|no|06:00-20:00|Mo-Fr 09:00-18:00,Sa 08:00-14:00|May-Sep 09:30-12:30,14:15-19:30" />
 			<check key="bicycle" text="Cross by bicycle" ca.text="Bicicletes" es.text="Bicicletas"/>
 			<check key="horse" text="Cross on horseback" ca.text="Cavalls" es.text="Caballos"/>
@@ -334,7 +341,7 @@ baselanguage="ca">
 			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="direction" text="Direction of the traffic sign" ca.text="Sentit" es.text="Sentido" values="forward,backward,both" ca.display_values="Sentit via,Sentit contrari,Ambdós" es.display_values="Sentido vía,Sentido contrario,Ambos" default="forward"  />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 			</optional>
 			</item>
 
