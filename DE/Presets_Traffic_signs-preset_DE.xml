@@ -15,7 +15,7 @@ baselanguage="en">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs/DE/DE_410.png">		   
 		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
 
-			<item name="Motorway" es.name="Autopista" ca.name="Autopista" fr.name="Autoroute" icon="traffic_signs/DE/DE_405.png" type="node,relation,way,closedway">
+			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs_presets/ES_motorway.png" type="node,relation,way,closedway">
 			<label text="Common propierties" ca.text="Propietats comuns" es.text="Propiedades comunes" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" default="motorway"> 
 			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="https://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
@@ -40,7 +40,7 @@ baselanguage="en">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
 			</item>
 
-			<item name="Trunk" ca.name="Autovia o carretera nacional de primer nivell en bon estat" fr.name="Voie rapide" es.name="Autovía o carretera nacional de primer nivel en buen estado" icon="traffic_signs/DE/DE_401.png" type="node,relation,way,closedway">
+			<item name="Trunk" ca.name="Carretera nacional o Carretera autonòmica de primer nivell en bon estat" fr.name="Voie rapide" es.name="Carretera nacional o Carretera autonómica de primer nivel en buen estado" icon="traffic_signs_presets/ES_trunk.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="trunk,trunk_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace" />
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -65,7 +65,7 @@ baselanguage="en">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Primary" ca.name="Carretera nacional de primer nivel en mal estat" es.name="Carretera nacional de primer nivel en mal estado" icon="traffic_signs/DE/DE_401.png" type="node,relation,way,closedway">
+			<item name="Primary" ca.name="Carretera nacional o Carretera autonòmica de primer nivel en mal estat" es.name="Carretera nacional o Carretera autonómica de primer nivel en mal estado" icon="traffic_signs_presets/ES_primary.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="primary,primary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -91,7 +91,7 @@ baselanguage="en">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Secondary" ca.name="Carretera secundària" es.name="Carretera secundaria" icon="traffic_signs/DE/DE_402.png" type="node,relation,way,closedway">
+			<item name="Secondary" ca.name="Carretera secundària o autonòmica de segon nivell" es.name="Carretera secundaria o autonómica de segundo nivel" icon="traffic_signs_presets/ES_secondary.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="secondary,secondary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -117,7 +117,7 @@ baselanguage="en">
 			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />			  
 			</item>
 
-			<item name="Tertiary" ca.name="Carretera local" es.name="Carretera local" icon="traffic_signs/DE/DE_402.png" type="node,relation,way,closedway">
+			<item name="Tertiary" ca.name="Carretera local" es.name="Carretera local" icon="traffic_signs_presets/ES_tertiary.png" type="node,relation,way,closedway">
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" values="tertiary,tertiary_link" ca.display_values="Principal,Enllaç" en.display_values="Main,Link" es.display_values="Principal,Enlace"/>
 			<text key="ref" text="Reference" es.text="Referencia de la carretera" ca.text="Referència de la carretera" />
 			<text key="name" text="Name" es.text="Nombre" ca.text="Nom" />
@@ -361,10 +361,10 @@ baselanguage="en">
 			<space />			 
 			</item>
 
-			<item name="Crossings" ca.name="Pas de vianants" es.name="Paso de peatones" icon="traffic_signs_presets/crossing.svg" type="node,closedway,way" preset_name_label="true">
+			<item name="Crossings" ca.name="Pas de vianants/bicicletes" es.name="Paso de peatones/bicicletas" icon="traffic_signs_presets/crossing.svg" type="node,closedway,way" preset_name_label="true">
 			<key key="highway" value="crossing" match="keyvalue!" />
-			<label text="Crossings:" ca.text="Pas de vianants:" es.text="Paso de peatones:"/>
-			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,no marcado,no cruzar"/>
+			<label text="Crossings:" ca.text="Pas de vianants/bicicletes:" es.text="Paso de peatones/bicicletas:"/>
+			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,bicycle,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,bicicleta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,bicicleta,no marcado,no cruzar"/>
 			<label text="Controlled by traffic signals" ca.text="Amb semàfor" es.text="Con semáforo"/>
 			<check key="button_operated" text="Button operated" ca.text="Semàfor amb botó" es.text="Semáforo con botón"/>
 			<check key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas"/>
@@ -379,16 +379,14 @@ baselanguage="en">
 			<combo key="flashing_lights" text="Flashing lights" ca.text="Indicat amb llum" es.text="Indicado con luz" values="yes,no,always" ca.display_values="sí,no,sempre" es.display_values="si,no,siempre"/>
 			
 			<optional text="Optional values for specific countries">
-			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" />
+			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra(uncontrolled),pelican(traffic signals),tiger(bicycles),toucan (bicycles with traffic signals),puffin (same side traffic signals),pegasus(horse)" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
-			<combo key="direction" text="Direction of the traffic sign" ca.text="Sentit" es.text="Sentido" values="forward,backward,both" ca.display_values="Sentit via,Sentit contrari,Ambdós" es.display_values="Sentido vía,Sentido contrario,Ambos" default="forward"  />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right"  />
 			</optional>
 			</item>
 
-			<item name="Bicycle Road" ca.name="Carril bici" es.name="Carril bici" icon="traffic_signs_presets/bicycle_road.svg" type="node,relation,way,closedway" preset_name_label="true">
-			<key key="bicycle_road" value="yes" />
-			<key key="bicycle" value="designated" />
+			<item name="Bicycle Road/Cycle Streets" ca.name="Carril bici/Ciclecarrils/Via Verda" es.name="Carril bici/Ciclocarriles/Vía verde" icon="traffic_signs_presets/bicycle_road.svg" type="node,relation,way,closedway" preset_name_label="true">
+			<check key="bicycle_road" text="Bicycle road (Germany)" ca.text="Via exclusiva per a bicicletes (via verda)" es.text="Vía exclusiva para bicicletas (vía verde)" default="off" value_off="" />
+			<check key="cyclestreet" text="Cycle Street (Belgium)" ca.text="Via no exclusiva per a bicicletes (via verda)" es.text="Vía no exclusiva para bicicletas (vía verde)" default="off" value_off="" />
 			<combo key="highway" text="Highway type" ca.text="Tipus de via del carril" es.text="Tipo de vía del carril" values="residential,service,unclassified,path,cycleway" ca.display_values="carrer,via de servei,carretera,sender,carril bici exclusiu" es.display_values="calle,vía de servicio,carretera,sendero,carril bici exclusivo" values_context="Highway" default="residential" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			<combo key="vehicle" text="Vehicle access" ca.text="Accés de vehicles a motor" es.text="Acceso de vehículos a motor" values="yes,no,destination" ca.display_values="sí,no,destí" es.display_values="sí,no,destino" default="no" />
@@ -398,10 +396,13 @@ baselanguage="en">
 			<combo text="cycleway right" ca.text="Carril bici al costat dret" es.text="Carril bici en el lado derecho" key="cycleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<combo text="cycleway left" ca.text="Carril bici al costat esquerre" es.text="Carril bici en el lado izquierdo" key="cycleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<space />
-			<combo key="layer" text="Layer" ca.text="Nivel" es.text="Nivel" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" />
-			<combo key="lanes" text="Lanes" ca.text="Carrils" es.text="Carriles" values="1,2,3,4,5" />
+			<combo key="lanes:forward" text="Number lanes that direction" ca.text="Nombre carrils sentit de la via" es.text="Nº Carriles sentido de la vía" values="1,2,3" />
+			<combo key="lanes:backward" text="Number lanes opposite direction" ca.text="Nombre carrils sentit contrari de la via" es.text="Nº Carriles sentido contrario de la vía" values="1,2,3" />
+			<text key="bicycle:lanes:forward" text="Designated lanes separated with | in the direction of the way. Example: yes|designated" ca.text="Designació carrils separats per | en el sentit de la via. Exemple: yes|designated" es.text="Designación carriles separados por | en el sentido de la vía. Ejemplo: yes|designated" default="designated" />
+			<text key="bicycle:lanes:backward" text="Designated lanes separated with | in the opposite direction of the way. Example: yes|designated" ca.text="Designació carrils separats per | en el sentit contrari de la via. Exemple yes|designated" es.text="Designación carriles separados por | en el sentido contrario de la vía. Ejemplo yes|designated" default="designated" />
 			<check key="oneway" text="Oneway" ca.text="Sentit únic" es.text="Sentido único" />
 			<check key="oneway:bicycle" text="Oneway for bicycle" ca.text="Sentit únic per bicicletes" es.text="Sentido único para bicicletas" default="off" value_off="" />
+			<check key="bicycle" text="Cross with bicycles (node)" ca.text="Encreuament amb bicicletes (node)" es.text="Cruce con bicicletas (nodo)" default="off"/>
 			<combo key="lit" text="Lit" fr.text="Éclairé" es.text="Iluminación" ca.text="Il·luminació" values="yes,no,interval" />
 			<text key="width" text="Width (meters)" ca.text="Amplada (metres)" es.text="Ancho (metros)"/>
 			</optional>
