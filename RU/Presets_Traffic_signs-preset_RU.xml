@@ -364,7 +364,7 @@ baselanguage="ca">
 			<item name="Crossings" ca.name="Pas de vianants/bicicletes" es.name="Paso de peatones/bicicletas" icon="traffic_signs_presets/crossing.svg" type="node,closedway,way" preset_name_label="true">
 			<key key="highway" value="crossing" match="keyvalue!" />
 			<label text="Crossings:" ca.text="Pas de vianants/bicicletes:" es.text="Paso de peatones/bicicletas:"/>
-			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,bicycle,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,bicicleta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,bicicleta,no marcado,no cruzar"/>
+			<combo key="crossing" text="Crossing types" ca.text="Tipus de pas de vianants" es.text="Tipo de paso de peatones" values="uncontrolled,traffic_signals,island,unmarked,no" ca.display_values="no controlat,regulat semàfor,illeta,no marcat,no creuar" es.display_values="no controlado,regulado semáforo,isleta,no marcado,no cruzar"/>
 			<label text="Controlled by traffic signals" ca.text="Amb semàfor" es.text="Con semáforo"/>
 			<check key="button_operated" text="Button operated" ca.text="Semàfor amb botó" es.text="Semáforo con botón"/>
 			<check key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas"/>
@@ -378,34 +378,38 @@ baselanguage="ca">
 			<check key="traffic_calming" text="Table on road?" ca.text="Ressalt" es.text="Resalto" value_on="table"/>
 			<combo key="flashing_lights" text="Flashing lights" ca.text="Indicat amb llum" es.text="Indicado con luz" values="yes,no,always" ca.display_values="sí,no,sempre" es.display_values="si,no,siempre"/>
 			
-			<optional text="Optional values for specific countries">
-			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra(uncontrolled),pelican(traffic signals),tiger(bicycles),toucan (bicycles with traffic signals),puffin (same side traffic signals),pegasus(horse)" />
+<optional text="Optional values for specific countries">
+			<combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,tiger,toucan,puffin,pegasus" display_values="zebra(uncontrolled),pelican(traffic signals),tiger(bicycles),toucan(bicycles with traffic signals),puffin (same side traffic signals),pegasus(horse)"/>
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
 			</optional>
 			</item>
 
 			<item name="Bicycle Road/Cycle Streets" ca.name="Carril bici/Ciclecarrils/Via Verda" es.name="Carril bici/Ciclocarriles/Vía verde" icon="traffic_signs_presets/bicycle_road.svg" type="node,relation,way,closedway" preset_name_label="true">
+			<label text="Type of way" ca.text="Tipus de via" es.text="Tipo de vía" />
+			<label text="Warning: For crossings in a node you should choose here and the check with crossings" ca.text="Avís: per a creuaments en un node has de triar aquí i a la casella d'encreuaments" es.text="Aviso: para cruces en un nodo debes escoger aquí y en la casilla de cruces" />
+			<combo key="highway" text="Highway type" ca.text="Tipus de via del carril" es.text="Tipo de vía del carril" values="residential,service,unclassified,path,cycleway,crossing" ca.display_values="carrer,via de servei,carretera,sender,carril bici exclusiu,encreuament" es.display_values="calle,vía de servicio,carretera,sendero,carril bici exclusivo,cruce" values_context="Highway" default="residential" />
 			<check key="bicycle_road" text="Bicycle road (Germany)" ca.text="Via exclusiva per a bicicletes (via verda)" es.text="Vía exclusiva para bicicletas (vía verde)" default="off" value_off="" />
 			<check key="cyclestreet" text="Cycle Street (Belgium)" ca.text="Via no exclusiva per a bicicletes (via verda)" es.text="Vía no exclusiva para bicicletas (vía verde)" default="off" value_off="" />
-			<combo key="highway" text="Highway type" ca.text="Tipus de via del carril" es.text="Tipo de vía del carril" values="residential,service,unclassified,path,cycleway" ca.display_values="carrer,via de servei,carretera,sender,carril bici exclusiu" es.display_values="calle,vía de servicio,carretera,sendero,carril bici exclusivo" values_context="Highway" default="residential" />
+			<combo key="motor_vehicle" text="Vehicle access" ca.text="Accés de vehicles a motor" es.text="Acceso de vehículos a motor" values="yes,no,destination" ca.display_values="sí,no,destí" es.display_values="sí,no,destino" default="no" />
 			<text key="name" text="Name" ca.text="Nom" es.text="Nombre"/>
-			<combo key="vehicle" text="Vehicle access" ca.text="Accés de vehicles a motor" es.text="Acceso de vehículos a motor" values="yes,no,destination" ca.display_values="sí,no,destí" es.display_values="sí,no,destino" default="no" />
 			<text key="maxspeed" text="Max. speed (km/h)" ca.text="Velocitat màx. (km/h)" es.text="Velocidad máx. (km/h)" default="30" />
-			<optional>
+			<space />
 			<label text="cycleway in a street" ca.text="Carril bici en carrers" es.text="Carrils bici en calle" />
 			<combo text="cycleway right" ca.text="Carril bici al costat dret" es.text="Carril bici en el lado derecho" key="cycleway:right" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
 			<combo text="cycleway left" ca.text="Carril bici al costat esquerre" es.text="Carril bici en el lado izquierdo" key="cycleway:left" values="lane,opposite_lane,shared_lane,share_busway,shared,track,opposite_track" ca.display_values="carril,s. contrari,compartit,carril bus,segregat,s. contrari segregat" es.display_values="carril,carril s. contrario,carril compartido,carril bus,vía compartida,vía segregada,s. contrario vía segregada" />
-			<space />
 			<combo key="lanes:forward" text="Number lanes that direction" ca.text="Nombre carrils sentit de la via" es.text="Nº Carriles sentido de la vía" values="1,2,3" />
 			<combo key="lanes:backward" text="Number lanes opposite direction" ca.text="Nombre carrils sentit contrari de la via" es.text="Nº Carriles sentido contrario de la vía" values="1,2,3" />
 			<text key="bicycle:lanes:forward" text="Designated lanes separated with | in the direction of the way. Example: yes|designated" ca.text="Designació carrils separats per | en el sentit de la via. Exemple: yes|designated" es.text="Designación carriles separados por | en el sentido de la vía. Ejemplo: yes|designated" default="designated" />
 			<text key="bicycle:lanes:backward" text="Designated lanes separated with | in the opposite direction of the way. Example: yes|designated" ca.text="Designació carrils separats per | en el sentit contrari de la via. Exemple yes|designated" es.text="Designación carriles separados por | en el sentido contrario de la vía. Ejemplo yes|designated" default="designated" />
 			<check key="oneway" text="Oneway" ca.text="Sentit únic" es.text="Sentido único" />
 			<check key="oneway:bicycle" text="Oneway for bicycle" ca.text="Sentit únic per bicicletes" es.text="Sentido único para bicicletas" default="off" value_off="" />
+			<space />
+			<label text="Crossings in a node for bicycles (tag missing)" ca.text="Encreuaments en node per a bicicletes (etiqueta que falta)" es.text="Cruces en nodo para bicicletas (etiqueta que falta)" />
 			<check key="bicycle" text="Cross with bicycles (node)" ca.text="Encreuament amb bicicletes (node)" es.text="Cruce con bicicletas (nodo)" default="off"/>
+			<space />
+			<label text="Other conditions" ca.text="Altres condicions" es.text="Otras condiciones" />
 			<combo key="lit" text="Lit" fr.text="Éclairé" es.text="Iluminación" ca.text="Il·luminació" values="yes,no,interval" />
 			<text key="width" text="Width (meters)" ca.text="Amplada (metres)" es.text="Ancho (metros)"/>
-			</optional>
 			</item>
 			
 			<item name="Lanes for other vehicles" ca.name="Carrils per altres vehicles" es.name="Carriles para otros vehículos" icon="traffic_signs_presets/busvao.png" type="node,relation,way,closedway" preset_name_label="true">
