@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>cross-storage</title>
+    <script type="text/javascript">
+        /**
+         * cross-storage - Cross domain local storage
+         *
+         * @version   0.8.1
+         * @link      https://github.com/zendesk/cross-storage
+         * @author    Daniel St. Jules <danielst.jules@gmail.com>
+         * @copyright Zendesk
+         * @license   Apache-2.0
+         */
+
+        !function(e){var r={};r.init=function(e){var t=!0;try{window.localStorage||(t=!1)}catch(n){t=!1}if(!t)try{return window.parent.postMessage("cross-storage:unavailable","*")}catch(n){return}r._permissions=e||[],r._installListener(),window.parent.postMessage("cross-storage:ready","*")},r._installListener=function(){var e=r._listener;window.addEventListener?window.addEventListener("message",e,!1):window.attachEvent("onmessage",e)},r._listener=function(e){var t,n,o,i,s,a,l;if(t="null"===e.origin?"file://":e.origin,"cross-storage:poll"===e.data)return window.parent.postMessage("cross-storage:ready",e.origin);if("cross-storage:ready"!==e.data&&(o=JSON.parse(e.data),i=o.method.split("cross-storage:")[1])){if(r._permitted(t,i))try{a=r["_"+i](o.params)}catch(u){s=u.message}else s="Invalid permissions for "+i;l=JSON.stringify({id:o.id,error:s,result:a}),n="file://"===t?"*":t,window.parent.postMessage(l,n)}},r._permitted=function(e,t){var n,o,i,s;if(n=["get","set","del","clear","getKeys"],!r._inArray(t,n))return!1;for(o=0;o<r._permissions.length;o++)if(i=r._permissions[o],i.origin instanceof RegExp&&i.allow instanceof Array&&(s=i.origin.test(e),s&&r._inArray(t,i.allow)))return!0;return!1},r._set=function(e){var t,n;if(t=e.ttl,t&&parseInt(t,10)!==t)throw new Error("ttl must be a number");n={value:e.value},t&&(n.expire=r._now()+t),window.localStorage.setItem(e.key,JSON.stringify(n))},r._get=function(e){var t,n,o,i,s;for(t=window.localStorage,n=[],o=0;o<e.keys.length;o++)s=e.keys[o],i=JSON.parse(t.getItem(s)),null===i?n.push(null):i.expire&&i.expire<r._now()?(t.removeItem(s),n.push(null)):n.push(i.value);return n.length>1?n:n[0]},r._del=function(e){for(var r=0;r<e.keys.length;r++)window.localStorage.removeItem(e.keys[r])},r._clear=function(){window.localStorage.clear()},r._getKeys=function(){var e,r,t;for(t=[],r=window.localStorage.length,e=0;r>e;e++)t.push(window.localStorage.key(e));return t},r._inArray=function(e,r){for(var t=0;t<r.length;t++)if(e===r[t])return!0;return!1},r._now=function(){return"function"==typeof Date.now?Date.now():(new Date).getTime()},"undefined"!=typeof module&&module.exports?module.exports=r:"undefined"!=typeof exports?exports.CrossStorageHub=r:"function"==typeof define&&define.amd?define([],function(){return r}):e.CrossStorageHub=r}(this);
+        
+        CrossStorageHub.init([
+            {origin: /$/, allow: ['get', 'set', 'del', 'getKeys', 'clear']}
+        ]);
+
+        // handler storage change event
+        function storageChange(e) {
+            window.parent.postMessage({type:'sbz_cross_storage', key: e.key, value: e.newValue}, '*');
+        };
+        if (window.attachEvent) { document.attachEvent('onstorage', storageChange); }
+        else { window.addEventListener('storage', storageChange, false); };
+    </script>
+</head>
+<body>
+
+
+</body></html>

@@ -1,0 +1,88 @@
+#menu_mobile{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	display: none;
+	width: 100%;
+}
+#menu_mobile .title_menu{
+	display: inline-block;
+	line-height: 35px;
+	text-align: left;
+	text-indent: 10px;
+	background: rgba(0, 0, 0, 0.1);
+	border: thin #333 solid;
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index: 99999;
+	border-radius:3px;
+}
+#menu_mobile .title_menu:hover{
+	background:rgba(255, 255, 255, 0.3);
+}
+#menu_mobile .title_menu a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+#menu_mobile .title_menu img{
+	float: right;
+	margin: 10px;
+}
+#menu_mobile ul.menu_hidden{
+}
+#menu_mobile ul{
+text-align: left;
+display: none;
+background: #C00B0D;
+padding-bottom:10px;
+}
+#menu_mobile ul ul{
+	width: 98%;
+
+	padding: 0px 1%;
+	
+}
+#menu_mobile ul li{
+	
+	line-height: 30px;
+	border-bottom: thin #fff solid;
+	text-indent: 10px;
+	position: relative;
+}
+#menu_mobile ul li ul li{
+	background: none;
+}
+#menu_mobile>ul>li:last-child,
+#menu_mobile>ul>li>ul>li:last-child,
+#menu_mobile>ul>li>ul>li>ul>li:last-child{
+	border: none;
+}
+#menu_mobile ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+/*icon_show*/
+#menu_mobile .icon_show{
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 15px solid #fff;
+	z-index: 1000;
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+#menu_mobile .icon_show2{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+/*icon_show*/

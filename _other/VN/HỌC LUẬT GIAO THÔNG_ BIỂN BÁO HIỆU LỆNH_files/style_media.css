@@ -1,0 +1,85 @@
+@media screen and (max-width: 1300px){
+	#header #logo{
+		margin-right:0px;
+	}
+}
+@media screen and (max-width: 1200px){
+	#header #logo{
+		float:left;
+		width:16%;
+	}
+	#header #banner{
+		width:100%;
+	}
+}
+/*end min-width: 1200px*/
+@media screen and (max-width: 1014px) {
+	.container{
+		width: 100%;
+	}
+	
+}
+/*end min-width: 1200px*/
+
+@media screen and (max-width: 999px) {
+	#header #hotline{
+		display:none;
+	}
+	#menu_top>ul{
+		background:none;
+		width:100%;
+		padding:0px;
+	}
+}
+@media screen and (max-width: 805px){
+	#left,#right{
+		width:100%;
+	}
+	#right .group{
+		width:50%;
+		float:left;
+	}
+}
+/*end max-width: 999px*/
+@media screen and (max-width: 780px) {
+	#menu_top,
+	#menubottom{
+		display:none;
+	}
+	#menu_mobile{
+		display:block;
+		margin-top:-8px;
+	}
+	#footer .col{
+		width:50%;
+	}
+	.clearfood,
+	.box_tintuc h3{
+		display:inline-block;
+		width:100%;
+		clear:both;
+	}
+}/*end max-width: 750px*/
+@media screen and (max-width: 550px){
+	#right .group,
+	#footer .col,
+	#gioithieuix h3,
+	.box_tintuc h3{
+		width:100%;
+	}
+	#left #gioithieuix,
+	.box_tintuc{
+		text-align:center;
+	}
+	#gioithieuix img,
+	.box_tintuc img{
+		float:none;
+		margin-right:0px;
+	}
+
+}/*end max-width: 500px*/
+@media screen and (max-width: 380px){
+	
+}
+/*end max-width: 390px*/
+
