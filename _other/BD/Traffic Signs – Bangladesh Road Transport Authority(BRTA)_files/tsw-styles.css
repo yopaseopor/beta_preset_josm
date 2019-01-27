@@ -1,0 +1,38 @@
+#tswmenu {
+  display:inline;
+  background-image: none;
+  padding:0;
+  margin:0; 
+  white-space:nowrap;
+  list-style-type:none;
+}
+
+#tswmenu a {
+  padding:2px 2px 2px 2px;
+  margin:2px 2px 2px 2px;
+}
+
+.tswmenucurrent {
+  color:#ff0000;
+}
+/*
+     FILE ARCHIVED ON 17:04:46 Nov 30, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:47:49 Jan 27, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 385.789 (3)
+  esindex: 0.009
+  captures_list: 404.342
+  CDXLines.iter: 13.218 (3)
+  PetaboxLoader3.datanode: 111.294 (4)
+  exclusion.robots: 0.273
+  exclusion.robots.policy: 0.257
+  RedisCDXSource: 1.692
+  PetaboxLoader3.resolve: 85.163
+  load_resource: 99.671
+*/

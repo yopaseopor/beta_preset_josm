@@ -1,0 +1,262 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/FL6SeLlfEmjaIFtt4SSz-g.woff) format('woff');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/qeNPV6YIG8QDrqTdt4wqFA.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/rX_XZ5VYDPy4sCXwN_8-0A.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/5Ihw3SjCPPRQmGVLhKtNtg.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/HYKXEMOuqXLHuOsXqfN63g.woff) format('woff');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/g2Eror3tm7CkEO94C6cz9A.woff) format('woff');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/0wBXGPBQBFx5vXCt30aduw.woff) format('woff');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/wZLYhRRxZWGToTRP78bqJQ.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/QBu5G2TGhi6oQGRNMl9LIhTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/fyCF7oV77TRwnfQSmdpHqBTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/bLqDNUnQ8YTRci15fVxAKBTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/XVU3YOq6IOodx2MXBdMWKhTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/PBTg8P1r29rrPoCG-saW7BTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/jxQwP5YURUBWHPQ1ogmncBTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/2yXG0u2oPiXdRt7OARC1exTbgVql8nDJpwnrE27mub0.woff) format('woff');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/arimo/v9/UnXpojilM3XslYxUnWuVe_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsFcNx1g00A9N5iZ8CkGb_9A.woff) format('woff');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsHNsBFpTmU2Rhaioxs68_kQ.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsLUxo2qP9MP1ffZyV5bok7g.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsMwtM8CrGl8Su8kKVEYdhKc.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsEVlWG6so15Zwvv3YkHEXm4.woff) format('woff');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsI5PRHo81i8Ahsuh32EteKI.woff) format('woff');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsFzqCfRpIA3W6ypxnPISCPA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nMxh8AqDYcKWdh6oKBIlW7s.woff) format('woff');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nDM5wh8DzS2g4ea45qPv3zQ.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nLKCnBuj_hc3GU0XRhinxuw.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nOOCiPjweytdCifXbEpC60E.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nIHG5qQBCGvKKjb9y-h7wCw.woff) format('woff');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nBSr09cUKK-HPjwl6SxDPwk.woff) format('woff');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://web.archive.org/web/20161105081713im_/http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nCSLrGe-fkSRw2DeVgOoWcQ.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*
+     FILE ARCHIVED ON 08:17:13 Nov 05, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:47:48 Jan 27, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 824.658 (3)
+  esindex: 0.005
+  captures_list: 841.942
+  CDXLines.iter: 10.963 (3)
+  PetaboxLoader3.datanode: 735.76 (4)
+  exclusion.robots: 0.239
+  exclusion.robots.policy: 0.215
+  RedisCDXSource: 1.508
+  PetaboxLoader3.resolve: 13.504
+  load_resource: 44.069
+*/
