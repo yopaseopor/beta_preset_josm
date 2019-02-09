@@ -1,4 +1,4 @@
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_RS"
 es.shortdescription="Señales tráfico_RS"
 ca.shortdescription="Senyals trànsit_RS"
@@ -4193,8 +4193,8 @@ baselanguage="en">
 </item>
 
 	
-							<group name="Other" ca.name="Altres" es.name="Otros" icon="traffic_signs_presets/ES_tp18.png">
-							
+
+							<group name="Manual" ca.name="Manual" es.name="Manual" icon="traffic_signs_presets/ES_tp18.png">
 
 			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
@@ -4214,5 +4214,11 @@ baselanguage="en">
 
 		<space />
 		</item>
-</group>		
 		</group>
+</group>	
+	
+	
+	
+</group>
+</group>
+</presets>
