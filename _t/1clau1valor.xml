@@ -4,7 +4,7 @@ description="Test Vespucci."
 version="1.2019-02-13"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="traffic_signs/A/A_.png"
-baselanguage="en">
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
@@ -38,44 +38,10 @@ baselanguage="en">
 			<text key="addr:postcode" text="Postcode" es.text="Código postal" ca.text="Codi postal" />
 			</item>
 			
-			<item name="Accesibility and other disabilities" ca.name="Accesibilitat i d'altres discapacitats" es.name="Accesibilidad y otras discapacidades" icon="traffic_signs_presets/4handicaps.png" type="node,relation,way,closedway">
-			<label text="Walking impairment/wheelchair drivers/stroller" ca.text="Impediments per caminar/Cadira de rodes/Carret" es.text="Impedimentos para caminar/Silla de ruedas/Carrito"/>
-			<space />
-			<combo key="kerb" text="Kerb types" ca.text="Tipus de vorada" es.text="Tipo de bordillo" values="lowered,raised,flush,rolled,yes,no" values_context="kerb" ca.display_values="rampa normal,aixecat,nivellat,rodó,sí,no" es.display_values="rampa normal,levantado,nivelado,redondo,sí,no" />
-			<text key="incline" text="Incline (%)" ca.text="Inclinació (%)" es.text="Inclinación (%)" />
-			<text key="incline:across" text="Incline across (%)" ca.text="Inclinació de l'ample (%)" es.text="Inclinación del ancho(%)" />
-			<combo key="smoothness" text="Kerb's smoothness"  ca.text="Estat de la vorera" es.text="Estado de la acera" values="excellent,good,intermediate,bad,very_bad" ca.display_values="excel·lent,bo,normal,dolent,molt dolent" es.display_values="excelente,bueno,normal,malo,muy malo" />
-			<combo key="wheelchair" text="Wheelchair" ca.text="Accesibilitat en cadira de rodes" es.text="Accesibilidad en silla de ruedas" values="yes,limited,no,designated" ca.display_values="sí,limitada,no,designada" es.display_values="sí,limitada,no,designada"/>
-			<text key="wheelchair:description" text="Description" ca.text="Descripció" es.text="Descripción" />
-			<check key="obstacle:wheelchair" text="Obstacle for wheelchairs" ca.text="Obstacle per a cadira de rodes" es.text="Obstáculo para silla de ruedas" default="off" value_on="yes" />
-			<combo key="surface" text="Surface" ca.text="Superfície" es.text="Superficie" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,gravel,pebblestone,compacted,grass_paver,grass,sand,ground" ca.display_values="pavimentada,no pavimentada,asfalt,ciment,metall,fusta,rajoles,llambordes,grava,pedretes,compactada,paviment i herba,gespa,sorra,terra" es.display_values="pavimentada,no pavimentada,asfalto,cemento,metal,madera,baldosas,adoquines,grava,piedrecitas,compacta,pavimento y hierba,césped,arena,tierra" />
-			<text key="width" text="Width of the sidewalk" ca.text="Amplada de la vorera en metres" es.text="Anchura de la acera en metros"/>
-			<check key="handrail:right" text="Handrail (right)" ca.text="Barana (dreta)" es.text="Barandilla (derecha)" default="off" value_off="" value_on="yes"/>
-			<check key="handrail:center" text="Handrail (center)" ca.text="Barana (central)" es.text="Barandilla (central)" default="off" value_off="" value_on="yes"/>
-			<check key="handrail:left" text="Handrail (left)" ca.text="Barana (esquerra)" es.text="Barandilla (izquierda)" default="off" value_off="" value_on="yes"/>
-			<check key="ramp" text="Ramp" ca.text="Rampa" es.text="Rampa" default="off" value_off="" value_on="yes"/>
-			<check key="ramp:wheelchair" text="Ramp for wheelchairs" ca.text="Rampa per a cadira de rodes" es.text="Rampa para silla de ruedas" default="off" value_off="" value_on="yes"/>
-			<check key="ramp:stroller" text="Ramp for stroller" ca.text="Rampa per a carret" es.text="Rampa para carrito" default="off" value_off="" value_on="yes"/>
-			<text key="step_count" value="" text="Number of steps" ca.text="Nombre d'esglaons" es.text="Número de peldaños"/>
-			<space />
-			<label text="Visual impairment/blindness" ca.text="Impediments visuals/ceguesa" es.text="Impedimentos para ver / Ceguera"/>
-			<space />
-			<text key="phonetics" text="Phonetics (add the code language with :)" ca.text="Pronunciació fonètica (afegir amb dos punts al final l'idioma" es.text="Pronunciación fonética (añadir con dos puntos al final el idioma)"/>
-			<space />
-			<label text="Tactile map" ca.text="Mapa tàctil" es.text="Mapa táctil"/>
-			<check key="tourism" text="To active a tactile map check these three items" ca.text="Per activar un mapa tàctil activa aquests tres ítems" es.text="Para activar un mapa táctil activa estos tres ítems" default="off" value_on="information"/>
-			<check key="information" text="Tactile map" ca.text="Mapa tàctil" es.text="Mapa táctil" default="off" value_off="" value_on="tactile_map"/>
-			<check key="information" text="Audio Tactile map" ca.text="Mapa tàctil i auditiu" es.text="Mapa táctil y auditivo" default="off" value_off="" value_on="audio_tactile_map"/>
-			<space />
-			<check key="information" text="Braille?" ca.text="Braille" es.text="Braille" default="off" value_off="" value_on="braille"/>
-			<check key="information" text="tactile letters" ca.text="Lletres tàctils" es.text="Letras táctiles" default="off" value_off="" value_on="tactile_letters"/>
-			<space />
-			<combo key="tactile_paving" text="Tactile paving" ca.text="Paviment tàctil" es.text="Pavimento táctil" values="yes,contrasted,no,primitive,incorrect" ca.display_values="sí,contrastat,no,primitiu,incorrecte" es.display_values="sí,contrastado,no,primitivo,incorrecto"/>
-			<text key="blind:description" text="Description" ca.text="Descripció" es.text="Descripción" />
-			<check key="traffic_signals:sound" text="Sound signals" ca.text="Senyals sonors" es.text="Señales acústicas"/>
-			<check key="traffic_signals:vibration" text="Vibration signals" ca.text="Senyals vibratoris" es.text="Señales vibratorias"/>
-			
-			<space />
+						<item name="Cafetería" icon="" type="node,relation,way,closedway">
+			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
+			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
+			<key key="amenity" value="cafe" />
 			</item>
 
 	</group>	
