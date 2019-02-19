@@ -8,9 +8,9 @@ baselanguage="en">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
-<group name="Traffic_signs_A" icon="">
-	<group name="A.Ways" icon="">		   
-		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
+<group name="#1clave1valor" icon="">
+	<group name="Negocios" icon="">		   
+		<group name="Business type" es.name="Tipo de negocio" ca.name="Tipus de negoci" icon="traffic_signs_presets/secondary.png">
 
 			<item name="Panadería" icon="" type="node,relation,way,closedway">
 			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
