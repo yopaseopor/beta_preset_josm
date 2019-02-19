@@ -1,0 +1,50 @@
+<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+shortdescription="T"
+description="Test Vespucci."
+version="1.2019-02-13"
+link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
+icon="traffic_signs/A/A_.png"
+baselanguage="en">
+
+<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
+
+<group name="#1clave1valor" icon="">
+	<group name="Negocis" icon="">		   
+		<group name="Tipus de negoci" icon="traffic_signs_presets/secondary.png">
+
+			<item name="Fleca" icon="" type="node,relation,way,closedway">
+			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
+			<check key="lit"  text="Il·luminació" default="off" value_off="" />
+			<key key="shop" value="bakery" />
+			</item>
+			
+						<item name="Cafeteria" icon="" type="node,relation,way,closedway">
+			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
+			<check key="lit"  text="Il·luminació" default="off" value_off="" />
+			<key key="amenity" value="cafe" />
+			</item>
+
+	</group>
+
+		<group name="Adreça" icon="traffic_signs_presets/addresses.png">
+
+			<item name="Adreça" icon="" type="node,relation,way,closedway">
+			<text key="addr:street" text="Carrer" />
+			<text key="addr:housenumber" text="Número" />
+			<text key="addr:floor" text="Pis" />
+			<text key="addr:door" text="Porta" />
+			<text key="addr:flats" text="Escala" />
+			<text key="addr:unit" text="Unitat" />
+			<text key="addr:postcode" text="Codi postal" />
+			</item>
+			
+						<item name="Cafetería" icon="" type="node,relation,way,closedway">
+			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
+			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
+			<key key="amenity" value="cafe" />
+			</item>
+
+	</group>	
+</group>
+</group>
+</presets>
