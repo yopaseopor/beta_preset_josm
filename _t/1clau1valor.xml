@@ -4,11 +4,11 @@ description="Test Vespucci."
 version="1.2019-02-13"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="traffic_signs/A/A_.png"
-baselanguage="en">
+baselanguage="ca">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
 
-<group name="#1clau1valor" icon="">
+<group name="#1key1value" icon="">
 	<group name="Negocis" icon="">		   
 		<group name="Tipus de negoci" icon="traffic_signs_presets/secondary.png">
 
@@ -26,45 +26,22 @@ baselanguage="en">
 
 	</group>
 
-		<group name="Etiquetes" icon="traffic_signs_presets/addresses.png">
+		<group name="Adreça" icon="traffic_signs_presets/addresses.png">
 
-			<item name="Adreça" icon="" type="node,relation,way,closedway">
-			<text key="addr:street" text="Carrer" />
-			<text key="addr:housenumber" text="Número" />
-			<text key="addr:floor" text="Pis" />
-			<text key="addr:door" text="Porta" />
-			<text key="addr:flats" text="Escala" />
-			<text key="addr:unit" text="Unitat" />
-			<text key="addr:postcode" text="Codi postal" />
+			<item name="Dirección" es.name="Dirección" ca.name="Adreça" icon="" type="node,relation,way,closedway">
+			<text key="addr:street" text="Street" es.text="Calle" ca.text="Carrer" />
+			<text key="addr:housenumber" text="Number" es.text="Número" ca.text="Número" />
+			<text key="addr:floor" text="Floor" es.text="Piso" ca.text="Pis" />
+			<text key="addr:door" text="Door" es.text="Puerta" ca.text="Porta" />
+			<text key="addr:flats" text="Flats" es.text="Escalera" ca.text="Escala" />
+			<text key="addr:unit" text="Unit" es.text="Unidad" ca.text="Unitat" />
+			<text key="addr:postcode" text="Postcode" es.text="Código postal" ca.text="Codi postal" />
 			</item>
 			
-		    <item name="Horari" icon="" type="node,relation,way,closedway">
-			<text key="opening_hours" text="Horari" />
-			</item>
-			
-			<item name="Accesibilitat i d'altres discapacitats" icon="traffic_signs_presets/4handicaps.png" type="node,relation,way,closedway">
-			<label text="Walking impairment/wheelchair drivers/stroller" ca.text="Impediments per caminar/Cadira de rodes/Carret" es.text="Impedimentos para caminar/Silla de ruedas/Carrito"/>
-			<text key="incline" text="Inclinació (%)" />
-			<text key="incline:across" text="Inclinació de l'ample (%)" />
-			<combo key="wheelchair" text="Accesibilitat en cadira de rodes" values="yes,limited,no,designated" ca.display_values="sí,limitada,no,designada" es.display_values="sí,limitada,no,designada"/>
-			<text key="wheelchair:description" text="Descripció" />
-			<check key="obstacle:wheelchair" text="Obstacle per a cadira de rodes" default="off" value_on="yes" />
-			<combo key="surface" text="Superfície" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,gravel,pebblestone,compacted,grass_paver,grass,sand,ground" />
-			<text key="width" text="Amplada" />
-			<check key="handrail:right" text="Barana (dreta)" default="off" value_off="" value_on="yes"/>
-			<check key="handrail:center" text="Barana (central)" default="off" value_off="" value_on="yes"/>
-			<check key="handrail:left" text="Barana (esquerra)" default="off" value_off="" value_on="yes"/>
-			<check key="ramp" text="Rampa" default="off" value_off="" value_on="yes"/>
-			<check key="ramp:wheelchair" text="Rampa per a cadira de rodes" default="off" value_off="" value_on="yes"/>
-			<check key="ramp:stroller" text="Rampa per a carret" default="off" value_off="" value_on="yes"/>
-			<text key="step_count" text="Nombre d'esglaons" />
-			<text key="phonetics" text="Pronunciació fonètica (afegir amb dos punts al final l'idioma" />
-			<check key="tourism" text="Per activar un mapa tàctil activa aquests tres ítems" default="off" value_on="information"/>
-			<check key="information" text="Mapa tàctil" default="off" value_off="" value_on="tactile_map"/>
-			<check key="information" text="Mapa tàctil i auditiu" default="off" value_off="" value_on="audio_tactile_map"/>
-			<check key="information" text="Braille" default="off" value_off="" value_on="braille"/>
-			<check key="information" text="Lletres tàctils" default="off" value_off="" value_on="tactile_letters"/>
-			<text key="blind:description" text="Descripció per a cecs"/>
+						<item name="Cafetería" icon="" type="node,relation,way,closedway">
+			<label text="Common propierties" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
+			<check key="lit"  text="Lit" ca.text="Il·luminació" es.text="Iluminación" default="off" value_off="" />
+			<key key="amenity" value="cafe" />
 			</item>
 
 	</group>	
