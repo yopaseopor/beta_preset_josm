@@ -4,9 +4,9 @@ es.shortdescription="Señales tráfico_ZA"
 ca.shortdescription="Senyals trànsit_ZA"
 fr.shortdescription="Signalisation routière_ZA"
 description="Tag easily ways and nodes for highways and traffic signs from South Africa. Begin to be localizated."
-version="1.2019-02-09"
+version="1.2019-02-24"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/RS/traffic_signs/RS/RS_.png"
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ZA/traffic_signs/ZA/ZA_.png"
 baselanguage="en">
 
 <!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons extracted from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor. -->
