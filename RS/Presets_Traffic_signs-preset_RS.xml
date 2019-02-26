@@ -834,6 +834,8 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/RS/RS_I-25.png">
+
 
 <item name="RS:I-1.1" icon="traffic_signs/RS/RS_I-1.1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="RS:I-1.1" />
@@ -1364,6 +1366,9 @@ baselanguage="en">
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="RS:I-9" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+
+</group>
+<group name="Restriction" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/RS/RS_II-4.png">
 
 
 <item name="RS:II-1" icon="traffic_signs/RS/RS_II-1.png" type="node,way,relation">
@@ -2210,6 +2215,9 @@ baselanguage="en">
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="RS:II-9" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+
+</group>
+<group name="Information" ca.name="Indicació" es.name="Indicación" icon="traffic_signs/RS/RS_III-6.png">
 
 
 <item name="RS:III-1" icon="traffic_signs/RS/RS_III-1.png" type="node,way,relation">
@@ -4668,6 +4676,9 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+</group>
+<group name="Complementary" ca.name="Complementari" es.name="Complementarias" icon="traffic_signs/RS/RS_IV-2.png">
+
 
 <item name="RS:IV-1" icon="traffic_signs/RS/RS_IV-1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="RS:IV-1" />
@@ -5153,6 +5164,8 @@ baselanguage="en">
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="RS:XVI" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+
+</group>
 
 
 
