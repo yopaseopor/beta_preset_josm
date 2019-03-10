@@ -1395,7 +1395,7 @@ baselanguage="es">
 					</item> 
 
 					<item name="Maximum gross weight goods vehicles" ca.name="Pes màxim camions" es.name="Peso máximo camiones" icon="traffic_signs/ES/ES_R107.png" >
-					<text key="maxweight" text="Specify the maximum gross weight" ca.text="Especifica el pes màxim autoritzat" es.text="Especifica el peso máximo autorizado" />
+					<text key="maxweightrating:hgv" text="Specify the maximum gross weight" ca.text="Especifica el pes màxim autoritzat" es.text="Especifica el peso máximo autorizado" />
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R107" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R107" />
 					<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
@@ -1507,7 +1507,7 @@ baselanguage="es">
 					<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ES:R201" match="keyvalue!" />
 					</item>		
 
-					<item name="Maximum axe load" ca.name="Pes màxim autoritzat x eix" es.name="Peso máximo autorizado x eje" icon="traffic_signs/ES/ES_R202.png" >
+					<item name="Maximum axle load" ca.name="Pes màxim autoritzat x eix" es.name="Peso máximo autorizado x eje" icon="traffic_signs/ES/ES_R202.png" >
 					<text key="maxaxleload" text="Specify maximum load of axe" ca.text="Especifica el pes màxim autoritzat al remolc" es.text="Peso máximo autorizado en el remolque"/>
 					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ES:R202" />
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ES:R202" />
