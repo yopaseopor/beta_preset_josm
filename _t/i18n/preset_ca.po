@@ -1,0 +1,26 @@
+# 
+# Translators:
+# jmontane, 2016,2018
+# JOAQUIN GARCIA <joaquin.garcima@gmail.com>, 2017
+# Jose Luis Infante <jl@llefia.org>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Presets\n"
+"POT-Creation-Date: 2018-11-22 22:59+0100\n"
+"PO-Revision-Date: 2019-01-12 06:58+0000\n"
+"Last-Translator: josep constantí mata <iceberg.jcm@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/openstreetmap/presets/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: master_preset.xml:13927(item:name|group:Routes|preset:Hiking_Route)
+msgid "addr:door"
+msgstr "Porta"
+
+#: master_preset.xml:13927(item:name|group:Routes|preset:Hiking_Route)
+msgid "Porta"
+msgstr "Portes"
+
