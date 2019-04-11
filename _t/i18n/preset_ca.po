@@ -17,8 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: master_preset.xml:13927(item:name|group:Routes|preset:Hiking_Route)
-msgid "addr:door"
-msgstr "Porta"
+msgid "Incline (%)"
+msgstr "Inclinació (%)"
 
 #: master_preset.xml:13927(item:name|group:Routes|preset:Hiking_Route)
 msgid "Porta"
