@@ -282,7 +282,7 @@ baselanguage="es">
 			pl.href="https://wiki.openstreetmap.org/wiki/Pl:Tag:highway=traffic_signals"
 			pt_BR.href="https://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=traffic_signals"
 			ru.href="https://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals" />
-			<key key="highway" value="traffic_signals" />
+			<combo key="highway" text="Traffic signal for car or bike/pedestrian crossing?" ca.text="Semàfor per a cotxes o persones/bicis?" es.text="Semáforo para coches o personas/bicis" values="traffic_signals,crossing" ca.display_values="cotxes,persones/bicis" es.display_values="coches,personas/bicis"/>
 			<optional>
 			<check key="countdown_timer:vehicles" text="Has a countdown timer" ca.text="Té compte enrera" es.text="Indica cuenta atrás"/>
 			<label text="Crossings:" ca.text="Pas de vianants:" es.text="Paso de peatones:"/>
