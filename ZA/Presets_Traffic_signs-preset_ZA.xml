@@ -829,6 +829,7 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ZA/tr
 </item> 
 
 
+<group name="Information" ca.name="Informació" es.name="Información" icon="traffic_signs/ZA/ZA_IN15.png">
 <item name="ZA:IN14" icon="traffic_signs/ZA/ZA_IN14.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ZA:IN14" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="ZA:IN14" />
@@ -890,6 +891,9 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ZA/tr
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ZA:IN7" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+
+</group>
+<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/ZA/ZA_R1.1.png">
 
 
 <item name="ZA:R1.1" icon="traffic_signs/ZA/ZA_R1.1.png" type="node,way,relation">
@@ -3393,6 +3397,9 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ZA/tr
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+</group>
+<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/ZA/ZA_W101.png">
+
 
 <item name="ZA:W101" icon="traffic_signs/ZA/ZA_W101.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="ZA:W101" />
@@ -4184,6 +4191,8 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ZA/tr
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="ZA:W365" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+
+</group>
 
 
 
