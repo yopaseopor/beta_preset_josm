@@ -7,7 +7,7 @@ class TestXML(unittest.TestCase):
         pass
  
     def test_xsd(self):
-        f_preset = open('Presets_Traffic_signs-preset.xml')
+        f_preset = open('Presets_Traffic_signs-preset_BE.xml')
         f_xsd = open('test/tagging-preset.xsd')
         xmlschema_doc = etree.parse(f_xsd)
         xmlschema = etree.XMLSchema(xmlschema_doc)
