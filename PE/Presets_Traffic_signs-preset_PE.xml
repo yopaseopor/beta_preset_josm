@@ -1,15 +1,9 @@
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_PE"
-es.shortdescription="Señales tráfico_PE"
-ca.shortdescription="Senyals trànsit_PE"
-fr.shortdescription="Signalisation routière_PE"
-description="Tag easily ways and nodes for highways and traffic signs from Perú. Begin to be localizated."
-version="1.2019-01-14"
+description="Tag easily ways and nodes for highways and traffic signs from Peru. Begin to be localizated."
+version="2.2019-08-06"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/PE/traffic_signs/PE/PE_.png"
-baselanguage="es">
-
-<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/PE/traffic_signs/PE/PE_.png">
 
 <group name="Traffic_signs_PE" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   

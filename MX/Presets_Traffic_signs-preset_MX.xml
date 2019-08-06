@@ -1,15 +1,9 @@
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_MX"
-es.shortdescription="Señales tráfico_MX"
-ca.shortdescription="Senyals trànsit_MX"
-fr.shortdescription="Signalisation routière_MX"
 description="Tag easily ways and nodes for highways and traffic signs from Mexico. Begin to be localizated."
-version="1.2019-01-14"
+version="2.2019-08-06"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="traffic_signs/MX/MX_.png"
-baselanguage="ca">
-
-<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/MX/traffic_signs/MX/MX_.png">
 
 <group name="Traffic_signs_MX" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
