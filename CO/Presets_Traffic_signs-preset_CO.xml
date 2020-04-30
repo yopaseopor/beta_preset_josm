@@ -1,15 +1,9 @@
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_CO"
-es.shortdescription="Señales tráfico_CO"
-ca.shortdescription="Senyals trànsit_CO"
-fr.shortdescription="Signalisation routière_CO"
 description="Tag easily ways and nodes for highways and traffic signs from Colombia. Begin to be localizated."
-version="1.2019-01-14"
+version="2.2019-08-06"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/CO/traffic_signs/CO/CO_.png"
-baselanguage="es">
-
-<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/CO/traffic_signs/CO/CO_.png">
 
 <group name="Traffic_signs_CO" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
@@ -834,6 +828,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
 
+<group name="Information" ca.name="Informació" es.name="Información" icon="traffic_signs/CO/CO_SI07.png">
+
 <item name="CO:SI05A" icon="traffic_signs/CO/CO_SI05A.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CO:SI05A" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CO:SI05A" />
@@ -1103,6 +1099,10 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CO:SI50" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
+
+</group>
+
+<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/CO/CO_SP09.png">
 
 <item name="CO:SP01" icon="traffic_signs/CO/CO_SP01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CO:SP01" />
@@ -1470,6 +1470,9 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
 
+</group>
+
+<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/CO/CO_SR01.png">
 <item name="CO:SR01" icon="traffic_signs/CO/CO_SR01.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="CO:SR01" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CO:SR01" />
@@ -1745,6 +1748,7 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="CO:SR46" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
+<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/CO/CO_SR01.png">
 
 
 							<group name="Manual" ca.name="Manual" es.name="Manual" icon="traffic_signs_presets/ES_tp18.png">

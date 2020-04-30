@@ -1,15 +1,9 @@
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_IL"
-es.shortdescription="Señales tráfico_IL"
-ca.shortdescription="Senyals trànsit_IL"
-fr.shortdescription="Signalisation routière_IL"
 description="Tag easily ways and nodes for highways and traffic signs from Israel. Begin to be localizated."
-version="1.2019-02-26"
+version="2.2019-08-06"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/IL/traffic_signs/IL/IL_.png"
-baselanguage="en">
-
-<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons extracted from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor. -->
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/IL/traffic_signs/IL/IL_.png">
 
 <group name="Traffic_signs_IL" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
@@ -834,6 +828,8 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/IL/IL_139.png">
+
 
 <item name="IL:101" icon="traffic_signs/IL/IL_101.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IL:101" />
@@ -1203,6 +1199,8 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+</group>
+<group name="Compulsory" ca.name="Obligació" es.name="Obligación" icon="traffic_signs/IL/IL_203.png">
 
 <item name="IL:201" icon="traffic_signs/IL/IL_201.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IL:201" />
@@ -1483,6 +1481,9 @@ baselanguage="en">
 </item> 
 
 
+</group>
+
+<group name="Priority" ca.name="Prioritat" es.name="Prioridad" icon="traffic_signs/IL/IL_302.png">
 <item name="IL:301" icon="traffic_signs/IL/IL_301.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IL:301" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="IL:301" />
@@ -1572,6 +1573,8 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+</group>
+<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/IL/IL_418.png">
 
 <item name="IL:401" icon="traffic_signs/IL/IL_401.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IL:401" />
@@ -1932,6 +1935,9 @@ baselanguage="en">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
 
+</group>
+<group name="Information" ca.name="Informació" es.name="Información" icon="traffic_signs/IL/IL_626.png">
+
 
 <item name="IL:618" icon="traffic_signs/IL/IL_618.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="IL:618" />
@@ -2192,6 +2198,7 @@ baselanguage="en">
 <check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="IL:935" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item> 
+</group>
 
 
 

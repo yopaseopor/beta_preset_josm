@@ -1,15 +1,9 @@
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_PE"
-es.shortdescription="Señales tráfico_PE"
-ca.shortdescription="Senyals trànsit_PE"
-fr.shortdescription="Signalisation routière_PE"
-description="Tag easily ways and nodes for highways and traffic signs from Perú. Begin to be localizated."
-version="1.2019-01-14"
+description="Tag easily ways and nodes for highways and traffic signs from Peru. Begin to be localizated."
+version="2.2019-08-06"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
-icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/PE/traffic_signs/PE/PE_.png"
-baselanguage="es">
-
-<!-- Based on Quick-highways from lzhl, for parking options Parking Lanes from Sebastian Klemm, Kay Drangmeister. Accesibility options from CCcamara. Icons from OSM Wiki , Wikimedia commons and JOSM. Partial french translation by Xapitoun. Spanish and Catalan translation by yopaseopor .We wish translations and localizations.Can you help us? -->
+icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/PE/traffic_signs/PE/PE_.png">
 
 <group name="Traffic_signs_PE" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
@@ -827,22 +821,6 @@ baselanguage="es">
 	
 	<group name="Perú" ca.name="Perú" es.name="Perú" icon="traffic_signs_presets/ES_tp18.png">
 	
-				<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/DE/DE_250.png">
-			
-			<item name="Advisory speed" ca.name="Velocitat recomanada" es.name="Velocidad recomendada" icon="traffic_signs/DE/DE_380-52.png" type="node,way,relation">
-				<key key="traffic_sign" value="regulatory" />
-				<key key="regulatory" value="advisory" />
-				<key key="advisory" value="maxspeed" />
-				<text key="maxspeed:advisory" text="Specify advisory speed" ca.text="Velocitat recomanada" es.text="Velocidad recomendada"/>
-				<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:384" />
-			<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:384" />
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="PE:384" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="PE:384" match="keyvalue!" />
-			</item> 
-							
-				</group>
-	
 	
 <item name="PE:" icon="traffic_signs/PE/PE_.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:" />
@@ -850,6 +828,8 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
 
+
+<group name="Information and others" ca.name="Informació i altres" es.name="Información y otras" icon="traffic_signs/PE/PE_I1.png">
 <item name="PE:I1" icon="traffic_signs/PE/PE_I1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:I1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:I1" />
@@ -1095,6 +1075,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:I9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
+</group>
+<group name="Warning" ca.name="Perill" es.name="Peligro" icon="traffic_signs/PE/PE_P1A.png">
 
 <item name="PE:P10A" icon="traffic_signs/PE/PE_P10A.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:P10A" />
@@ -1528,6 +1510,9 @@ baselanguage="es">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
 
+</group>
+<group name="Regulatory" ca.name="Reglamentació" es.name="Reglamentación" icon="traffic_signs/PE/PE_R3.png">
+
 <item name="PE:R1" icon="traffic_signs/PE/PE_R1.png" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="PE:R1" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:R1" />
@@ -1875,6 +1860,8 @@ baselanguage="es">
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="PE:R9" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
 </item>
+
+</group>
 
 							<group name="Manual" ca.name="Manual" es.name="Manual" icon="traffic_signs_presets/ES_tp18.png">
 
