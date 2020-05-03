@@ -9,7 +9,7 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BE/tr
 	<group name="A.Ways" es.name="A.Vías" ca.name="A.Vies" icon="traffic_signs_presets/ES_ruta_europea.png">		   
 		<group name="Highways" es.name="1.Carreteras" ca.name="1.Carreteres" icon="traffic_signs_presets/secondary.png">
 
-			<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs_presets/ES_motorway.png" type="node,relation,way,closedway">
+				<item name="Motorway" es.name="Autopista/Autovía" ca.name="Autopista/Autovia" fr.name="Autoroute" icon="traffic_signs_presets/ES_motorway.png" type="node,relation,way,closedway">
 			<label text="Common propierties" ca.text="Propietats comuns" es.text="Propiedades comunes" icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Motorway_photo_300px.jpg"/>
 			<combo key="highway" text="Main lane or link" es.text="Carril principal o enlace" ca.text="Carril principal o enllaç" default="motorway"> 
 			<list_entry value="motorway" display_value="Main" short_description="Main road" icon="https://wiki.openstreetmap.org/w/images/thumb/d/d0/Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg/80px-Cesta_od_Le%C5%A1tiny_do_Lipnice_nad_S%C3%A1zavou_%282%29.jpg" ca.display_value="Principal" ca.short_description="Calçada principal de l'autopista" es.display_value="Principal" es.short_description="Calzada principal de la autopista" />
