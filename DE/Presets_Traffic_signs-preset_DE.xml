@@ -1,7 +1,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
 shortdescription="Traffic signs_DE"
 description="Tag easily ways and nodes for highways and traffic signs from Germany. Begin to be localizated."
-version="5.2020-10-08"
+version="2020-10-08.1"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="traffic_signs/DE/DE_.svg">
 
@@ -29,6 +29,7 @@ icon="traffic_signs/DE/DE_.svg">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
 
+<group name="Complimentary" ca.name="Complementàries" de.name="Zusatzzeichen" es.name="Complementarias" icon="traffic_signs/DE/DE_1000-10.svg">
 
 <item name="DE:1000-10" icon="traffic_signs/DE/DE_1000-10.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:1000-10" />
@@ -3904,7 +3905,8 @@ icon="traffic_signs/DE/DE_.svg">
 <check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:1060-33" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
-
+</group>
+<group name="Warning" ca.name="Perill" de.name="Gefahrzeichen" es.name="Peligro" icon="traffic_signs/DE/DE_108-10.svg">
 
 <item name="DE:108-10" icon="traffic_signs/DE/DE_108-10.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:108-10" />
@@ -5230,7 +5232,8 @@ icon="traffic_signs/DE/DE_.svg">
 <check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:162-21" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
-
+</group>
+<group name="Regulatory" ca.name="Reglamentació" de.name="Vorschriftzeichen " es.name="Reglamentación" icon="traffic_signs/DE/DE_201-50.svg">
 
 <item name="DE:201-50" icon="traffic_signs/DE/DE_201-50.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:201-50" />
@@ -7372,7 +7375,8 @@ icon="traffic_signs/DE/DE_.svg">
 <check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:299" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
-
+</group>
+<group name="Information" ca.name="Informació" de.name="Richtzeichen" es.name="Información" icon="traffic_signs/DE/DE_201-50.svg">
 
 <item name="DE:301" icon="traffic_signs/DE/DE_301.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:301" />
@@ -9565,7 +9569,8 @@ icon="traffic_signs/DE/DE_.svg">
 <check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:394" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
-
+</group>
+<group name="Orientation" ca.name="Orientació" de.name="Verkehrseinrichtungen" es.name="Orientación" icon="traffic_signs/DE/DE_401.svg">
 
 <item name="DE:401" icon="traffic_signs/DE/DE_401.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:401" />
@@ -11299,7 +11304,8 @@ icon="traffic_signs/DE/DE_.svg">
 <check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:467.2" match="keyvalue!" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
-
+</group>
+<group name="Others" ca.name="Altres" de.name="Sonstige Zeichen" es.name="Otras" icon="traffic_signs/DE/DE_501-10.svg">
 
 <item name="DE:501-10" icon="traffic_signs/DE/DE_501-10.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:501-10" />
@@ -13578,7 +13584,7 @@ icon="traffic_signs/DE/DE_.svg">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
 </item> 
 
-
+</group>
 
 
 <item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs/DE/DE_direction_left.svg" type="node,way,relation">
