@@ -1085,310 +1085,6 @@ icon="traffic_signs/DE/DE_.svg">
 </item> 
 
 
-<item name="DE:101-10" icon="traffic_signs/DE/DE_101-10.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-10" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-10" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-11" icon="traffic_signs/DE/DE_101-11.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-11" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-11" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-12" icon="traffic_signs/DE/DE_101-12.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-12" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-12" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-13" icon="traffic_signs/DE/DE_101-13.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-13" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-13" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-14" icon="traffic_signs/DE/DE_101-14.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-14" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-14" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-15" icon="traffic_signs/DE/DE_101-15.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-15" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-15" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-20" icon="traffic_signs/DE/DE_101-20.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-20" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-20" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-21" icon="traffic_signs/DE/DE_101-21.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-21" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-21" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-22" icon="traffic_signs/DE/DE_101-22.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-22" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-22" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-23" icon="traffic_signs/DE/DE_101-23.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-23" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-23" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-24" icon="traffic_signs/DE/DE_101-24.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-24" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-24" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-25" icon="traffic_signs/DE/DE_101-25.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-25" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-25" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-51" icon="traffic_signs/DE/DE_101-51.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-51" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-51" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-52" icon="traffic_signs/DE/DE_101-52.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-52" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-52" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-53" icon="traffic_signs/DE/DE_101-53.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-53" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-53" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-54" icon="traffic_signs/DE/DE_101-54.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-54" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-54" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101-55" icon="traffic_signs/DE/DE_101-55.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-55" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-55" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:101" icon="traffic_signs/DE/DE_101.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
 
 
 <item name="DE:1010-10" icon="traffic_signs/DE/DE_1010-10.svg" type="node,way,relation">
@@ -2938,39 +2634,6 @@ icon="traffic_signs/DE/DE_.svg">
 </item> 
 
 
-<item name="DE:103-10" icon="traffic_signs/DE/DE_103-10.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:103-10" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:103-10" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:103-20" icon="traffic_signs/DE/DE_103-20.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:103-20" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:103-20" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
 
 <item name="DE:1031-50" icon="traffic_signs/DE/DE_1031-50.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:1031-50" />
@@ -3533,40 +3196,6 @@ icon="traffic_signs/DE/DE_.svg">
 </item> 
 
 
-<item name="DE:105-10" icon="traffic_signs/DE/DE_105-10.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:105-10" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:105-10" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
-<item name="DE:105-20" icon="traffic_signs/DE/DE_105-20.svg" type="node,way,relation">
-<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:105-20" />
-<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:105-20" />
-<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
-</item> 
-
-
 <item name="DE:1050-30" icon="traffic_signs/DE/DE_1050-30.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:1050-30" />
 <check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:1050-30" />
@@ -3907,6 +3536,381 @@ icon="traffic_signs/DE/DE_.svg">
 </item> 
 </group>
 <group name="Warning" ca.name="Perill" de.name="Gefahrzeichen" es.name="Peligro" icon="traffic_signs/DE/DE_108-10.svg">
+
+<item name="DE:101-10" icon="traffic_signs/DE/DE_101-10.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-10" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-10" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-10" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-11" icon="traffic_signs/DE/DE_101-11.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-11" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-11" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-11" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-12" icon="traffic_signs/DE/DE_101-12.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-12" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-12" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-12" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-13" icon="traffic_signs/DE/DE_101-13.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-13" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-13" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-13" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-14" icon="traffic_signs/DE/DE_101-14.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-14" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-14" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-14" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-15" icon="traffic_signs/DE/DE_101-15.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-15" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-15" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-15" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-20" icon="traffic_signs/DE/DE_101-20.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-20" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-20" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-20" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-21" icon="traffic_signs/DE/DE_101-21.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-21" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-21" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-21" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-22" icon="traffic_signs/DE/DE_101-22.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-22" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-22" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-22" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-23" icon="traffic_signs/DE/DE_101-23.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-23" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-23" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-23" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-24" icon="traffic_signs/DE/DE_101-24.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-24" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-24" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-24" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-25" icon="traffic_signs/DE/DE_101-25.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-25" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-25" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-25" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-51" icon="traffic_signs/DE/DE_101-51.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-51" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-51" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-51" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-52" icon="traffic_signs/DE/DE_101-52.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-52" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-52" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-52" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-53" icon="traffic_signs/DE/DE_101-53.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-53" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-53" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-53" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-54" icon="traffic_signs/DE/DE_101-54.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-54" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-54" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-54" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101-55" icon="traffic_signs/DE/DE_101-55.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101-55" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101-55" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101-55" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:101" icon="traffic_signs/DE/DE_101.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:101" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:101" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:101" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:103-10" icon="traffic_signs/DE/DE_103-10.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:103-10" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:103-10" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-10" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:103-20" icon="traffic_signs/DE/DE_103-20.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:103-20" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:103-20" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:103-20" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:105-10" icon="traffic_signs/DE/DE_105-10.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:105-10" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:105-10" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-10" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
+<item name="DE:105-20" icon="traffic_signs/DE/DE_105-20.svg" type="node,way,relation">
+<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:105-20" />
+<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="DE:105-20" />
+<check key="traffic_sign:270" text="270 clockwise" ca.text="270 sentit gir horari" es.text="270 sentido giro horario" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:90" text="90 clockwise" ca.text="90 sentit gir horari" es.text="90 sentido giro horario" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:2:forward" text="Forward, second position" ca.text="En el sentit de la marxa, segona posició" es.text="En el sentido de la marcha, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:2:backward" text="Backward, second position" ca.text="En sentit contrari, segona posició" es.text="En sentido contrario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:2:270" text="270 clockwise, second position" ca.text="270 sentit gir horari, segona posició" es.text="270 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:2:90" text="90 clockwise, second position" ca.text="90 sentit gir horari, segona posició" es.text="90 sentido giro horario, segunda posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:3:forward" text="Forward, third position" ca.text="En el sentit de la marxa, tercera posició" es.text="En el sentido de la marcha, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:3:backward" text="Backward, third position" ca.text="En sentit contrari, tercera posició" es.text="En sentido contrario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:3:270" text="270 clockwise, third position" ca.text="270 sentit gir horari, tercera posició" es.text="270 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<check key="traffic_sign:3:90" text="90 clockwise, third position" ca.text="90 sentit gir horari, tercera posició" es.text="90 sentido giro horario, tercera posición" default="off" value_off="" value_on="DE:105-20" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"  />
+</item> 
+
+
 
 <item name="DE:108-10" icon="traffic_signs/DE/DE_108-10.svg" type="node,way,relation">
 <check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="DE:108-10" />
