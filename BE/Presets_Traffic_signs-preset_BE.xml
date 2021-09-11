@@ -538,18 +538,6 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BE/tr
 					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:F11" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item> 
 
-					<item name="Goods vehicles" ca.name="Via per a camions" es.name="Vía para camiones" icon="traffic_signs/BE/BE_F107.png" type="node,way,relation">
-					<key key="hgv" value="designated" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:F107" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:F107" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>
-
-					<item name="End Goods vehicles" ca.name="Final via per a camions" es.name="Final vía para camiones" icon="traffic_signs/BE/BE_F109.png" type="node,way,relation">
-					<key key="hgv" value="designated" />
-					<check key="traffic_sign:forward" text="Forward" ca.text="En el sentit de la marxa" es.text="En el sentido de la marcha" default="off" value_off="" value_on="BE:F109" />
-					<check key="traffic_sign:backward" text="Backward" ca.text="En sentit contrari" es.text="En sentido contrario" default="off" value_off="" value_on="BE:F109" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" /></item>					
-
 					<item name="Pedal cycles" ca.name="Carril bici" es.name="Carril bici" icon="traffic_signs/BE/BE_D7.png" type="node,way,relation">
 					<combo key="cycleway" text="Cycleway track or lane?" ca.text="Carril bici segregat?" es.text="Carril bici segregado?" values="track,lane" ca.display_values="segregat,no segregat" es.display_values="segregado,no segregado" default="lane" />
 					<key key="access" value="no" />
