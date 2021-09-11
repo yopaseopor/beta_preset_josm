@@ -5,7 +5,7 @@ version="4.2021-09-11"
 link="https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging" 
 icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BE/traffic_signs/BE/BE_.png">
 
-	<group name="B.Traffic signs (by countries)" ca.name="B.Senyals (per països)" es.name="B.Señales (por países)" icon="traffic_signs_presets/ES_traffic_sign_dir.png">
+<group name="Traffic_signs_BE" icon="traffic_signs_presets/ES_road_beacon_big.png">
 	
 	
 	<group name="Belgium" ca.name="Bèlgica" es.name="Bélgica" icon="traffic_signs/BE/BE_.png">
@@ -1241,7 +1241,6 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/BE/tr
 
 			<space />
 						</item>
-	</group>
-	
+</group>
 </group>
 </presets>
