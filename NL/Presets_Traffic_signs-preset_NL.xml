@@ -1,4 +1,5 @@
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="yopaseopor"
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+author="yopaseopor"
 shortdescription="Traffic signs_NL"
 description="Tag easily ways and nodes for highways and traffic signs from the Netherlands. Begin to be localizated."
 version="3.2019-08-06"
