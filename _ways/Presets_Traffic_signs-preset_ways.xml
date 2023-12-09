@@ -1350,16 +1350,16 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/DE/tr
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 </item>
 
-<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs_presets/ES_R301.svg" >
-				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
-				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
-				<text key="source:maxspeed" text="Specify which is the source for the speed limit, ex: sign" ca.text="Especifica quina és la font de límit de velocitat, ex: sign" es.text="Especifica cual es la fuente del límite de velocidad, ej: sign" default="sign" />
-				<text key="maxspeed" text="Specify maximum speed" ca.text="Especifica la velocitat màxima de la via " es.text="A rellenar con la velocidad de la vía" />
-				<text key="maxspeed:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
-				<text key="maxspeed:backward" text="Specify maximum speed backward" ca.text="Especifica la velocitat del sentit contrari de la via" es.text="A rellenar con la velocidad del sentido contrario de la vía" />
-				<text key="maxspeed:conditional" text="Specify which is the condition for the speed limit" ca.text="Especifica quina és la condició de límit de velocitat" es.text="Especifica cual es la condición del límite de velocidad"/>
-				<check key="highway" text="Speed camera?" ca.text="Radar Velocitat?" es.text="¿Radar velocidad?" default="off" value_off="" value_on="speed_camera" />
-							<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs_presets/ES_R301.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
+			<text key="source:maxspeed" text="Specify which is the source for the speed limit, ex: sign" ca.text="Especifica quina és la font de límit de velocitat, ex: sign" es.text="Especifica cual es la fuente del límite de velocidad, ej: sign" default="sign" />
+			<text key="maxspeed" text="Specify maximum speed" ca.text="Especifica la velocitat màxima de la via " es.text="A rellenar con la velocidad de la vía" />
+			<text key="maxspeed:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
+			<text key="maxspeed:backward" text="Specify maximum speed backward" ca.text="Especifica la velocitat del sentit contrari de la via" es.text="A rellenar con la velocidad del sentido contrario de la vía" />
+			<text key="maxspeed:conditional" text="Specify which is the condition for the speed limit" ca.text="Especifica quina és la condició de límit de velocitat" es.text="Especifica cual es la condición del límite de velocidad"/>
+			<check key="highway" text="Speed camera?" ca.text="Radar Velocitat?" es.text="¿Radar velocidad?" default="off" value_off="" value_on="speed_camera" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 			<list_entry value="ES:R301" display_value="ES:R301" ca.display_value="ES:R301" es.display_value="ES:R301" icon="traffic_signs_presets/ES_R301.svg" short_description="" ca.short_description="" es.short_description=""/>
@@ -1367,7 +1367,176 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/DE/tr
 			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
 			<list_entry value="ES:R301" display_value="ES:R301" ca.display_value="ES:R301" es.display_value="ES:R301" icon="traffic_signs_presets/ES_R301.svg" short_description="" ca.short_description="" es.short_description=""/>
 			</combo>
+			</item>
+				
+				<item name="End of Maximum speed" ca.name="Final de velocitat màxima" es.name="Final de velocidad máxima" icon="traffic_signs_presets/ES_R501.svg" >
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
+				<key key="maxspeed" value="implicit" match="keyvalue!" />
+				<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R501" display_value="ES:R501" ca.display_value="ES:R501" es.display_value="ES:R501" icon="traffic_signs_presets/ES_R501.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R501" display_value="ES:R501" ca.display_value="ES:R501" es.display_value="ES:R501" icon="traffic_signs_presets/ES_R501.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
 				</item>
+				
+			<item name="Maximum advisory speed" ca.name="Velocitat màxima recomanada" es.name="Velocidad máxima recomendada" icon="traffic_signs_presets/ES_S7.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
+			<text key="source:maxspeed:advisory" text="Specify which is the source for the advisory speed limit, ex: sign" ca.text="Especifica quina és la font de límit de velocitat recomanat, ex: sign" es.text="Especifica cual es la fuente del límite de velocidad recomendado, ej: sign" default="sign" />
+			<text key="maxspeed:advisory" text="Specify maximum advisory speed" ca.text="Especifica la velocitat màxima recomanada de la via " es.text="A rellenar con la velocidad recomendada de la vía" />
+			<text key="maxspeed:advisory:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
+			<text key="maxspeed:advisory:backward" text="Specify maximum advisory speed backward" ca.text="Especifica la velocitat recomanada del sentit contrari de la via" es.text="A rellenar con la velocidad recomendada del sentido contrario de la vía" />
+			<text key="maxspeed:advisory:conditional" text="Specify which is the condition for the advisory speed limit" ca.text="Especifica quina és la condició de límit de velocitat recomanat" es.text="Especifica cual es la condición del límite de velocidad recomendado"/>
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:S7" display_value="ES:S7" ca.display_value="ES:S7" es.display_value="ES:S7" icon="traffic_signs_presets/ES_S7.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:S7" display_value="ES:S7" ca.display_value="ES:S7" es.display_value="ES:S7" icon="traffic_signs_presets/ES_S7.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="End of Maximum advisory speed" ca.name="Final de velocitat màxima recomanada" es.name="Final de velocidad máxima recomendada" icon="traffic_signs_presets/ES_S8.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
+			<key key="maxspeed:advisory" value="implicit" match="keyvalue!" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:S8" display_value="ES:S8" ca.display_value="ES:S8" es.display_value="ES:S8" icon="traffic_signs_presets/ES_S8.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:S8" display_value="ES:S8" ca.display_value="ES:S8" es.display_value="ES:S8" icon="traffic_signs_presets/ES_S8.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="Minimum speed" ca.name="Velocitat mínima" es.name="Velocidad mínima" icon="traffic_signs_presets/ES_R411.svg" >
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="minspeed" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="minspeed" />
+				<text key="source:minspeed" text="Specify which is the source for the speed limit, ex: sign" ca.text="Especifica quina és la font de límit mínim de velocitat, ex: sign" es.text="Especifica cual es la fuente del límite mínimo de velocidad, ej: sign" default="sign" />
+				<text key="minspeed" text="Specify minimum speed" ca.text="Especifica la velocitat mínima de la via " es.text="A rellenar con la velocidad mínima de la vía" />
+				<text key="minspeed:forward" text="Specify minimum speed forward" ca.text="Especifica la velocitat mínima del sentit de la via " es.text="A rellenar con la velocidad mínima del sentido de la vía" />
+				<text key="minspeed:backward" text="Specify minimum speed backward" ca.text="Especifica la velocitat mínima del sentit contrari de la via" es.text="A rellenar con la velocidad mínima del sentido contrario de la vía" />
+				<text key="minspeed:conditional" text="Specify which is the condition for the speed limit" ca.text="Especifica quina és la condició de límit mínima de velocitat" es.text="Especifica cual es la condición del límite mínimo de velocidad"/>
+				<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R411" display_value="ES:R411" ca.display_value="ES:R411" es.display_value="ES:R411" icon="traffic_signs_presets/ES_R411.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R411" display_value="ES:R411" ca.display_value="ES:R411" es.display_value="ES:R411" icon="traffic_signs_presets/ES_R411.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+				</item>
+				
+			<item name="End of Minimum speed" ca.name="Final de velocitat mínima" es.name="Final de velocidad mínima" icon="traffic_signs_presets/ES_R506.svg" >
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="minspeed" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="minspeed" />
+				<key key="minspeed" value="implicit" match="keyvalue!" />
+				<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R506" display_value="ES:R506" ca.display_value="ES:R506" es.display_value="ES:R506" icon="traffic_signs_presets/ES_R506.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R506" display_value="ES:R506" ca.display_value="ES:R506" es.display_value="ES:R506" icon="traffic_signs_presets/ES_R506.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+				</item>
+				
+			<item name="Maximum height" ca.name="Alçada màxima" es.name="Altura máxima" icon="traffic_signs_presets/ES_R205.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxheight" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxheight" />
+			<text key="source:maxheight" text="Specify which is the source for the height limit, ex: sign" ca.text="Especifica quina és la font del límit d`alçada, ex: sign" es.text="Especifica cual es la fuente del límite de altura, ej: sign" default="sign" />
+			<text key="maxheight" text="Specify maximum height" ca.text="Especifica l`alçada màxima permesa" es.text="A rellenar con la altura máxima permitida" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R205" display_value="ES:R205" ca.display_value="ES:R205" es.display_value="ES:R205" icon="traffic_signs_presets/ES_R205.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R205" display_value="ES:R205" ca.display_value="ES:R205" es.display_value="ES:R205" icon="traffic_signs_presets/ES_R205.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="Maximum length" ca.name="Llargada màxima" es.name="Largo máximo" icon="traffic_signs_presets/ES_R203.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxlength" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxlength" />
+			<text key="source:maxlength" text="Specify which is the source for the length limit, ex: sign" ca.text="Especifica quina és la font del límit de llargada, ex: sign" es.text="Especifica cual es la fuente del límite de largo, ej: sign" default="sign" />
+			<text key="maxlength" text="Specify maximum length" ca.text="Especifica la llargada màxima permesa" es.text="A rellenar con el largo máximo permitido" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R203" display_value="ES:R203" ca.display_value="ES:R203" es.display_value="ES:R203" icon="traffic_signs_presets/ES_R203.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R203" display_value="ES:R203" ca.display_value="ES:R203" es.display_value="ES:R203" icon="traffic_signs_presets/ES_R203.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="Maximum width" ca.name="Amplada màxima" es.name="Anchura máxima" icon="traffic_signs_presets/ES_R204.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxwidth" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxwidth" />
+			<text key="source:maxwidth" text="Specify which is the source for the height limit, ex: sign" ca.text="Especifica quina és la font del límit d`amplada, ex: sign" es.text="Especifica cual es la fuente del límite de anchura, ej: sign" default="sign" />
+			<text key="maxwidth" text="Specify maximum width" ca.text="Especifica l`amplada màxima permesa" es.text="A rellenar con la anchura máxima permitida" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R204" display_value="ES:R204" ca.display_value="ES:R204" es.display_value="ES:R204" icon="traffic_signs_presets/ES_R204.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R204" display_value="ES:R204" ca.display_value="ES:R204" es.display_value="ES:R204" icon="traffic_signs_presets/ES_R204.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="Maximum weight" ca.name="Pes màxim" es.name="Peso máximo" icon="traffic_signs_presets/ES_R201.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxweight" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxweight" />
+			<text key="source:maxweight" text="Specify which is the source for the weight limit, ex: sign" ca.text="Especifica quina és la font del límit de pes, ex: sign" es.text="Especifica cual es la fuente del límite de peso, ej: sign" default="sign" />
+			<text key="maxweight" text="Specify maximum weight" ca.text="Especifica el pes màxim permés" es.text="A rellenar con el peso máximo permitido" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R201" display_value="ES:R201" ca.display_value="ES:R201" es.display_value="ES:R201" icon="traffic_signs_presets/ES_R201.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R201" display_value="ES:R201" ca.display_value="ES:R201" es.display_value="ES:R201" icon="traffic_signs_presets/ES_R201.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="Maximum axleload" ca.name="Pes màxim per eix" es.name="Peso máximo por eje" icon="traffic_signs_presets/ES_R202.svg" >
+			<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxaxleload" />
+			<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxaxleload" />
+			<text key="source:maxweight" text="Specify which is the source for the axleload limit, ex: sign" ca.text="Especifica quina és la font del límit de pes per eix, ex: sign" es.text="Especifica cual es la fuente del límite de peso por eje, ej: sign" default="sign" />
+			<text key="maxaxleload" text="Specify maximum axleload" ca.text="Especifica el pes màxim permés per eix" es.text="A rellenar con el peso máximo permitido por eje" />
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R202" display_value="ES:R202" ca.display_value="ES:R202" es.display_value="ES:R202" icon="traffic_signs_presets/ES_R202.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R202" display_value="ES:R202" ca.display_value="ES:R202" es.display_value="ES:R202" icon="traffic_signs_presets/ES_R202.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			</item>
+			
+			<item name="City limit" ca.name="Límit de població" es.name="Límite de población" icon="traffic_signs_presets/ES_R305.svg" type="node,way">
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="city_limit" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="city_limit" />
+				<combo text="End, begin or both?" ca.text="Entrada, sortida o ambdós?" es.text="¿Entrada,salida o ambas?" key="city_limit" values="end,begin,both" ca.display_values="final,començament,ambdues" es.display_values="final,comienzo,ambas" default="" />
+				<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<list_entry value="ES:R500" display_value="ES:R500" ca.display_value="ES:R500" es.display_value="ES:R500" icon="traffic_signs_presets/ES_R500.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R510" display_value="ES:R510" ca.display_value="ES:R510" es.display_value="ES:R510" icon="traffic_signs_presets/ES_R510.svg" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+				<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<list_entry value="ES:R500" display_value="ES:R500" ca.display_value="ES:R500" es.display_value="ES:R500" icon="traffic_signs_presets/ES_R500.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R510" display_value="ES:R510" ca.display_value="ES:R510" es.display_value="ES:R510" icon="traffic_signs_presets/ES_R510.svg" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+							<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+</item>
 			
 			<item name="Traffic sign ID (manual)" ca.name="ID del Senyal de trànsit (manual)" es.name="ID de la señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 			
