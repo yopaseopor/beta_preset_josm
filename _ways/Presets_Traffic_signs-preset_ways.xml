@@ -1297,9 +1297,80 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/DE/tr
 			<item name="Noname" ca.name="Sense nom" es.name="Sin nombre" icon="traffic_signs_presets/ES_r101.png" type="way">
 			<key key="noname" value="yes" />
 			</item>
+			</group>
 			
-			<item name="Traffic sign (manual)" ca.name="Senyal de trànsit (manual)" es.name="Señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
 
+	</group>	
+				<group name="B.Readable" es.name="B.Legible" ca.name="B.Llegible" icon="traffic_signs_presets/ES_ruta_europea.svg">
+				
+			<item name="Stop" ca.name="Stop" es.name="Stop" icon="traffic_signs_presets/stop.svg" type="node,way">
+			<key key="highway" value="stop" match="keyvalue!" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R2" display_value="Spain ES:R2" ca.display_value="Espanya ES:R2" es.display_value="España ES:R2" icon="traffic_signs_presets/ES_R2.svg" short_description="" ca.short_description="" es.short_description=""/>	
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type second position" es.text="Tipo de señal, segunda posición" ca.text="Tipus de senyal, segona posició">
+			<list_entry value="ES:R2" display_value="Spain ES:R2" ca.display_value="Espanya ES:R2" es.display_value="España ES:R2" icon="traffic_signs_presets/ES_R2.svg" short_description="" ca.short_description="" es.short_description=""/>	
+			</combo>
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />				
+			</item> 
+
+			<item name="Give way/Yield" ca.name="Cedeixi el pas" es.name="Ceda el paso" icon="traffic_signs_presets/give_way.svg" type="node,way">
+			<key key="highway" value="give_way" match="keyvalue!" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R1" display_value="Spain ES:R1" ca.display_value="Espanya ES:R1" es.display_value="España ES:R1" icon="traffic_signs_presets/ES_R1.svg" short_description="" ca.short_description="" es.short_description=""/>	
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type second position" es.text="Tipo de señal, segunda posición" ca.text="Tipus de senyal, segona posició">
+			<list_entry value="ES:R1" display_value="Spain ES:R1" ca.display_value="Espanya ES:R1" es.display_value="España ES:R1" icon="traffic_signs_presets/ES_R1.svg" short_description="" ca.short_description="" es.short_description=""/>	
+			</combo>
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			</item> 			
+
+				<item name="No overtaking" ca.name="Prohibit fer avançaments" es.name="Prohibido adelantar" icon="traffic_signs_presets/ES_R305.svg" type="node,way">
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="overtaking" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="overtaking" />
+				<combo text="Overtaking allowed?" ca.text="Avançaments permesos?" es.text="¿Adelantamientos permitidos?" key="overtaking" values="yes,no,both,forward,backward,implicit" ca.display_values="Sí,No,Ambdós,Sentit via,Sentit contrari,Final" es.display_values="Sí,No,Ambos,Sentido vía,Sentido contrario,Final" default="no" />
+				<combo text="Easy?" ca.text="Avançament fàcil?" es.text="¿Adelantamientos fáciles?" key="easy_overtaking" values="both,forward,backward" ca.display_values="Ambdós,Sentit via, Sentit contrari" es.display_values="Ambos,Sentido vía, Sentido contrario" default="no" />
+				<check key="overtaking:hgv" text="No goods vehicles overtaking" ca.text="Prohibit avançar pels camions" es.text="Prohibido adelantar para camiones" value_on="no" default="off" value_off="" />
+				<text key="overtaking:hgv:conditional" text="Restricted condition to overtaking hgv" ca.text="Especifica condicions per permetre l'avançament amb camions" es.text="Especifica condiciones para permitir el adelantamiento con camiones" />
+				<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+				<list_entry value="ES:R305" display_value="ES:R305" ca.display_value="ES:R305" es.display_value="ES:R305" icon="traffic_signs_presets/ES_R305.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R306" display_value="ES:R306" ca.display_value="ES:R306" es.display_value="ES:R306" icon="traffic_signs_presets/ES_R306.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R502" display_value="ES:R502" ca.display_value="ES:R502" es.display_value="ES:R502" icon="traffic_signs_presets/ES_502.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R503" display_value="ES:R503" ca.display_value="ES:R503" es.display_value="ES:R503" icon="traffic_signs_presets/ES_503.svg" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+				<combo key="traffic_sign:2:id" text="signal type second position" es.text="Tipo de señal segunda posición" ca.text="Tipus de senyal segona posició" match="keyvalue!" >
+				<list_entry value="ES:R305" display_value="ES:R305" ca.display_value="ES:R305" es.display_value="ES:R305" icon="traffic_signs_presets/ES_R305.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R306" display_value="ES:R306" ca.display_value="ES:R306" es.display_value="ES:R306" icon="traffic_signs_presets/ES_R306.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R502" display_value="ES:R502" ca.display_value="ES:R502" es.display_value="ES:R502" icon="traffic_signs_presets/ES_502.svg" short_description="" ca.short_description="" es.short_description=""/>
+				<list_entry value="ES:R503" display_value="ES:R503" ca.display_value="ES:R503" es.display_value="ES:R503" icon="traffic_signs_presets/ES_503.svg" short_description="" ca.short_description="" es.short_description=""/>
+				</combo>
+							<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+</item>
+
+<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs_presets/ES_R301.svg" >
+				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="maxspeed" />
+				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="maxspeed" />
+				<text key="source:maxspeed" text="Specify which is the source for the speed limit, ex: sign" ca.text="Especifica quina és la font de límit de velocitat, ex: sign" es.text="Especifica cual es la fuente del límite de velocidad, ej: sign" default="sign" />
+				<text key="maxspeed" text="Specify maximum speed" ca.text="Especifica la velocitat màxima de la via " es.text="A rellenar con la velocidad de la vía" />
+				<text key="maxspeed:forward" text="Specify maximum speed forward" ca.text="Especifica la velocitat màxima del sentit de la via " es.text="A rellenar con la velocidad del sentido de la vía" />
+				<text key="maxspeed:backward" text="Specify maximum speed backward" ca.text="Especifica la velocitat del sentit contrari de la via" es.text="A rellenar con la velocidad del sentido contrario de la vía" />
+				<text key="maxspeed:conditional" text="Specify which is the condition for the speed limit" ca.text="Especifica quina és la condició de límit de velocitat" es.text="Especifica cual es la condición del límite de velocidad"/>
+				<check key="highway" text="Speed camera?" ca.text="Radar Velocitat?" es.text="¿Radar velocidad?" default="off" value_off="" value_on="speed_camera" />
+							<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
+			<combo key="traffic_sign:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R301" display_value="ES:R301" ca.display_value="ES:R301" es.display_value="ES:R301" icon="traffic_signs_presets/ES_R301.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+			<combo key="traffic_sign:2:id" text="signal type" es.text="Tipo de señal" ca.text="Tipus de senyal">
+			<list_entry value="ES:R301" display_value="ES:R301" ca.display_value="ES:R301" es.display_value="ES:R301" icon="traffic_signs_presets/ES_R301.svg" short_description="" ca.short_description="" es.short_description=""/>
+			</combo>
+				</item>
+			
+			<item name="Traffic sign ID (manual)" ca.name="ID del Senyal de trànsit (manual)" es.name="ID de la señal de tráfico (manual)" icon="traffic_signs_presets/direction_left.png" type="node,way,relation">
+			
 			<label text="Your country will be ready soon on this preset but now you can add the traffic signs with the codes you will see in the link we provided." ca.text="La predefinició de menú pel país triat no està encara enllestida però pots escriure el codi del senyal que vols afegir copiant-lo de l'enllaç que hi ha aquí sota." es.text="La predefinición de menú para el país escogido no está preparada aún pero puedes escribir el código de la señal que elijas en el enlace inferior."/>
 			<space />
 			<label text="The scheme is: two-letter COUNTRY_code.png . Code for OSM will be two-letter COUNTRY:Code " ca.text="L'esquema és : CODIDEPAÍS(2LLETRES)_codi de senyal.png . El codi a OSM serà CODIDEPAIS(2LLETRES):Codidesenyal" es.text="El esquema es: CODIGODEPAIS(2LETRAS)_código de señal.png. El código en OSM será CODIGODEPAIS(2LETRAS):Codigodeseñal"/>
@@ -1307,22 +1378,21 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/DE/tr
 			<label text="Example: ES_R3 will be ES:R3 but ES_p1a will be ES:P1a" ca.text="Exemple: ES_R3 serà ES:R3 però ES_p1a serà ES:P1a" es.text="Ejemplo: ES_R3 será ES:R3 pero ES_p1a será ES:P1a"/>
 			<space />
 			<label text="Also you can choose similar traffic sign for other country and then change the codes" ca.text="També pots triar també el senyal semblant d'un altre país per configurar-lo i després canviar-li el codi" es.text="También puedes escoger la señal parecida de otro país para configurarla y después cambiarle el código"/>
-			<text key="traffic_sign:forward" text="Traffic sign code forward" ca.text="Codi del senyal en el sentit de la via" es.text="Código de la señal en el sentido de la vía " default="" />
-			<text key="traffic_sign:backward" text="Traffic sign code backward" ca.text="Codi del senyal en el sentit contrari de la via" es.text="Código de la señal en el sentido contrario de la vía " default="" />
-			<label text="Once you have chosen the direction empty the opposite traffic sign code." ca.text="Un cop hagis triat el sentit del senyal elimina el contrari." es.text="Una vez hayas escogido el sentido de la señal elimina el contrario."/>
-			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down,90,270" ca.display_values="dret,esquerre,ambdós,superior,inferior,lateral dret,lateral esquerre" es.display_values="derecho,izquierdo,ambos,superior,inferior,lateral derecho, lateral izquierdo" default="right" />
+			<text key="traffic_sign:id" text="Traffic sign code" ca.text="Codi del senyal" es.text="Código de la señal" default="" />
+			<label text="Once you have chosen the code, choose the direction and the side."/>
+			<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+			<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" ca.display_values="dret,esquerre,ambdós,superior,inferior" es.display_values="derecho,izquierdo,ambos,superior,inferior" default="right" />
 
 			<link href="https://bit.ly/trafficsignscode"/>
 
 			<space />
 						
 			<label text="Also you can choose similar traffic sign for other country and then change the codes" ca.text="També pots triar també el senyal semblant d'un altre país per configurar-lo i després canviar-li el codi" es.text="También puedes escoger la señal parecida de otro país para configurarla y después cambiarle el código"/>
-			<text key="traffic_sign:2:forward" text="Traffic sign code forward, second position" ca.text="Codi del senyal en el sentit de la via, segona posició" es.text="Código de la señal en el sentido de la vía, segunda posición " default="" />
-			<text key="traffic_sign:2:backward" text="Traffic sign code backward, second position" ca.text="Codi del senyal en el sentit contrari de la via, segona posició" es.text="Código de la señal en el sentido contrario de la vía, segunda posición " default="" />
+			<text key="traffic_sign:2:id" text="Traffic sign code, second position" ca.text="Codi del senyal, segona posició" es.text="Código de la señal, segunda posición " default="" />
+			<text key="traffic_sign:3:id" text="Traffic sign code, third position" ca.text="Codi del senyal, tercera posició" es.text="Código de la señal, tercera posición " default="" />
 </item>
 
 		</group>
-	</group>	
 	</group>
 
 </presets>
