@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.2"
-   width="329.74606"
-   height="106.49743"
+   width="400"
+   height="128.298"
    id="svg2"
    sodipodi:docname="ES_CAT_LOC550.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,12 +23,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1017"
      id="namedview906"
      showgrid="false"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="154.51884"
-     inkscape:cy="47.330847"
+     inkscape:zoom="2"
+     inkscape:cx="153.25"
+     inkscape:cy="-33.25"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -39,7 +39,8 @@
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
      inkscape:showpageshadow="false"
-     inkscape:pagecheckerboard="true" />
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata3197">
     <rdf:RDF>
@@ -48,7 +49,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,16 +58,16 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Layer 4"
-     transform="translate(155.82446,-0.30126545)">
+     transform="translate(154.32446,-121.50092)">
     <path
-       d="m 173.91193,82.700047 c 0,17.415953 1.12053,24.118253 -20.75845,24.084083 l -280.76429,-0.43848 c -21.87897,-0.0342 -28.30924,4.29355 -28.21258,-13.122135 l 0.43848,-78.998304 c 0.0967,-17.4236462 5.8951,-13.5590177 27.7741,-13.5590177 h 258.8404 c 21.879,0 42.68234,-3.864101 42.68234,13.5590177 v 68.474836"
+       d="m 242.90995,220.76699 c 0,20.98104 1.34991,29.05532 -25.00777,29.01416 l -338.23757,-0.52824 c -26.35766,-0.0412 -34.10423,5.17245 -33.98778,-15.80827 l 0.52824,-95.1695 c 0.11649,-20.99032 7.10184,-16.33459 33.45954,-16.33459 h 311.8258 c 26.35769,0 51.41954,-4.65509 51.41954,16.33459 v 82.49185"
        id="path3113"
-       style="display:inline;fill:#00be00;fill-opacity:1;stroke-width:1"
+       style="display:inline;fill:#00be00;fill-opacity:1;stroke-width:1.2047"
        sodipodi:nodetypes="csssssssc" />
     <path
-       d="m 168.85579,85.191297 c 0,18.396003 -15.017,14.458453 -33.54,14.458453 h -260.6456 c -18.525,0 -25.21092,2.62111 -25.21092,-15.773887 v -62.35365 c 0,-18.3999999 6.68592,-15.3374089 25.21092,-15.3374089 h 260.6456 c 18.523,0 33.54,-3.501069 33.54,14.8989309 z"
+       d="m 236.8188,223.7682 c 0,22.16172 -18.09102,17.41814 -40.40573,17.41814 h -314.00053 c -22.31713,0 -30.37167,3.15766 -30.37167,-19.00285 v -75.11763 c 0,-22.16653 8.05454,-18.47702 30.37167,-18.47702 h 314.00053 c 22.31471,0 40.40573,-4.21774 40.40573,17.94879 z"
        id="path3115"
-       style="display:inline;fill:#00be00;fill-opacity:1;stroke:#ffffff;stroke-width:7.0629;stroke-miterlimit:3.864"
+       style="display:inline;fill:#00be00;fill-opacity:1;stroke:#ffffff;stroke-width:8.5087;stroke-miterlimit:3.864"
        sodipodi:nodetypes="sssssssss" />
   </g>
   <g
@@ -75,19 +75,19 @@
      id="layer3"
      inkscape:label="Layer 1"
      style="display:inline;opacity:1"
-     transform="translate(-11.39935,-43.482855)">
+     transform="translate(-12.899351,-164.68251)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.0726px;line-height:21.1362px;font-family:Ccrige;-inkscape-font-specification:Ccrige;letter-spacing:4.78889px;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="68.680748"
-       y="106.88771"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.4568px;line-height:25.4628px;font-family:Ccrige;-inkscape-font-specification:Ccrige;letter-spacing:5.76919px;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:1.2047px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="81.905472"
+       y="240.93886"
        id="text1502-7"
-       transform="scale(0.99886294,1.0011384)"><tspan
+       transform="scale(0.99886291,1.0011384)"><tspan
          sodipodi:role="line"
          id="tspan1500-8"
-         x="68.680748"
-         y="106.88771"
-         style="font-size:36.0726px;fill:#ffffff;stroke:none;stroke-width:0.999999px">CATALUNYA</tspan></text>
+         x="81.905472"
+         y="240.93886"
+         style="font-size:43.4568px;fill:#ffffff;stroke:none;stroke-width:1.2047px">CATALUNYA</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:42.6667px;line-height:25px;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -97,14 +97,14 @@
          sodipodi:role="line"
          id="tspan2176"
          x="49.109516"
-         y="113.12728"></tspan></text>
+         y="113.12728" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Layer 3"
      style="display:inline"
-     transform="translate(-11.39935,-43.482855)">
+     transform="translate(-12.899351,-164.68251)">
     <text
        xml:space="preserve"
        style="font-size:42.6667px;line-height:25px;font-family:'Andale Mono IPA';-inkscape-font-specification:'Andale Mono IPA';letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -120,10 +120,10 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Layer 6"
-     transform="translate(-11.39935,-43.482855)">
+     transform="translate(-12.899351,-164.68251)">
     <g
        id="g4939"
-       transform="matrix(0.04742725,0,0,0.04842034,31.929436,61.831058)"
+       transform="matrix(0.05713575,0,0,0.05833213,37.632006,186.78665)"
        style="display:inline;stroke-width:20.8676">
       <g
          transform="translate(-107.14279,-182.98264)"
