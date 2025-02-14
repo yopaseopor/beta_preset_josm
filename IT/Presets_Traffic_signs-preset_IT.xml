@@ -1580,6 +1580,14 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/IT/tr
 <combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 </item>
 
+<item name="IT:II.36" icon="traffic_signs/IT/IT_II.36.png" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="IT:II.36" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="IT:II.36" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+
 <item name="IT:II.37" icon="traffic_signs/IT/IT_II.37.png" type="node,way,relation">
 <check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="IT:II.37" />
 <check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="IT:II.37" />
@@ -1618,13 +1626,6 @@ icon="https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/IT/tr
 <item name="IT:II.374" icon="traffic_signs/IT/IT_II.374.png" type="node,way,relation">
 <check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="IT:II.374" />
 <check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="IT:II.374" />
-<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
-<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
-</item>
-
-<item name="IT:II.38" icon="traffic_signs/IT/IT_II.38.png" type="node,way,relation">
-<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="IT:II.38" />
-<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="IT:II.38" />
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
 <combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 </item>
