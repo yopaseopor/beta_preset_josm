@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="400"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
    height="160"
-   viewBox="0 0 105.83333 42.333334"
+   viewBox="0 0 132.29166 42.333334"
    version="1.1"
    id="svg4433"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="ES_CAT_OR53punt2.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="ES_CAT_OR53punt2.svg">
   <defs
      id="defs4427">
     <rect
@@ -43,8 +43,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="260.87189"
-     inkscape:cy="46.719555"
+     inkscape:cx="202.01971"
+     inkscape:cy="46.24738"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,11 +53,10 @@
      inkscape:showpageshadow="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata4430">
     <rdf:RDF>
@@ -66,6 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,26 +76,26 @@
      style="display:inline">
     <path
        id="rect5257"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:1.60251;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1.3894411,9.9093505 C 1.7117888,9.5703529 1.8436776,9.3147257 2.2979366,9.3181167 L 86.870112,9.2534556 104.9276,24.818211 87.172961,41.463176 c 0,0 -56.431781,-0.07837 -84.6476704,-0.11755 C 1.9952469,41.34489 1.7261363,41.219403 1.3515843,40.822198 0.95911538,40.405993 0.93515953,40.166981 0.93515953,39.578763 v -28.30622 c 0,-0.654867 0.0155195,-0.901767 0.45428157,-1.3631925 z"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.7008928,1.8838024 C 2.1031975,1.4607177 2.2678008,1.1416833 2.8347369,1.1459154 l 105.5499631,-0.0807 22.53657,19.4255305 -22.1586,20.773682 c 0,0 -70.429457,-0.09781 -105.6441848,-0.146708 C 2.4569663,41.116801 2.1211039,40.960188 1.6536458,40.464458 1.1638265,39.945014 1.1339285,39.646717 1.1339285,38.912593 V 3.5851289 c 0,-0.8173034 0.019369,-1.1254461 0.5669643,-1.7013265 z"
        sodipodi:nodetypes="sscccsssss" />
     <path
-       style="display:inline;fill:#000000;stroke:none;stroke-width:1.60251;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1"
-       d="m 87.494183,42.212704 h -1.6657 L 101.25567,24.451231 86.870112,9.9142182 v 0 L 87.084262,8.5222407 104.9276,23.953394 Z"
+       style="display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1"
+       d="M 109.16357,42.199873 H 107.0847 L 126.33854,20.032738 108.3847,1.8898774 v 0 l 0.26727,-1.73725189 22.2693,19.25878949 z"
        id="path5278"
        sodipodi:nodetypes="cccccccc" />
     <text
        xml:space="preserve"
        id="text5312"
-       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5314);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5314);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
     <text
        xml:space="preserve"
        id="text5318"
-       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5320);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5320);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
     <text
        xml:space="preserve"
        id="text5324"
-       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5326);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5326);display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
     <text
        xml:space="preserve"
        style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -109,26 +109,26 @@
          style="stroke-width:0.264583px" /></text>
     <text
        xml:space="preserve"
-       style="font-size:9.04526px;line-height:5.29995px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;display:inline;fill:none;stroke:#000000;stroke-width:0.211998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="11.928508"
-       y="33.914284"
+       style="font-size:11.2889px;line-height:6.61458px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:0px;word-spacing:0px;display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.854133"
+       y="31.843063"
        id="text5284-0"><tspan
          sodipodi:role="line"
          id="tspan5282-6"
-         x="11.928508"
-         y="33.914284"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ccrige;-inkscape-font-specification:Ccrige;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.211998px">N-1</tspan></text>
+         x="14.854133"
+         y="31.843063"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ccrige;-inkscape-font-specification:Ccrige;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px">N-1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:33.8798px;line-height:8.68502px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:3.38798px;word-spacing:0px;display:inline;fill:#000000;stroke:none;stroke-width:0.211998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="37.962006"
-       y="36.760471"
+       style="font-size:42.2835px;line-height:10.8393px;font-family:'Highway Gothic Wide';-inkscape-font-specification:'Highway Gothic Wide';letter-spacing:4.22835px;word-spacing:0px;display:inline;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.345135"
+       y="35.395237"
        id="text5288-1-9"><tspan
          sodipodi:role="line"
          id="tspan5286-9-2"
-         x="37.962006"
-         y="36.760471"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8798px;font-family:TrafficTypeW01-SpainD;-inkscape-font-specification:TrafficTypeW01-SpainD;fill:#000000;stroke:none;stroke-width:0.211998px">22</tspan></text>
+         x="47.345135"
+         y="35.395237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.2835px;font-family:TrafficTypeW01-SpainD;-inkscape-font-specification:TrafficTypeW01-SpainD;fill:#000000;stroke:none;stroke-width:0.264583px">22</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -137,7 +137,7 @@
     <g
        id="g2750"
        style="display:inline;stroke-width:0.421352"
-       transform="matrix(1.9016224,0,0,1.9016224,-104.43717,4.6720489)">
+       transform="matrix(2.3733122,0,0,2.3733122,-130.37558,-4.6525909)">
       <path
          d="m 58.993549,16.541816 h 4.714875 L 64.15266,5.0594289 H 62.785822 L 58.993549,16.541816"
          id="polyline5612"

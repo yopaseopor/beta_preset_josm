@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.2"
-   width="400"
-   height="320.85599"
+   width="280.18329"
+   height="225.42574"
    id="svg2"
    sodipodi:docname="ES_CAT_OR25b.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,7 +23,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1027"
      id="namedview6959"
      showgrid="false"
      inkscape:showpageshadow="false"
@@ -33,13 +33,12 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.4142136"
-     inkscape:cx="246.42671"
-     inkscape:cy="100.05561"
+     inkscape:cx="247.35548"
+     inkscape:cy="177.62853"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer11"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:current-layer="layer11" />
   <metadata
      id="metadata4176">
     <rdf:RDF>
@@ -48,6 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,10 +58,10 @@
      id="layer11"
      inkscape:label="Layer 2"
      style="display:inline"
-     transform="translate(-1.0529241,-78.395485)">
+     transform="translate(-0.34581736,-0.58423565)">
     <g
        id="g4288"
-       transform="matrix(1.4233319,0,0,1.4233319,1.0529241,78.725043)">
+       transform="translate(0.34581736,0.81577574)">
       <path
          d="m 280.61654,206.39556 c -0.32105,11.33972 -0.12913,18.55519 -13.53841,18.54044 L 8.528642,224.65162 C -0.1906312,224.64203 0.099,222.67799 0.099,204.12055 V 29.791 C 0.099,13.391 -1.6190762,0.1 14.784924,0.1 H 261.10522 c 21.43268,0 19.33839,13.047897 19.3397,15.130926 L 280.55866,195.248 Z"
          id="path4058"
