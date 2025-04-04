@@ -3134,7 +3134,9 @@ icon="traffic_signs/DE/DE_.svg">
 <combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 </item>
 
-				<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/DE/DE_274-50.svg" >
+<group name="Maxspeed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/DE/DE_274-30.svg">
+
+				<item name="Maximum speed" ca.name="Velocitat màxima" es.name="Velocidad máxima" icon="traffic_signs/DE/DE_274-30.svg" >
 				<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274" />
 				<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274" />
 				<text key="source:maxspeed" text="Specify which is the source for the speed limit, ex: sign" ca.text="Especifica quina és la font de límit de velocitat, ex: sign" es.text="Especifica cual es la fuente del límite de velocidad, ej: sign" default="sign" />
@@ -3146,6 +3148,110 @@ icon="traffic_signs/DE/DE_.svg">
 				<check key="traffic_sign:4" text="Traffic sign position 4" ca.text="Senyal Posició 4" es.text="Señal Posición 4" default="off" value_off="" value_on="DE:274" match="keyvalue!" />
 				<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 </item> 
+
+<item name="DE:274-10" icon="traffic_signs/DE/DE_274-10.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-10" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-10" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-10" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-20" icon="traffic_signs/DE/DE_274-20.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-20" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-20" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-20" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-30" icon="traffic_signs/DE/DE_274-30.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-30" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-30" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-30" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-40" icon="traffic_signs/DE/DE_274-40.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-40" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-40" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-40" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-50" icon="traffic_signs/DE/DE_274-50.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-50" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-50" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-50" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-60" icon="traffic_signs/DE/DE_274-60.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-60" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-60" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-60" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-70" icon="traffic_signs/DE/DE_274-70.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-70" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-70" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-70" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-80" icon="traffic_signs/DE/DE_274-80.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-80" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-80" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-80" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-90" icon="traffic_signs/DE/DE_274-90.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-90" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-90" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-90" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-100" icon="traffic_signs/DE/DE_274-100.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-100" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-100" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-100" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-110" icon="traffic_signs/DE/DE_274-110.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-110" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-110" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-110" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-120" icon="traffic_signs/DE/DE_274-120.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-120" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-120" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-120" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
+
+<item name="DE:274-130" icon="traffic_signs/DE/DE_274-130.svg" type="node,way,relation">
+<check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274-130" />
+<check key="traffic_sign:2" text="Traffic sign position 2" ca.text="Senyal Posició 2" es.text="Señal Posición 2" default="off" value_off="" value_on="DE:274-130" match="keyvalue!" />
+<check key="traffic_sign:3" text="Traffic sign position 3" ca.text="Senyal Posició 3" es.text="Señal Posición 3" default="off" value_off="" value_on="DE:274-130" match="keyvalue!" />
+<combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
+<combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
+</item>
 
 <item name="DE:274.1-20" icon="traffic_signs/DE/DE_274.1-20.svg" type="node,way,relation">
 <check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:274.1-20" />
@@ -3178,6 +3284,8 @@ icon="traffic_signs/DE/DE_.svg">
 <combo key="side" text="Side of the way" ca.text="Costat de la via" es.text="Lado de la vía" values="right,left,both,up,down" es.display_values="derecho,izquierdo,ambos,superior,inferior" ca.display_values="dret,esquerre,ambdós,superior,inferior"  default="right"/>
 <combo key="direction" text="Direction of the traffic sign vs. way" ca.text="Direcció del senyal vs. via" es.text="Lado de la señal vs. vía" values="forward,backward,90,270" es.display_values="En el sentido de la marcha,En sentido contrario al de la marcha,90 grados sentido horario,270 grados sentido horario" ca.display_values="En sentit de la marxa,En sentit contrari a la marxa,90º sentit horari,270º sentit horari"  default="forward"/>
 </item>
+
+</group>
 
 <item name="DE:275-30" icon="traffic_signs/DE/DE_275-30.svg" type="node,way,relation">
 <check key="traffic_sign" text="Traffic sign position 1" ca.text="Senyal Posició 1" es.text="Señal Posición 1" default="off" value_off="" value_on="DE:275-30" />
